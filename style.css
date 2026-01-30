@@ -14,21 +14,21 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-nav ul {
+nav .mokuji ul {
     display: flex;
     list-style: none;
     padding: 0;
     background: #333;
 }
 
-nav ul li a {
+nav .mokuji ul li a {
     color: white;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
 }
 
-nav ul li a:hover {
+nav .mokuji ul li a:hover {
     background: #555;
 }
 h3 .back {
