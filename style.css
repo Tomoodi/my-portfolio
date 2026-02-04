@@ -6,6 +6,31 @@ body{
     margin: 0;
     padding: 0;
 }
+body{
+    cursor: url(''),auto;
+}
+body{
+    background-color: #fffaf0;
+}
+h1 {
+    font-size: clamp(4rem, 10vw, 8rem); 
+    text-align: center;
+    background: linear-gradient(to right, #ff9900, #ff66cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 60px 0;
+    font-weight: 900; 
+    letter-spacing: -2px;
+}
+nav .mokuji ul {
+    justify-content: center; 
+}
+h1 {
+    background: linear-gradient(to right, #ff9900, #ff66cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block; 
+}
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -34,4 +59,61 @@ nav .mokuji ul li a:hover {
 h3 .back {
     background: linear-gradient(transparent 60%, #ffcc00 60%);
     padding: 0 5px;
+}
+section h3 .back {
+    transition: all 0.3s ease;
+}
+
+section h3:hover .back {
+    color: #fff;
+    background: linear-gradient(transparent 0%, #ff6600 0%); 
+}
+/*タスクバーのデザイン*/
+nav .mokuji ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    background: none;
+    height: 350px;
+    position: relative;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+nav .mokuji ul li {
+    position: absolute; 
+}
+nav .mokuji ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;       
+    height: 160px;       
+    border-radius: 50%;  
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+nav .mokuji ul li:nth-child(1) { top: 10px;  left: 0%; }
+nav .mokuji ul li:nth-child(1) a { background-color: #ff99cc; } 
+
+nav .mokuji ul li:nth-child(2) { top: 40px;  left: 25%; }
+nav .mokuji ul li:nth-child(2) a { background-color: #99ccff; }
+
+nav .mokuji ul li:nth-child(3) { top: 0px;   left: 50%; }
+nav .mokuji ul li:nth-child(3) a { background-color: #ccff99; } 
+
+nav .mokuji ul li:nth-child(4) { top: 50px;  left: 75%; }
+nav .mokuji ul li:nth-child(4) a { background-color: #ffcc99; } 
+
+
+nav .mokuji ul li a:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    filter: brightness(1.1); 
 }
