@@ -6,8 +6,12 @@ body{
     margin: 0;
     padding: 0;
 }
+/*マウスカーソル*/
 body{
-    cursor: url(''),auto;
+    cursor: url('pink_fish.png'),auto;
+}
+a:hover {
+    cursor: url('pink_fish_smile.png'), pointer;
 }
 body{
     background-color: #fffaf0;
@@ -117,3 +121,16 @@ nav .mokuji ul li a:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     filter: brightness(1.1); 
 }
+/*タスクバーのアニメーション*/
+@keyframes fuwafuwa {
+    0%   { transform: translate(0, 0); }
+    50%  { transform: translate(10px, -20px); } 
+}
+
+nav .mokuji ul li {
+    animation: fuwafuwa 4s ease-in-out infinite;
+}
+
+nav .mokuji ul li:nth-child(2) { animation-delay: 0.5s; }
+nav .mokuji ul li:nth-child(3) { animation-delay: 1s; }
+nav .mokuji ul li:nth-child(4) { animation-delay: 1.5s; }
