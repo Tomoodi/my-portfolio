@@ -6,6 +6,63 @@ body{
     margin: 0;
     padding: 0;
 }
+/*タイトル*/
+/* タイトル全体の設定 */
+.floating-title {
+    font-size: clamp(4rem, 10vw, 8rem); 
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 900; 
+    letter-spacing: -2px;
+    display: flex;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+/* 1文字ずつの設定（ここで色と動きをつける） */
+.floating-title span {
+    display: inline-block;
+    
+    /* 文字の色（グラデーションを1文字ずつにかける） */
+    background: linear-gradient(to right, #ff9900, #ff66cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* アニメーション */
+    animation: titleFuwa 3s ease-in-out infinite;
+}
+/* タイトル全体の並びを整える */
+.floating-title {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem; 
+}
+.floating-title span {
+    display: inline-block;
+    animation: titleFuwa 3s ease-in-out infinite;
+}
+/* 1文字ずつ動きをズラす */
+.floating-title span:nth-child(2) { animation-delay: 0.2s; }
+.floating-title span:nth-child(3) { animation-delay: 0.4s; }
+.floating-title span:nth-child(4) { animation-delay: 0.6s; }
+.floating-title span:nth-child(5) { animation-delay: 0.8s; }
+.floating-title span:nth-child(6) { animation-delay: 1.0s; }
+.floating-title span:nth-child(7) { animation-delay: 1.2s; }
+.floating-title span:nth-child(8) { animation-delay: 1.4s; }
+.floating-title span:nth-child(9) { animation-delay: 1.6s; }
+.floating-title span:nth-child(10) { animation-delay: 1.8s; }
+.floating-title span:nth-child(11) { animation-delay: 2.0s; }
+.floating-title span:nth-child(12) { animation-delay: 2.2s; }
+/* ふわふわ揺れるアニメーション */
+@keyframes titleFuwa {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg); /* 上に20px、少し傾く */
+    }
+}
+
 /*マウスカーソル*/
 body{
     cursor: url('pink_fish.png'),auto;
@@ -13,9 +70,11 @@ body{
 a:hover {
     cursor: url('pink_fish_smile.png'), pointer;
 }
+/*背景*/
 body{
-    background-color: #fffaf0;
+    background-color: #b2d5ff;
 }
+/*My Portfolio*/
 h1 {
     font-size: clamp(4rem, 10vw, 8rem); 
     text-align: center;
@@ -29,49 +88,18 @@ h1 {
 nav .mokuji ul {
     justify-content: center; 
 }
-h1 {
-    background: linear-gradient(to right, #ff9900, #ff66cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: block; 
-}
+/*セクションの貝殻模様*/
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    max-width: 650px;
+    margin: 80px auto;
+    padding: 100px 60px 60px; 
 }
-nav .mokuji ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    background: #333;
-}
-
-nav .mokuji ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    display: block;
-}
-
-nav .mokuji ul li a:hover {
-    background: #555;
-}
-h3 .back {
-    background: linear-gradient(transparent 60%, #ffcc00 60%);
-    padding: 0 5px;
-}
+/*セクションのアニメーション*/
 section h3 .back {
     transition: all 0.3s ease;
 }
 
-section h3:hover .back {
-    color: #fff;
-    background: linear-gradient(transparent 0%, #ff6600 0%); 
-}
 /*タスクバーのデザイン*/
 nav .mokuji ul{
     display: block;
@@ -90,16 +118,18 @@ nav .mokuji ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 160px;       
-    height: 160px;       
+    width: 180px;       
+    height: 100px;       
     border-radius: 50%;  
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    position: relative;
     font-weight: bold;
     text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transition: all 0.4s ease;
+    z-index: 1;
 }
 
 
@@ -115,11 +145,15 @@ nav .mokuji ul li:nth-child(3) a { background-color: #ccff99; }
 nav .mokuji ul li:nth-child(4) { top: 50px;  left: 75%; }
 nav .mokuji ul li:nth-child(4) a { background-color: #ffcc99; } 
 
+nav .mokuji ul li:nth-child(1) a::after { border-right-color: #ff99cc; }
+nav .mokuji ul li:nth-child(2) a::after { border-right-color: #99ccff; }
+nav .mokuji ul li:nth-child(3) a::after { border-right-color: #ccff99; }
+nav .mokuji ul li:nth-child(4) a::after { border-right-color: #ffcc99; }
+
 
 nav .mokuji ul li a:hover {
-    transform: scale(1.1) translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    filter: brightness(1.1); 
+    transform: scale(1.1) rotate(-3deg);
+    filter: brightness(1.1) drop-shadow(0 0 15px rgba(255,255,255,0.5));
 }
 /*タスクバーのアニメーション*/
 @keyframes fuwafuwa {
@@ -131,6 +165,45 @@ nav .mokuji ul li {
     animation: fuwafuwa 4s ease-in-out infinite;
 }
 
+nav .mokuji ul li a::after {
+    content: '';
+    position: absolute;
+    right: -25px; 
+    top: 50%;
+    transform: translateY(-50%);
+    
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 40px solid currentColor; 
+    
+    display: block;
+    z-index: -1;
+}
+
+nav .mokuji ul li a::before {
+    content: '';
+    position: absolute;
+    left: 40px;    
+    top: 40px;
+    width: 10px;
+    height: 10px;
+    background-color: #333; 
+    border-radius: 50%;
+}
+
 nav .mokuji ul li:nth-child(2) { animation-delay: 0.5s; }
 nav .mokuji ul li:nth-child(3) { animation-delay: 1s; }
 nav .mokuji ul li:nth-child(4) { animation-delay: 1.5s; }
+/*コンタクト*/
+#contact{
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #8c8c8c !important;
+    color: white;
+    max-width: 100%;
+    margin: 40px 0 0 0;
+    padding: 60px 20px;
+}
