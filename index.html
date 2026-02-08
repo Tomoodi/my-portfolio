@@ -10,55 +10,93 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <h1 class="floating-title">
-    <span>M</span><span>y</span><span> </span>
-    <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
-</h1>
-    <nav>
-        <div class="mokuji">
-            <ul>
-                <li><a href="#about">自己紹介</a></li>
-                <li><a href="#skills">スキル</a></li>
-                <li><a href="#works">作ったもの</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="monitor-frame">
+    <div class="monitor-screen" id="monitorScreen">
+        
+        <div id="loginLayout" class="monitor-content">
+            <p class="status-msg">SYSTEM READY...</p>
+            <button onclick="login()" class="login-btn">LOGIN</button>
         </div>
-    </nav>
+
+        <div id="loadingLayout" class="monitor-content" style="display: none;">
+            <p class="loading-text">LOADING SYSTEM...</p>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <button onclick="failLogin()" style="opacity:0; cursor:default;">dummy</button>
+        </div>
+        
+        <div id="portfolioLayout" class="monitor-content" style="display: none;">
+            <div id="minigame" class="like-game-area">
+                <p>現在のいいね数: <span id="likeCount">0</span></p>
+                <div class="like-clickable" onclick="addLike()">
+                    <img src="heart.png" class="heart-img">
+                    <span class="btn-text">LIKE!</span>
+                </div>
+            </div>
+            <h1 class="floating-title">
+                <span>M</span><span>y</span><span> </span>
+                <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+            </h1>
+            <section-girl id="girl">
+                <div class="window-header-girl"> girl <span class="close-btn">×</span></div>
+                    <div class="window-content">
+                        <img src="smile.png"  class="breathing-girl">
+                    </div>
+            </section-girl>
+            <nav class="monitor-nav">
+                <ul>
+                    <li><a href="#about"><div class="icon about-icon"></div> 自己紹介</a></li>
+                    <li><a href="#skills"><div class="icon skills-icon"></div> スキル</a></li>
+                    <li><a href="#works"><div class="icon works-icon"></div> 作ったもの</a></li>
+                    <li><a href="#contact"><div class="icon contact-icon"></div>お問い合わせ </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
 
     <section id="about">
-        <h2>自己紹介</h2>
-        <h3><span class="back">名前</span></h3>
-        <p>川村朋世</p>
-        <p>東京電機大学工学部情報通信工学科</p>
-        
-        <h3><span class="back">生年月日</span></h3>
-        <p>2007年2月20日</p>
+        <div class="window-header"> plofile <span class="close-btn">×</span></div>
+            <div class="window-content">
+                <h2>自己紹介</h2>
+                <h3><span class="back">名前</span></h3>
+                <p>川村朋世</p>
+                <p>東京電機大学工学部情報通信工学科</p>
+                <h3><span class="back">生年月日</span></h3>
+                <p>2007年2月20日</p>
+            </div>
     </section>
 
     <section id="skills">
-        <h2>スキル</h2>
-        <h3><span class="back">c++</span></h3>
-        <p>大学の講義などで使用してます。</p>
-        <h3><span class="back">html</span></h3>
-        <p>このポートフォリオ制作で学習中です。</p>
-        <h3><span class="back">GitHub</span></h3>
-        <p>これから学んでいきます。</p>
+        <div class="window-header"> skills <span class="close-btn">×</span></div>
+            <div class="window-content">
+                <h2>スキル</h2>
+                <h3><span class="back">c++</span></h3>
+                <p>大学の講義などで使用してます。</p>
+                <h3><span class="back">html</span></h3>
+                <p>このポートフォリオ制作で学習中です。</p>
+                <h3><span class="back">GitHub</span></h3>
+                <p>これから学んでいきます。</p>
+            </div>
     </section>
 
     <section id="works">
-        <h2>作ったもの</h2>
-        <h3><span class="back">ホームページ</span></h3>
-        <p>HTMLの練習で作りました</p>
-        <p><a href="http://www.epoch-net.ne.jp/~odi/" target="_blank">作成したホームページを見る</a></p>
-        
-        <h3><span class="back">ゲーム</span></h3>
-        <p>サークルの企画にて作成。プランナーをやりました。</p>
-        <p><a href="https://unityroom.com/games/candymorecandy" target="_blank">unityroomでゲームを遊ぶ</a></p>
+        <div class="window-header"> works <span class="close-btn">×</span></div>
+            <div class="window-content">
+                <h2>作ったもの</h2>
+                <h3><span class="back">ホームページ</span></h3>
+                <p>HTMLの練習で作りました</p>
+                <p><a href="http://www.epoch-net.ne.jp/~odi/" target="_blank">作成したホームページを見る</a></p>
+                <h3><span class="back">ゲーム</span></h3>
+                <p>サークルの企画にて作成。プランナーをやりました。</p>
+                <p><a href="https://unityroom.com/games/candymorecandy" target="_blank">unityroomでゲームを遊ぶ</a></p>
+            </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>GitHub: <a href="https://github.com/tomoodi" target="_blank">自分のURL</a></p>
+        <div class="window-content">
+            <h2>contact</h2>
+            <p>GitHub: <a href="https://github.com/tomoodi" target="_blank">自分のURL</a></p>
+        </div>
     </section>
 
 </body>

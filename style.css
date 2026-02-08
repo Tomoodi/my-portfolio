@@ -1,209 +1,430 @@
-body{
-    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
-    line-height: 1.6;
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+/*全体の設定*/
+body {
+    background-color: #ffccff; /* 夢かわピンク */
+    background-image: 
+        linear-gradient(45deg, #f8f8f8 25%, transparent 25%), 
+        linear-gradient(-45deg, #f8f8f8 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #f8f8f8 75%), 
+        linear-gradient(-45deg, transparent 75%, #f8f8f8 75%);
+    background-size: 20px 20px; /* 背景のチェック柄 */
+    font-family: 'DotGothic16', sans-serif;
     color: #333;
-    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    /* カーソル*/
+    *, *::before, *::after {
+    cursor: url('usu.png'), auto !important;
+    }
+    a:hover, 
+    button:hover, 
+    .close-btn:hover, 
+    .like-btn:hover {
+    cursor: url('ma.png'), pointer !important;
 }
-/*タイトル*/
-/* タイトル全体の設定 */
-.floating-title {
-    font-size: clamp(4rem, 10vw, 8rem); 
-    text-align: center;
-    margin: 60px 0;
-    font-weight: 900; 
-    letter-spacing: -2px;
-    display: flex;
-    justify-content: center;
-    gap: 0.1rem;
 }
 
-/* 1文字ずつの設定（ここで色と動きをつける） */
-.floating-title span {
-    display: inline-block;
-    
-    /* 文字の色（グラデーションを1文字ずつにかける） */
-    background: linear-gradient(to right, #ff9900, #ff66cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-    /* アニメーション */
-    animation: titleFuwa 3s ease-in-out infinite;
+/*タイトルモニター */
+.monitor-frame {
+    width: 95%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #d3d3d3; 
+    border: 6px solid #ffd1d1;
+    box-shadow: 10px 10px 0px #666, inset -4px -4px 0px #fff;
+    padding: 20px;
+    border-radius: 15px;
 }
-/* タイトル全体の並びを整える */
-.floating-title {
+/* ログインボタン */
+.monitor-content {
     display: flex;
-    justify-content: center;
-    gap: 0.2rem; 
-}
-.floating-title span {
-    display: inline-block;
-    animation: titleFuwa 3s ease-in-out infinite;
-}
-/* 1文字ずつ動きをズラす */
-.floating-title span:nth-child(2) { animation-delay: 0.2s; }
-.floating-title span:nth-child(3) { animation-delay: 0.4s; }
-.floating-title span:nth-child(4) { animation-delay: 0.6s; }
-.floating-title span:nth-child(5) { animation-delay: 0.8s; }
-.floating-title span:nth-child(6) { animation-delay: 1.0s; }
-.floating-title span:nth-child(7) { animation-delay: 1.2s; }
-.floating-title span:nth-child(8) { animation-delay: 1.4s; }
-.floating-title span:nth-child(9) { animation-delay: 1.6s; }
-.floating-title span:nth-child(10) { animation-delay: 1.8s; }
-.floating-title span:nth-child(11) { animation-delay: 2.0s; }
-.floating-title span:nth-child(12) { animation-delay: 2.2s; }
-/* ふわふわ揺れるアニメーション */
-@keyframes titleFuwa {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
-    }
-    50% {
-        transform: translateY(-20px) rotate(5deg); /* 上に20px、少し傾く */
-    }
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-/*マウスカーソル*/
-body{
-    cursor: url('pink_fish.png'),auto;
+.status-msg {
+    color: #0f0; 
+    font-size: 1.2rem;
+    text-shadow: 0 0 5px #0f0;
 }
-a:hover {
-    cursor: url('pink_fish_smile.png'), pointer;
+/* SYSTEM READY... のテキストアニメーション */
+.status-msg {
+    color: #0f0; 
+    font-size: 1.2rem;
+    text-shadow: 0 0 5px #0f0;
+    font-family: 'Courier New', Courier, monospace; 
+    
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #0f0; 
+    
+    /* タイピング速度とカーソルの点滅を制御 */
+    animation: 
+        typing 2s steps(15, end),
+        blink-caret 0.75s step-end infinite;
+    
+    width: 15ch; /* 文字数に合わせて幅を固定（SYSTEM READY... で約15文字） */
 }
-/*背景*/
-body{
-    background-color: #b2d5ff;
+/* 文字が左から出てくるアニメーション */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 15ch }
 }
-/*My Portfolio*/
-h1 {
-    font-size: clamp(4rem, 10vw, 8rem); 
-    text-align: center;
-    background: linear-gradient(to right, #ff9900, #ff66cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 60px 0;
-    font-weight: 900; 
-    letter-spacing: -2px;
+
+/* カーソルがチカチカするアニメーション */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #0f0; }
 }
-nav .mokuji ul {
-    justify-content: center; 
+
+/* ログインボタン */
+.login-btn {
+    font-family: 'DotGothic16', sans-serif;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    background-color: #c0c0c0;
+    border: 3px solid #000;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    border-left-color: #fff;
+    border-top-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
 }
-/*セクションの貝殻模様*/
-section {
+
+.login-btn:active {
+    border-color: #808080 #fff #fff #808080;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+.monitor-screen {
+    background-color: #000; 
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    border: 6px inset #444;
+    padding: 90px 20px;
+    min-height: 400px;
     position: relative;
-    max-width: 650px;
-    margin: 80px auto;
-    padding: 100px 60px 60px; 
-}
-/*セクションのアニメーション*/
-section h3 .back {
-    transition: all 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/*タスクバーのデザイン*/
-nav .mokuji ul{
-    display: block;
+.logged-in .monitor-screen {
+    background-image: url('yumekawa.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ロード中のテキスト */
+.loading-text {
+    color: #ff00ff;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* プログレスバーの枠 */
+.progress-bar {
+    width: 200px;
+    height: 20px;
+    border: 2px solid #fff;
+    padding: 2px;
+}
+
+/* 中身のゲージ */
+.progress-fill {
+    height: 100%;
+    background-color: #0f0;
+    width: 0%;
+    animation: loadingBar 2s forwards; /* 2秒で満タンに */
+}
+
+@keyframes loadingBar {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+/* ブラウン管の走査線演出 */
+.monitor-screen::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* タイトルテキスト */
+.floating-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    margin-top: -210px; /* マイナスの値を大きくするほど上に上がります */
+    margin-bottom: 20px;
+}
+
+.floating-title span {
+    display: inline-block;
+    color: #fff; 
+    text-shadow: 
+        3px 3px 0 #464646, -3px -3px 0 #3f3f3f, 3px -3px 0 #000, -3px 3px 0 #000,
+        0 0 10px #ffbeff, 0 0 20px #ff00ff;
+}
+
+@keyframes pixelNeon {
+    from { transform: translateY(0); filter: brightness(1); }
+    to { transform: translateY(-10px); filter: brightness(1.3); }
+}
+
+
+.icon {
+    width: 60px;  /* 画像のサイズ */
+    height: 60px;
+    margin: 0 auto 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* ドット絵をぼかさない魔法のコード */
+    image-rendering: pixelated; 
+}
+
+/* 各メニューごとの画像指定 */
+.about-icon { background-image: url('profile.png'); }
+.skills-icon { background-image: url('skills.png'); }
+.works-icon  { background-image: url('works.png'); }
+.contact-icon { background-image: url('contact.png'); }
+
+/*もくじ*/
+
+.monitor-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     list-style: none;
     padding: 0;
-    background: none;
-    height: 350px;
-    position: relative;
-    margin: 40px auto;
-    max-width: 1000px;
-}
-nav .mokuji ul li {
-    position: absolute; 
-}
-nav .mokuji ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;       
-    height: 100px;       
-    border-radius: 50%;  
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    position: relative;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    transition: all 0.4s ease;
-    z-index: 1;
+    margin-top: 30px;
 }
 
+/* アイコンボタンのデザイン */
 
-nav .mokuji ul li:nth-child(1) { top: 10px;  left: 0%; }
-nav .mokuji ul li:nth-child(1) a { background-color: #ff99cc; } 
-
-nav .mokuji ul li:nth-child(2) { top: 40px;  left: 25%; }
-nav .mokuji ul li:nth-child(2) a { background-color: #99ccff; }
-
-nav .mokuji ul li:nth-child(3) { top: 0px;   left: 50%; }
-nav .mokuji ul li:nth-child(3) a { background-color: #ccff99; } 
-
-nav .mokuji ul li:nth-child(4) { top: 50px;  left: 75%; }
-nav .mokuji ul li:nth-child(4) a { background-color: #ffcc99; } 
-
-nav .mokuji ul li:nth-child(1) a::after { border-right-color: #ff99cc; }
-nav .mokuji ul li:nth-child(2) a::after { border-right-color: #99ccff; }
-nav .mokuji ul li:nth-child(3) a::after { border-right-color: #ccff99; }
-nav .mokuji ul li:nth-child(4) a::after { border-right-color: #ffcc99; }
-
-
-nav .mokuji ul li a:hover {
-    transform: scale(1.1) rotate(-3deg);
-    filter: brightness(1.1) drop-shadow(0 0 15px rgba(255,255,255,0.5));
-}
-/*タスクバーのアニメーション*/
-@keyframes fuwafuwa {
-    0%   { transform: translate(0, 0); }
-    50%  { transform: translate(10px, -20px); } 
-}
-
-nav .mokuji ul li {
-    animation: fuwafuwa 4s ease-in-out infinite;
-}
-
-nav .mokuji ul li a::after {
-    content: '';
+/*アイコンの場所*/
+.monitor-nav {
     position: absolute;
-    right: -25px; 
-    top: 50%;
-    transform: translateY(-50%);
-    
-
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-right: 40px solid currentColor; 
-    
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+}
+.monitor-nav ul li a {
     display: block;
-    z-index: -1;
-}
-
-nav .mokuji ul li a::before {
-    content: '';
-    position: absolute;
-    left: 40px;    
-    top: 40px;
-    width: 10px;
-    height: 10px;
-    background-color: #333; 
-    border-radius: 50%;
-}
-
-nav .mokuji ul li:nth-child(2) { animation-delay: 0.5s; }
-nav .mokuji ul li:nth-child(3) { animation-delay: 1s; }
-nav .mokuji ul li:nth-child(4) { animation-delay: 1.5s; }
-/*コンタクト*/
-#contact{
+    width: 90px;
+    padding: 10px;
     text-align: center;
-    max-width: 800px;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 0.7rem;
+    transition: all 0.2s;
+    line-height: 1.4;
+}
+.monitor-nav ul {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;             
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* 絵文字アイコンのサイズアップ */
+.monitor-nav ul li a span {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* いいね配置*/
+.like-game-area {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    padding: 10px;
+    z-index: 100;
+}
+
+
+.like-game-area p {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* クリックできるエリアの設定 */
+.like-clickable {
+    cursor: pointer; /* マウスを乗せたら指マーク（ma.png）にする */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: transform 0.1s;
+}
+
+/* クリックした瞬間に少し凹む演出 */
+.like-clickable:active {
+    transform: scale(0.9);
+}
+
+/* ハート画像の設定 */
+.heart-img {
+    width: 70px; 
+    height: auto;
+    image-rendering: pixelated;
+}
+
+/* LIKE! の文字 */
+.btn-text {
+    font-size: 0.7rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'DotGothic16', sans-serif;
+    pointer-events: none; /* 文字がクリックの邪魔をしないようにする */
+}
+
+
+/* セクション */
+/* ウィンドウ本体 */
+section {
+    background: #fff;
+    border: 3px solid #000;
+    box-shadow: 8px 8px 0px #abe7ff; 
+    max-width: 700px;
     margin: 40px auto;
-    padding: 40px;
-    background-color: #8c8c8c !important;
+    padding: 0; 
+    overflow: hidden;
+    position: relative;
+}
+/*女の子*/
+@keyframes breathing {
+    0% {transform: translateY(0) scale(1);}
+    50% {transform: translateY(-1px) scale(1.01); /* 10px上に浮き、2%だけ膨らむ */}
+    100% { transform: translateY(0) scale(1);}
+}
+section-girl {
+    background-image: url('haikei.png'); 
+    border: 2px solid #000;
+    box-shadow: 8px 8px 0px #abe7ff; 
+    width: 400px;  /* 横幅 */
+    height: 350px;
+    margin: 40px auto;
+    bottom: -30px;
+    left: 10px;
+    padding: 0; 
+    overflow: hidden;
+    position: absolute;
+}
+.window-header-girl {
+    background: linear-gradient(to right, #ffb8ff); 
     color: white;
-    max-width: 100%;
-    margin: 40px 0 0 0;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    bottom: -30px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+.breathing-girl {
+    width: 100%; /* ウィンドウの幅に合わせる */
+    height: auto;
+    display: block;
+    animation: breathing 3s ease-in-out infinite;
+    transform-origin: center bottom;
+}
+.close-btn-girl {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #ff5252; /* グレーのボタン */
+    color: #000;
+    border: 2px solid;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif; /* ×印を綺麗に出すため */
+}
+
+.close-btn:active {
+    border-color: #808080 #fff #fff #808080; /* 押した時に凹む演出 */
+}
+
+
+/* ウィンドウのタイトルバー */
+.window-header {
+    background: linear-gradient(to right, #ffb8ff); 
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #000;
+}
+
+/* 中身のコンテンツエリア */
+.window-content {
+    padding: 40px; 
+    text-align: left;    
+    display: block;         
+    box-sizing: border-box;
+}
+.window-content h2, 
+.window-content h3, 
+.window-content p {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+section {
+    max-width: 80%;       
+    width: 650px;         
+    margin: 40px auto;
+}
+
+/* 閉じるボタン（×マーク） */
+.close-btn {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #ff5252; /* グレーのボタン */
+    color: #000;
+    border: 2px solid;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif; /* ×印を綺麗に出すため */
+}
+
+.close-btn:active {
+    border-color: #808080 #fff #fff #808080; /* 押した時に凹む演出 */
+}
+
+/*コンタクト*/
+#contact {
+    text-align: center;
+    background-color: #333; 
+    color: white;
     padding: 60px 20px;
+    margin-top: 40px;
 }
