@@ -36,16 +36,18 @@
 
     <script>
     async function init() {
-    const response = await fetch('atcoder_data.json');
+    // キャッシュを避けるため、URLにランダムな数字を付けて読み込む
+    const response = await fetch('atcoder_data.json?update=' + new Date().getTime());
     const data = await response.json();
     console.log("読み込んだデータ:", data);
-    const acList = data.ac_list;
-    const contestMap = data.contests; // { "abc330": ["abc330_a", ...], ... }
+    
+    // 全て小文字に統一したACリストを作る
+    const acList = data.ac_list.map(id => id.toLowerCase());
+    const contestMap = data.contests;
     
     const tbody = document.getElementById('matrix-body');
     const levels = ["a", "b", "c", "d", "e", "f", "g"];
     
-    // コンテストIDでソート（新しい順）
     const sortedContestIds = Object.keys(contestMap).sort().reverse();
 
     sortedContestIds.forEach(c_id => {
@@ -61,13 +63,16 @@
             const td = document.createElement('td');
             td.className = "p-2 text-center";
             
-            // そのコンテストにそのレベルの問題が存在するか確認
-            const problemId = `${c_id}_${lv}`;
-            const exists = contestMap[c_id].includes(problemId);
+            // 探すIDを小文字で作る
+            const problemId = `${c_id}_${lv}`.toLowerCase();
+            
+            // contestMapの中身も小文字で比較して存在チェック
+            const exists = contestMap[c_id].some(id => id.toLowerCase() === problemId);
             const isAC = acList.includes(problemId);
 
             if (exists) {
                 const box = document.createElement('div');
+                // isACがtrueなら緑色（bg-solved）にする
                 box.className = `w-10 h-10 mx-auto rounded-lg border-2 flex items-center justify-center text-xs font-bold transition-all
                     ${isAC ? 'bg-solved shadow-md' : 'bg-not-solved'}`;
                 box.innerText = lv.toUpperCase();
