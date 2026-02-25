@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My AtCoder Problems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-solved { background-color: #34d399; color: white; border-color: #10b981; } /* エメラルド色 */
+        .bg-not-solved { background-color: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; } /* グレー */
+    </style>
+</head>
+<body class="bg-pink-50 p-4 md:p-10 font-sans">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-3xl p-6 border-4 border-pink-200">
+        <h1 class="text-2xl font-bold text-pink-500 text-center mb-6">🎀 My AtCoder Problems 🎀</h1>
+
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse">
+                <thead>
+                    <tr class="text-gray-400 text-sm">
+                        <th class="p-2 text-left">Contest</th>
+                        <th class="p-2">A</th>
+                        <th class="p-2">B</th>
+                        <th class="p-2">C</th>
+                        <th class="p-2">D</th>
+                        <th class="p-2">E</th>
+                        <th class="p-2">F</th>
+                        <th class="p-2">G</th>
+                    </tr>
+                </thead>
+                <tbody id="matrix-body">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+    async function init() {
+    const response = await fetch('atcoder_data.json');
+    const data = await response.json();
+    console.log("読み込んだデータ:", data);
+    const acList = data.ac_list;
+    const contestMap = data.contests; // { "abc330": ["abc330_a", ...], ... }
+    
+    const tbody = document.getElementById('matrix-body');
+    const levels = ["a", "b", "c", "d", "e", "f", "g"];
+    
+    // コンテストIDでソート（新しい順）
+    const sortedContestIds = Object.keys(contestMap).sort().reverse();
+
+    sortedContestIds.forEach(c_id => {
+        const tr = document.createElement('tr');
+        tr.className = "border-t border-pink-50";
+
+        const th = document.createElement('td');
+        th.className = "py-4 font-mono font-bold text-gray-600";
+        th.innerText = c_id.toUpperCase();
+        tr.appendChild(th);
+
+        levels.forEach(lv => {
+            const td = document.createElement('td');
+            td.className = "p-2 text-center";
+            
+            // そのコンテストにそのレベルの問題が存在するか確認
+            const problemId = `${c_id}_${lv}`;
+            const exists = contestMap[c_id].includes(problemId);
+            const isAC = acList.includes(problemId);
+
+            if (exists) {
+                const box = document.createElement('div');
+                box.className = `w-10 h-10 mx-auto rounded-lg border-2 flex items-center justify-center text-xs font-bold transition-all
+                    ${isAC ? 'bg-solved shadow-md' : 'bg-not-solved'}`;
+                box.innerText = lv.toUpperCase();
+                td.appendChild(box);
+            }
+            tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+    });
+}
+init();
+    </script>
+</body>
+</html>
