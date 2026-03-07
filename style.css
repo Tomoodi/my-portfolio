@@ -15,15 +15,14 @@ body {
     padding: 0;
     line-height: 1.6;
     /* カーソル*/
-    *, *::before, *::after {
-    cursor: url('usu.png'), auto !important;
-    }
+    cursor: url('usu.png'), auto;
+    
     a:hover, 
     button:hover, 
     .close-btn:hover, 
     .like-btn:hover {
     cursor: url('ma.png'), pointer !important;
-}
+    }
 }
 
 /*タイトルモニター */
