@@ -1,9 +1,7 @@
 import requests
 import json
 
-# --- ここを自分の ID に書き換えてください ---
 USER_ID = "ondindin" 
-# ------------------------------------------
 
 SUBMISSIONS_API = f"https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user={USER_ID}&from_second=0"
 PROBLEMS_API = "https://kenkoooo.com/atcoder/resources/problems.json"
@@ -31,7 +29,7 @@ def update_data():
                     abc_data[contest_id] = []
                 abc_data[contest_id].append(p_id)
 
-        # 【重要】ここで output という名前の箱にデータをまとめます
+        # ここで output という名前の箱にデータをまとめます
         output = {
             "ac_list": ac_ids,
             "contests": abc_data

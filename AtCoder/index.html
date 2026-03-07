@@ -51,6 +51,7 @@
     const sortedContestIds = Object.keys(contestMap).sort().reverse();
 
     sortedContestIds.forEach(c_id => {
+        if (!c_id.startsWith('abc')) return;
         const tr = document.createElement('tr');
         tr.className = "border-t border-pink-50";
 
