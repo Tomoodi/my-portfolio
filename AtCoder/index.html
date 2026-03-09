@@ -60,7 +60,7 @@
         th.innerText = c_id.toUpperCase();
         tr.appendChild(th);
 
-        levels.forEach(lv => {
+        levels.forEach((lv, index) => {
             const td = document.createElement('td');
             td.className = "p-2 text-center";
             
