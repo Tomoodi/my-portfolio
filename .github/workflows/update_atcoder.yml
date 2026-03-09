@@ -1,33 +1,34 @@
-name: Update AtCoder Stats
+name: Update AtCoder Data
 
 on:
   schedule:
-    # 毎日 00:00 (JST) に実行
-    - cron: '0 15 * * *'
-  workflow_dispatch: # 手動で実行ボタンも押せるようにする
+    - cron: '0 15 * * *' # 日本時間 0:00 (毎日)
+  workflow_dispatch:      # 手動実行ボタンを出す
 
 jobs:
-  update:
+  update-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # ★ここが重要！GitHubに書き込む権限を与える
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
       - name: Run script
-        run: python3 AtCoder/get_ac.py
+        run: python AtCoder/get_ac.py
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add AtCoder/atcoder_data.json
-          git commit -m "Auto update AtCoder stats" || exit 0
+          git commit -m "Auto update AtCoder data" || exit 0
           git push
