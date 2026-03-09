@@ -9,7 +9,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # ★ここが重要！GitHubに書き込む権限を与える
+      contents: write    # GitHubに書き込む権限を与える
 
     steps:
       - uses: actions/checkout@v4
