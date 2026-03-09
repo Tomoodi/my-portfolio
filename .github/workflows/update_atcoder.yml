@@ -1,15 +1,19 @@
 name: Update AtCoder Data
 
 on:
+  push:                #自分がPushした瞬間に動く
+    branches:
+      - main
   schedule:
-    - cron: '0 15 * * *' # 日本時間 0:00 (毎日)
-  workflow_dispatch:      # 手動実行ボタンを出す
+    # 5分おきにチェック（これなら「解いたらすぐ」に近い感覚になります！）
+    - cron: '*/5 * * * *' 
+  workflow_dispatch:      # 手動でも実行できるボタン
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # GitHubに書き込む権限を与える
+      contents: write    # ★ファイルを書き換える許可
 
     steps:
       - uses: actions/checkout@v4
@@ -30,5 +34,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add AtCoder/atcoder_data.json
-          git commit -m "Auto update AtCoder data" || exit 0
-          git push
+          # 変更がある場合のみコミットして保存（Push）する
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update AtCoder data" && git push)
