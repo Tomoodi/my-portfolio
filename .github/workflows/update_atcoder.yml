@@ -35,4 +35,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add AtCoder/atcoder_data.json
           # 変更がある場合のみコミットして保存（Push）する
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update AtCoder data" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update AtCoder data [deploy]" && git push)
