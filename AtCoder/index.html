@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>My AtCoder Problems</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>        .bg-solved { background-color: #34d399; color: white; border-color: #10b981; } /* 繧ｨ繝｡繝ｩ繝ｫ繝芽牡 */
-        .bg-not-solved { background-color: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; } /* 繧ｰ繝ｬ繝ｼ */
+    <style>
+        .bg-solved { background-color: #34d399; color: white; border-color: #10b981; } /* 解けた問題 */
+        .bg-not-solved { background-color: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; } /* 未回答 */
     </style>
 </head>
 
@@ -13,12 +14,12 @@
     <a href="../index.html" class="fixed top-4 right-4 z-50 group w-fit">
     <div class="relative px-4 py-1.5 font-bold text-pink-500 transition-all duration-300 bg-white border-2 border-pink-200 rounded-full shadow-md hover:shadow-pink-200 hover:bg-pink-50 active:scale-95 flex items-center gap-2">
         <img src="../ma.png">
-        <span>繝昴・繝医ヵ繧ｩ繝ｪ繧ｪ縺ｫ謌ｻ繧・/span>
-        <div class="absolute -top-1 -right-1 opacity-0 group-hover:opacity-100 transition-opacity">笨ｨ</div>
+        <span>ポートフォリオに戻る</span>
+        <div class="absolute -top-1 -right-1 opacity-0 group-hover:opacity-100 transition-opacity">↩</div>
     </div>
 </a>
     <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-3xl p-6 border-4 border-pink-200 mt-24">
-        <h1 class="text-2xl font-bold text-pink-500 text-center mb-6">死 My AtCoder Problems 死</h1>
+        <h1 class="text-2xl font-bold text-pink-500 text-center mb-6">🎀 My AtCoder Problems 🎀</h1>
 
         <div class="overflow-x-auto">
             <table class="w-full border-collapse">
@@ -44,7 +45,7 @@
     async function init() {
         const response = await fetch('atcoder_data.json?update=' + new Date().getTime());
         const data = await response.json();
-        console.log("隱ｭ縺ｿ霎ｼ繧薙□繝・・繧ｿ:", data);
+        console.log("読み込んだデータ:", data);
         
         const acList = data.ac_list.map(id => id.toLowerCase());
         const contestMap = data.contests;
@@ -64,26 +65,26 @@
             th.innerText = c_id.toUpperCase();
             tr.appendChild(th);
 
-            levels.forEach((lv, index) => { // index(0, 1, 2...) 繧剃ｽｿ逕ｨ
+            levels.forEach((lv, index) => { // index(0, 1, 2...) を使用
                 const td = document.createElement('td');
                 td.className = "p-2 text-center";
                 
-                // 繧｢繝ｫ繝輔ぃ繝吶ャ繝亥ｽ｢蠑・(abc441_a)
+                // アルファベット形式の問題ID (abc441_a)
                 const problemIdAlpha = `${c_id}_${lv}`.toLowerCase();
-                // 謨ｰ蟄怜ｽ｢蠑・(abc441_1) 窶ｻa=1, b=2...
+                // 数字形式の問題ID (abc441_1) 例: a=1, b=2
                 const problemIdNum = `${c_id}_${index + 1}`.toLowerCase();
                 
-                // JSON縺ｮ contests 縺ｮ荳ｭ縺ｫ縲√←縺｡繧峨°縺ｮ蠖｢蠑上′蟄伜惠縺吶ｋ縺・
+                // JSON の contests に、どちらかの形式の問題IDが存在するか確認
                 const exists = contestMap[c_id].some(id => 
                     id.toLowerCase() === problemIdAlpha || id.toLowerCase() === problemIdNum
                 );
 
-                // AC繝ｪ繧ｹ繝医・荳ｭ縺ｫ縲√←縺｡繧峨°縺ｮ蠖｢蠑上′蜷ｫ縺ｾ繧後※縺・ｋ縺・
+                // AC リストに、どちらかの形式の問題IDが含まれているか確認
                 const isAC = acList.includes(problemIdAlpha) || acList.includes(problemIdNum);
 
                 if (exists) {
                     const box = document.createElement('div');
-                    // isAC 縺・true 縺ｪ繧臥ｷ題牡 (bg-solved) 縺ｫ縺ｪ繧・
+                    // isAC が true なら解答済みの色にする
                     box.className = `w-10 h-10 mx-auto rounded-lg border-2 flex items-center justify-center text-xs font-bold transition-all
                         ${isAC ? 'bg-solved shadow-md' : 'bg-not-solved'}`;
                     box.innerText = lv.toUpperCase();
@@ -98,6 +99,9 @@
     </script>
 </body>
 </html>
+
+
+
 
 
 
