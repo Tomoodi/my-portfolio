@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 /*全体の設定*/
 body {
-    background-color: #ffccff; /* 夢かわピンク */
-    background-image: 
-        linear-gradient(45deg, #f8f8f8 25%, transparent 25%), 
-        linear-gradient(-45deg, #f8f8f8 25%, transparent 25%), 
-        linear-gradient(45deg, transparent 75%, #f8f8f8 75%), 
-        linear-gradient(-45deg, transparent 75%, #f8f8f8 75%);
-    background-size: 20px 20px; /* 背景のチェック柄 */
+    background-color: #fef7fb;
+    background-image: url("data:image/png;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: pixelated;
     font-family: 'DotGothic16', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    /* カーソル*/
     cursor: url('usu.png'), auto;
     
-    a:hover, 
-    button:hover, 
-    .close-btn:hover, 
+    a:hover,
+    button:hover,
+    .close-btn:hover,
     .like-btn:hover {
     cursor: url('ma.png'), pointer !important;
     }
@@ -79,6 +78,17 @@ body {
     50% { border-color: #0f0; }
 }
 
+.login-user {
+    margin: -6px 0 4px;
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 190, 255, 0.75);
+    box-shadow: 0 0 14px rgba(255, 190, 255, 0.18);
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+}
 /* ログインボタン */
 .login-btn {
     font-family: 'DotGothic16', sans-serif;
@@ -163,12 +173,15 @@ body {
 
 /* タイトルテキスト */
 .floating-title {
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2.3rem, 5.8vw, 4.4rem);
     display: flex;
-    gap: 5px;
+    gap: 2px;
+    letter-spacing: -0.04em;
     margin: 0;
-    margin-top: -210px; /* マイナスの値を大きくするほど上に上がります */
+    margin-top: -185px; /* マイナスの値を大きくするほど上に上がります */
     margin-bottom: 20px;
+    max-width: 460px;
+    justify-content: center;
 }
 
 .floating-title span {
@@ -266,8 +279,10 @@ body {
 }
 
 /* クリックできるエリアの設定 */
-.like-clickable {
-    cursor: pointer; /* マウスを乗せたら指マーク（ma.png）にする */
+.like-clickable,
+.like-clickable:hover,
+.like-clickable * {
+    cursor: url('ma.png'), pointer !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -427,3 +442,8 @@ section {
     padding: 60px 20px;
     margin-top: 40px;
 }
+
+
+
+
+

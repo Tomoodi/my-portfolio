@@ -1,6 +1,6 @@
-// 画面が読み込まれた時の処理
+﻿// 画面が読み込まれた時の処理
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("ポートフォリオへようこそ！");
+    console.warn("The system is crying. Please update love.exe");
 
     // スムーズスクロールの設定
     const links = document.querySelectorAll('nav a');
@@ -14,21 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    initializeLikeCount();
+    initializeSectionCloseButtons();
+    initializeGirlWindow();
 });
 
 // ログインボタンを押した時の処理
-function login() {
-    const loginUI = document.getElementById('loginLayout');
-    const portfolioUI = document.getElementById('portfolioLayout');
-    const screen = document.getElementById('monitorScreen');
-
-    if (loginUI) loginUI.style.display = 'none';
-    if (portfolioUI) portfolioUI.style.display = 'flex';
-
-    // ログイン後に下のコンテンツを表示する
-    document.body.classList.add('logged-in');
-}
-
 function login() {
     const loginUI = document.getElementById('loginLayout');
     const loadingUI = document.getElementById('loadingLayout');
@@ -48,30 +40,79 @@ function login() {
     }, 2000); // 2000ミリ秒 = 2秒
 }
 
-document.querySelectorAll('.close-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        // ボタンの親要素（section）を非表示にする
-        btn.closest('section').style.display = 'none';
-        console.log("ウィンドウを閉じました。");
-    });
-});
+function initializeSectionCloseButtons() {
+    document.querySelectorAll('.close-btn').forEach(btn => {
+        if (btn.classList.contains('close-btn-girl')) return;
 
-document.querySelectorAll('.close-btn-girl').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const targetSection = btn.closest('.section-girl');
-        targetSection.style.display = 'none';
+        btn.addEventListener('click', () => {
+            const targetSection = btn.closest('section');
+            if (!targetSection) return;
+
+            // ボタンの親要素（section）を非表示にする
+            targetSection.style.display = 'none';
+            console.log("ウィンドウを閉じました。");
+        });
+    });
+}
+
+/*女の子*/
+let girlWindowTimerId = null;
+const girlImages = [
+    'smile.png',
+    'sad.png',
+    'love.png',
+    'kiss.png',
+    'angry.png',
+    'surprise.png'
+];
+
+function getRandomGirlImage() {
+    const randomIndex = Math.floor(Math.random() * girlImages.length);
+    return girlImages[randomIndex];
+}
+
+function changeGirlImage() {
+    const girlImgElement = document.querySelector('.breathing-girl');
+    if (!girlImgElement) return;
+
+    girlImgElement.src = getRandomGirlImage();
+}
+
+function initializeGirlWindow() {
+    const girlSection = document.getElementById('girl');
+    const girlCloseButton = girlSection?.querySelector('.close-btn-girl');
+    if (!girlSection || !girlCloseButton) return;
+
+    changeGirlImage();
+
+    girlCloseButton.addEventListener('click', () => {
+        girlSection.style.display = 'none';
         console.log("女の子はまだそこにいますよ。");
-        setTimeout(() => {
-        targetSection.style.display = 'block';
-        }, 3000);
-        if (typeof changeGirlImage === "function") {
-            changeGirlImage();
-        }
-    });
-});
 
+        if (girlWindowTimerId) {
+            clearTimeout(girlWindowTimerId);
+        }
+
+        girlWindowTimerId = setTimeout(() => {
+            changeGirlImage();
+            girlSection.style.display = 'block';
+            girlWindowTimerId = null;
+        }, 3000);
+    });
+}
 
 let count = 0;
+
+function initializeLikeCount() {
+    const savedCount = localStorage.getItem('likeCount');
+    count = savedCount ? Number(savedCount) : 0;
+
+    const likeDisplay = document.getElementById('likeCount');
+    if (likeDisplay) {
+        likeDisplay.innerText = count;
+    }
+}
+
 
 // 画像を入れ替える関数（second はミリ秒）
 function glitchImage(second) {
@@ -98,6 +139,7 @@ function glitchImage(second) {
 /* いいね連打ゲーム */
 function addLike() {
     count++;
+    localStorage.setItem('likeCount', String(count));
     const likeDisplay = document.getElementById('likeCount');
     if (likeDisplay) {
         likeDisplay.innerText = count;
@@ -111,7 +153,7 @@ function addLike() {
         screen.style.filter = 'invert(1)';
         glitchImage(3000); // 3秒間変える
 
-        setTimeout(() => {
+        girlWindowTimerId = setTimeout(() => {
             screen.style.filter = 'none';
         }, 3000);
 
@@ -120,7 +162,7 @@ function addLike() {
         screen.style.filter = 'invert(1)';
         glitchImage(100); // 0.1秒間変える
 
-        setTimeout(() => {
+        girlWindowTimerId = setTimeout(() => {
             screen.style.filter = 'none';
         }, 100);
     }
@@ -145,7 +187,7 @@ document.addEventListener('keydown', (e) => {
 /* エラーギミック*/
 function failLogin() {
     for (let i = 0; i < 10; i++) {
-        setTimeout(() => {
+        girlWindowTimerId = setTimeout(() => {
             const error = document.createElement('div');
             error.innerHTML = '⚠️ エラー！<br>かわいくありません！';
             error.style.cssText = `
@@ -164,27 +206,6 @@ function failLogin() {
         }, i * 100);
     }
 }
-/*女の子*/
-const girlImages = [
-    'smile.png',
-    'sad.png',
-    'love.png',
-    'kiss.png',
-    'angry.png',
-    'surprise.png'
-];
-
-function changeGirlImage() {
-    const girlImgElement = document.querySelector('.breathing-girl');
-    if (!girlImgElement) return;
-
-    // 2. リストの中からランダムに1つ選ぶ
-    const randomIndex = Math.floor(Math.random() * girlImages.length);
-    const newSrc = girlImages[randomIndex];
-
-    // 3. 画像のソースを書き換える
-    girlImgElement.src = newSrc;
-}
 const girlImagesc = [
     'crazy.png',
     'crazy2.png'
@@ -201,3 +222,9 @@ function changegirlImagesc() {
     // 3. 画像のソースを書き換える
     girlImgcElement.src = newSrc;
 }
+
+
+
+
+
+
