@@ -198,67 +198,94 @@ body {
 }
 
 
-.icon {
-    width: 60px;  /* 画像のサイズ */
-    height: 60px;
-    margin: 0 auto 5px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* ドット絵をぼかさない魔法のコード */
-    image-rendering: pixelated; 
-}
-
-/* 各メニューごとの画像指定 */
-.about-icon { background-image: url('profile.png'); }
-.skills-icon { background-image: url('skills.png'); }
-.works-icon  { background-image: url('works.png'); }
-.contact-icon { background-image: url('contact.png'); }
-
-/*もくじ*/
-
-.monitor-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
-}
-
-/* アイコンボタンのデザイン */
-
-/*アイコンの場所*/
 .monitor-nav {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 20;
-}
-.monitor-nav ul li a {
-    display: block;
-    width: 90px;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #4a4a4a;
-    font-size: 0.7rem;
-    transition: all 0.2s;
-    line-height: 1.4;
-}
-.monitor-nav ul {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 300;
     display: flex;
-    flex-direction: column; 
-    gap: 15px;             
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    justify-content: flex-end;
 }
-/* 絵文字アイコンのサイズアップ */
-.monitor-nav ul li a span {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin-bottom: 5px;
+
+.hamburger-btn {
+    width: 58px;
+    height: 58px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 14px;
+    background: linear-gradient(180deg, #ffe6fa 0%, #ffc7e6 100%);
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0 #7ecbe8;
+    position: relative;
+    z-index: 31;
+}
+
+.hamburger-btn span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #3f2559;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hamburger-btn.is-open span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger-btn.is-open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-btn.is-open span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 72px;
+    right: 0;
+    min-width: 190px;
+    padding: 14px;
+    background: rgba(255, 247, 252, 0.96);
+    border: 3px solid #000;
+    box-shadow: 8px 8px 0 #7ecbe8;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+
+.hamburger-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.hamburger-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hamburger-menu a {
+    display: block;
+    text-decoration: none;
+    color: #3b2d46;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.hamburger-menu a:hover {
+    background: #ffe0f0;
+    transform: translateX(-4px);
 }
 
 /* いいね配置*/
@@ -441,6 +468,29 @@ section {
     color: white;
     padding: 60px 20px;
     margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .monitor-screen {
+        padding: 110px 16px 40px;
+    }
+
+    .monitor-nav {
+        top: 14px;
+        right: 14px;
+    }
+
+    .hamburger-btn {
+        width: 52px;
+        height: 52px;
+        padding: 0 12px;
+        box-shadow: 4px 4px 0 #7ecbe8;
+    }
+
+    .hamburger-menu {
+        min-width: 160px;
+        top: 64px;
+    }
 }
 
 

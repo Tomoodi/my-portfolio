@@ -12,6 +12,29 @@
     <script src="main.js" defer></script>
 </head>
 <body>
+    <nav class="monitor-nav" id="siteMenu" aria-label="サイトメニュー">
+        <button
+            type="button"
+            class="hamburger-btn"
+            id="hamburgerBtn"
+            aria-expanded="false"
+            aria-controls="hamburgerMenu"
+            aria-label="メニューを開く"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <ul>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#works">作ったもの</a></li>
+                <li><a href="#AtCoder">AtCoder</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="monitor-frame">
     <div class="monitor-screen" id="monitorScreen">
         
@@ -45,14 +68,6 @@
                         <img src="smile.png" class="breathing-girl" alt="girl image">
                     </div>
             </section-girl>
-            <nav class="monitor-nav">
-                <ul>
-                    <li><a href="#about"><div class="icon about-icon"></div> 自己紹介</a></li>
-                    <li><a href="#skills"><div class="icon skills-icon"></div> スキル</a></li>
-                    <li><a href="#works"><div class="icon works-icon"></div> 作ったもの</a></li>
-                    <li><a href="#contact"><div class="icon contact-icon"></div>お問い合わせ </a></li>
-                </ul>
-            </nav>
         </div>
     </div>
 </div>
