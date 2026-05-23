@@ -235,8 +235,8 @@ body {
 
 /* ハート画像の設定 */
 .heart-img {
-    width: 70px; 
-    height: auto;
+    width: 50px; 
+    height: 50px;
     image-rendering: pixelated;
 }
 
@@ -249,24 +249,43 @@ body {
     pointer-events: none; /* 文字がクリックの邪魔をしないようにする */
 }
 
+/*ゲームアイコン*/
+.game-icon {
+    position: left;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #fff;
+    width: 70px; 
+    height: 70px;
+    font-size: 0.7rem;
+    margin-top: 4px;
+    text-shadow: 1px 1px 2px #000;
+}
+
 /* デスクトップアイコン */
 .desktop-icon {
-      position: absolute;
-      text-align: center;
-      cursor: pointer;
-      z-index: 100;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
+/*profileの文字*/
   .desktop-icon img {
-      width: 48px;
-      height: 48px;
+      width: 70px; 
+      height: 70px;
+      image-rendering: pixelated;
   }
 
   .desktop-icon p {
-      font-size: 0.7rem;
-      color: #fff;
-      text-shadow: 1px 1px 2px #000;
-      margin-top: 4px;
+    font-size: 0.7rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 4px;
   }
 
 /* セクション */
