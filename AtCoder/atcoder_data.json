@@ -1,94 +1,94 @@
 {
   "ac_list": [
-    "abc454_a",
     "abc461_a",
-    "abc432_a",
-    "abc424_a",
-    "APG4b_cn",
-    "abc460_a",
-    "abc420_a",
-    "abc445_a",
-    "abc450_b",
-    "abc452_b",
-    "abc428_a",
-    "abc081_b",
-    "APG4b_a",
-    "abc426_a",
-    "abc437_a",
-    "abc444_b",
-    "abc450_a",
-    "abc434_a",
-    "abc452_a",
-    "APG4b_cs",
-    "APG4b_cv",
-    "abc448_a",
-    "APG4b_cj",
-    "APG4b_ck",
-    "abc087_b",
-    "abc083_b",
-    "abc453_b",
-    "APG4b_ct",
-    "abc449_a",
-    "abc453_a",
-    "abc436_a",
-    "abc431_a",
-    "abc423_a",
-    "abc447_a",
-    "abc447_b",
-    "abc435_a",
     "abc458_b",
+    "abc438_a",
+    "abc087_b",
+    "APG4b_ce",
+    "abc426_a",
+    "abc428_a",
+    "abc440_a",
+    "abc460_a",
+    "abc429_a",
+    "abc425_a",
     "abc457_b",
+    "APG4b_cg",
+    "APG4b_cu",
+    "APG4b_ch",
+    "APG4b_cs",
+    "abc452_b",
+    "abc443_a",
+    "abc452_a",
+    "abc420_c",
+    "abc435_c",
+    "abc442_c",
+    "APG4b_co",
+    "abc421_a",
+    "APG4b_a",
+    "abc444_b",
+    "abc448_b",
+    "abc455_a",
+    "abc449_b",
+    "abc447_a",
+    "APG4b_cr",
+    "abc447_b",
+    "abc450_a",
+    "abc461_b",
+    "abc432_a",
+    "APG4b_cj",
+    "abc424_a",
+    "abc446_b",
+    "abc446_a",
+    "APG4b_cn",
+    "abc435_a",
+    "abc436_a",
+    "abc420_a",
+    "abc443_c",
+    "abc453_a",
+    "APG4b_cp",
     "abc444_a",
     "abc443_b",
-    "abc442_a",
-    "abc442_b",
-    "abc433_a",
-    "APG4b_ch",
-    "APG4b_cu",
-    "abc429_a",
-    "APG4b_ci",
-    "abc455_a",
-    "abc461_b",
-    "abc439_b",
-    "abc441_a",
-    "APG4b_co",
-    "abc451_b",
-    "APG4b_cm",
-    "abc446_a",
-    "abc449_b",
-    "APG4b_ce",
     "abc445_b",
-    "abc438_a",
-    "abc443_a",
-    "APG4b_cf",
-    "abc430_a",
-    "abc439_a",
-    "abc425_a",
-    "abc442_c",
-    "abc086_a",
-    "abc420_c",
-    "practice_1",
-    "APG4b_cl",
-    "abc440_a",
-    "APG4b_cp",
-    "abc435_c",
-    "abc441_b",
-    "abc421_a",
-    "abc459_b",
+    "abc448_a",
+    "APG4b_ci",
+    "abc442_a",
     "abc458_a",
-    "abc427_a",
-    "abc448_b",
-    "APG4b_cr",
-    "abc457_a",
-    "abc456_a",
-    "APG4b_cq",
-    "abc446_b",
-    "abc451_a",
-    "abc443_c",
-    "abc081_a",
-    "APG4b_cg",
+    "abc430_a",
     "abc440_b",
-    "abc459_a"
+    "abc450_b",
+    "abc451_a",
+    "abc456_a",
+    "abc086_a",
+    "abc441_a",
+    "abc081_b",
+    "abc453_b",
+    "abc441_b",
+    "abc451_b",
+    "practice_1",
+    "abc427_a",
+    "abc423_a",
+    "abc437_a",
+    "abc457_a",
+    "abc081_a",
+    "APG4b_cl",
+    "abc459_b",
+    "abc434_a",
+    "APG4b_cm",
+    "APG4b_cv",
+    "abc459_a",
+    "abc442_b",
+    "APG4b_ck",
+    "abc439_a",
+    "abc439_b",
+    "abc431_a",
+    "abc433_a",
+    "abc445_a",
+    "abc449_a",
+    "abc454_a",
+    "APG4b_cf",
+    "abc083_b",
+    "APG4b_ct",
+    "APG4b_cq"
   ],
   "contests": {
     "abc001": [
@@ -1439,2267 +1439,3985 @@
       "abc211_e",
       "abc211_f"
     ],
-    "abc212": [
+    "adt_all_20231206_2": [
       "abc212_a",
+      "abc213_e",
+      "abc236_d",
+      "abc249_c",
+      "abc259_a",
+      "abc298_c",
+      "abc299_b",
+      "abc302_b",
+      "abc309_f"
+    ],
+    "adt_all_20231212_1": [
       "abc212_b",
+      "abc215_a",
+      "abc218_c",
+      "abc234_a",
+      "abc256_e",
+      "abc275_d",
+      "abc301_f",
+      "abc303_b",
+      "abc309_c"
+    ],
+    "adt_all_20231122_2": [
       "abc212_c",
+      "abc239_a",
+      "abc244_c",
+      "abc254_e",
+      "abc256_b",
+      "abc259_d",
+      "abc263_f",
+      "abc288_a",
+      "abc288_b"
+    ],
+    "adt_hard_20240307_2": [
       "abc212_d",
+      "abc312_f"
+    ],
+    "adt_all_20231220_1": [
       "abc212_e",
+      "abc274_f"
+    ],
+    "adt_all_20240116_2": [
       "abc212_f",
+      "abc261_e",
+      "abc294_c"
+    ],
+    "abc212": [
       "abc212_g",
       "abc212_h"
     ],
-    "abc213": [
+    "adt_easy_20240201_1": [
       "abc213_a",
+      "abc263_a",
+      "abc269_c"
+    ],
+    "adt_all_20231205_1": [
       "abc213_b",
+      "abc214_a",
+      "abc217_c",
+      "abc258_b",
+      "abc271_c",
+      "abc273_a",
+      "abc299_d",
+      "abc302_f",
+      "abc306_e"
+    ],
+    "adt_all_20231128_1": [
       "abc213_c",
+      "abc223_e",
+      "abc252_a",
+      "abc256_a",
+      "abc259_b",
+      "abc282_f",
+      "abc284_b",
+      "abc306_d",
+      "abc308_c"
+    ],
+    "adt_medium_20240718_3": [
       "abc213_d",
-      "abc213_e",
+      "abc357_c"
+    ],
+    "adt_hard_20240124_2": [
       "abc213_f",
+      "abc331_c"
+    ],
+    "abc213": [
       "abc213_g",
       "abc213_h"
     ],
-    "abc214": [
-      "abc214_a",
+    "adt_easy_20231130_2": [
       "abc214_b",
+      "abc230_a",
+      "abc250_c",
+      "abc262_b",
+      "abc289_a"
+    ],
+    "adt_medium_20231123_2": [
       "abc214_c",
+      "abc235_d"
+    ],
+    "adt_medium_20231221_2": [
       "abc214_d",
+      "abc223_c",
+      "abc275_c",
+      "abc285_b",
+      "abc297_b"
+    ],
+    "adt_hard_20240403_3": [
       "abc214_e",
-      "abc214_f",
+      "abc325_f"
+    ],
+    "adt_all_20240328_1": [
+      "abc214_f"
+    ],
+    "abc214": [
       "abc214_g",
       "abc214_h"
     ],
-    "abc215": [
-      "abc215_a",
+    "adt_medium_20231130_1": [
       "abc215_b",
+      "abc263_d",
+      "abc286_c",
+      "abc294_b",
+      "abc305_c"
+    ],
+    "adt_all_20240109_1": [
       "abc215_c",
+      "abc240_f",
+      "abc242_a",
+      "abc247_d",
+      "abc251_b",
+      "abc303_e",
+      "abc323_c"
+    ],
+    "adt_medium_20231227_2": [
       "abc215_d",
+      "abc257_c"
+    ],
+    "adt_all_20231220_2": [
       "abc215_e",
+      "abc216_c",
+      "abc233_a",
+      "abc248_f",
+      "abc249_b",
+      "abc265_b",
+      "abc279_d",
+      "abc280_c",
+      "abc300_a"
+    ],
+    "adt_all_20231226_2": [
       "abc215_f",
+      "abc228_a",
+      "abc273_c",
+      "abc287_a",
+      "abc291_b",
+      "abc296_b",
+      "abc301_c",
+      "abc310_e",
+      "abc314_d"
+    ],
+    "abc215": [
       "abc215_g",
       "abc215_h"
     ],
-    "abc216": [
+    "adt_easy_20240103_2": [
       "abc216_a",
+      "abc225_b",
+      "abc225_c",
+      "abc313_b",
+      "abc320_a"
+    ],
+    "adt_medium_20240103_1": [
       "abc216_b",
-      "abc216_c",
-      "abc216_d",
-      "abc216_e",
+      "abc222_b",
+      "abc224_d",
+      "abc235_c",
+      "abc282_c"
+    ],
+    "adt_hard_20240522_2": [
+      "abc216_d"
+    ],
+    "adt_hard_20240529_2": [
+      "abc216_e"
+    ],
+    "adt_all_20240125_1": [
       "abc216_f",
+      "abc217_d",
+      "abc234_e"
+    ],
+    "abc216": [
       "abc216_g",
       "abc216_h"
     ],
-    "abc217": [
+    "adt_all_20231228_1": [
       "abc217_a",
+      "abc220_c",
+      "abc236_b",
+      "abc263_e",
+      "abc282_b",
+      "abc283_a",
+      "abc284_f",
+      "abc300_d",
+      "abc304_c"
+    ],
+    "adt_medium_20240111_2": [
       "abc217_b",
-      "abc217_c",
-      "abc217_d",
+      "abc303_d",
+      "abc306_c",
+      "abc321_b"
+    ],
+    "adt_all_20240521_1": [
       "abc217_e",
+      "abc280_d",
+      "abc348_c"
+    ],
+    "adt_all_20231228_2": [
       "abc217_f",
+      "abc236_a",
+      "abc270_a",
+      "abc309_e"
+    ],
+    "abc217": [
       "abc217_g",
       "abc217_h"
     ],
-    "abc218": [
+    "adt_easy_20231207_2": [
       "abc218_a",
+      "abc237_a",
+      "abc298_b",
+      "abc303_c",
+      "abc308_b"
+    ],
+    "adt_all_20231121_1": [
       "abc218_b",
-      "abc218_c",
+      "abc232_a",
+      "abc243_a",
+      "abc245_e",
+      "abc257_d",
+      "abc258_c",
+      "abc297_c",
+      "abc300_b",
+      "abc308_f"
+    ],
+    "adt_medium_20240118_1": [
       "abc218_d",
+      "abc223_b",
+      "abc327_c",
+      "abc330_c"
+    ],
+    "adt_all_20231129_2": [
       "abc218_e",
+      "abc240_b",
+      "abc241_c",
+      "abc244_f",
+      "abc248_b",
+      "abc290_c",
+      "abc301_a",
+      "abc318_a",
+      "abc319_d"
+    ],
+    "adt_hard_20240507_3": [
       "abc218_f",
+      "abc338_e"
+    ],
+    "abc218": [
       "abc218_g",
       "abc218_h"
     ],
-    "abc219": [
+    "adt_all_20240110_1": [
       "abc219_a",
-      "abc219_b",
+      "abc262_e",
+      "abc266_f",
+      "abc311_a"
+    ],
+    "adt_easy_20240320_1": [
+      "abc219_b"
+    ],
+    "adt_all_20240109_2": [
       "abc219_c",
+      "abc228_e",
+      "abc231_b",
+      "abc238_f",
+      "abc253_b",
+      "abc313_a",
+      "abc317_d",
+      "abc318_c"
+    ],
+    "adt_hard_20241128_2": [
       "abc219_d",
+      "abc374_c"
+    ],
+    "adt_all_20231121_2": [
       "abc219_e",
-      "abc219_f",
+      "abc254_a",
+      "abc258_f",
+      "abc302_a"
+    ],
+    "adt_hard_20231226_1": [
+      "abc219_f"
+    ],
+    "abc219": [
       "abc219_g",
       "abc219_h"
     ],
-    "abc220": [
+    "adt_all_20240104_2": [
       "abc220_a",
+      "abc232_e",
+      "abc285_a",
+      "abc319_f"
+    ],
+    "adt_all_20240104_1": [
       "abc220_b",
-      "abc220_c",
+      "abc230_d",
+      "abc237_c",
+      "abc248_e",
+      "abc281_a",
+      "abc292_f",
+      "abc296_c",
+      "abc307_b",
+      "abc314_a"
+    ],
+    "adt_hard_20240612_2": [
       "abc220_d",
+      "abc349_f"
+    ],
+    "adt_all_20240312_1": [
       "abc220_e",
+      "abc233_f"
+    ],
+    "adt_hard_20240201_3": [
       "abc220_f",
+      "abc273_e"
+    ],
+    "abc220": [
       "abc220_g",
       "abc220_h"
     ],
-    "abc221": [
+    "adt_all_20240103_1": [
       "abc221_a",
+      "abc284_e",
+      "abc313_f",
+      "abc317_a"
+    ],
+    "adt_medium_20231123_1": [
       "abc221_b",
+      "abc243_c",
+      "abc255_c",
+      "abc284_d",
+      "abc286_b"
+    ],
+    "adt_easy_20231220_1": [
       "abc221_c",
+      "abc261_b",
+      "abc278_b",
+      "abc308_a",
+      "abc312_a"
+    ],
+    "adt_medium_20240104_2": [
       "abc221_d",
+      "abc232_c",
+      "abc237_b",
+      "abc279_c",
+      "abc309_b"
+    ],
+    "adt_hard_20240213_2": [
       "abc221_e",
+      "abc253_f"
+    ],
+    "adt_hard_20240124_3": [
       "abc221_f",
+      "abc327_e"
+    ],
+    "abc221": [
       "abc221_g",
       "abc221_h"
     ],
-    "abc222": [
+    "adt_all_20231212_2": [
       "abc222_a",
-      "abc222_b",
-      "abc222_c",
-      "abc222_d",
+      "abc267_f",
+      "abc272_a",
+      "abc285_e"
+    ],
+    "adt_hard_20240403_2": [
+      "abc222_c"
+    ],
+    "adt_hard_20240718_2": [
+      "abc222_d"
+    ],
+    "adt_all_20231207_1": [
       "abc222_e",
+      "abc268_a",
+      "abc283_f",
+      "abc305_a"
+    ],
+    "adt_all_20231219_1": [
       "abc222_f",
+      "abc230_c",
+      "abc234_d",
+      "abc258_e",
+      "abc267_a",
+      "abc281_b",
+      "abc295_b",
+      "abc310_a",
+      "abc315_c"
+    ],
+    "abc222": [
       "abc222_g",
       "abc222_h"
     ],
-    "abc223": [
+    "adt_easy_20231214_2": [
       "abc223_a",
-      "abc223_b",
-      "abc223_c",
+      "abc233_b",
+      "abc249_a",
+      "abc267_c",
+      "abc318_b"
+    ],
+    "adt_medium_20240117_1": [
       "abc223_d",
-      "abc223_e",
+      "abc252_b",
+      "abc326_c"
+    ],
+    "adt_hard_20240118_3": [
       "abc223_f",
+      "abc314_e",
+      "abc322_c"
+    ],
+    "abc223": [
       "abc223_g",
       "abc223_h"
     ],
-    "abc224": [
+    "adt_all_20231213_2": [
       "abc224_a",
+      "abc245_c",
+      "abc250_d",
+      "abc260_e",
+      "abc279_a",
+      "abc285_f",
+      "abc311_b",
+      "abc319_c",
+      "abc323_b"
+    ],
+    "adt_medium_20231205_2": [
       "abc224_b",
+      "abc248_c",
+      "abc272_d",
+      "abc287_b",
+      "abc300_c"
+    ],
+    "adt_medium_20231227_1": [
       "abc224_c",
-      "abc224_d",
+      "abc228_d",
+      "abc242_b",
+      "abc284_c",
+      "abc314_b"
+    ],
+    "adt_all_20231207_2": [
       "abc224_e",
+      "abc228_f"
+    ],
+    "adt_all_20231123_2": [
       "abc224_f",
+      "abc272_e"
+    ],
+    "abc224": [
       "abc224_g",
       "abc224_h"
     ],
-    "abc225": [
+    "adt_all_20240102_2": [
       "abc225_a",
-      "abc225_b",
-      "abc225_c",
-      "abc225_d",
-      "abc225_e",
+      "abc234_b",
+      "abc234_c",
+      "abc248_a",
+      "abc268_b",
+      "abc285_c",
+      "abc304_d",
+      "abc315_e",
+      "abc321_f"
+    ],
+    "adt_all_20240604_1": [
+      "abc225_d"
+    ],
+    "adt_all_20240523_1": [
+      "abc225_e"
+    ],
+    "adt_all_20231227_1": [
       "abc225_f",
+      "abc270_e",
+      "abc299_a"
+    ],
+    "abc225": [
       "abc225_g",
       "abc225_h"
     ],
-    "abc226": [
+    "adt_easy_20231227_2": [
       "abc226_a",
+      "abc241_a",
+      "abc246_b",
+      "abc260_c",
+      "abc305_b"
+    ],
+    "adt_easy_20240118_3": [
       "abc226_b",
+      "abc276_a"
+    ],
+    "adt_medium_20231220_1": [
       "abc226_c",
+      "abc278_d"
+    ],
+    "adt_medium_20231212_2": [
       "abc226_d",
+      "abc259_c",
+      "abc307_c",
+      "abc315_b",
+      "abc324_b"
+    ],
+    "adt_all_20231214_1": [
       "abc226_e",
-      "abc226_f",
+      "abc230_f",
+      "abc278_a",
+      "abc309_a"
+    ],
+    "adt_hard_20240117_1": [
+      "abc226_f"
+    ],
+    "abc226": [
       "abc226_g",
       "abc226_h"
     ],
-    "abc227": [
+    "adt_easy_20231213_1": [
       "abc227_a",
+      "abc239_c",
+      "abc265_a",
+      "abc317_b",
+      "abc320_b"
+    ],
+    "adt_easy_20240102_1": [
       "abc227_b",
+      "abc266_a",
+      "abc274_b",
+      "abc282_a",
+      "abc283_c"
+    ],
+    "adt_medium_20231121_2": [
       "abc227_c",
+      "abc232_b",
+      "abc290_b",
+      "abc295_d",
+      "abc314_c"
+    ],
+    "adt_hard_20240326_2": [
       "abc227_d",
+      "abc341_e"
+    ],
+    "adt_all_20240103_2": [
       "abc227_e",
-      "abc227_f",
+      "abc322_f"
+    ],
+    "adt_hard_20240312_3": [
+      "abc227_f"
+    ],
+    "abc227": [
       "abc227_g",
       "abc227_h"
     ],
-    "abc228": [
-      "abc228_a",
+    "adt_easy_20231123_2": [
       "abc228_b",
+      "abc236_c",
+      "abc247_a",
+      "abc283_b",
+      "abc290_a"
+    ],
+    "adt_medium_20240208_3": [
       "abc228_c",
-      "abc228_d",
-      "abc228_e",
-      "abc228_f",
+      "abc251_c",
+      "abc307_d"
+    ],
+    "abc228": [
       "abc228_g",
       "abc228_h"
     ],
-    "abc229": [
+    "adt_all_20231123_1": [
       "abc229_a",
+      "abc251_f",
+      "abc269_a",
+      "abc307_e"
+    ],
+    "adt_medium_20240307_3": [
       "abc229_b",
+      "abc336_b"
+    ],
+    "adt_all_20240215_1": [
       "abc229_c",
+      "abc239_d"
+    ],
+    "adt_all_20240130_1": [
       "abc229_d",
-      "abc229_e",
-      "abc229_f",
+      "abc267_e",
+      "abc288_f"
+    ],
+    "adt_hard_20241017_2": [
+      "abc229_e"
+    ],
+    "adt_hard_20240402_3": [
+      "abc229_f"
+    ],
+    "abc229": [
       "abc229_g",
       "abc229_h"
     ],
-    "abc230": [
-      "abc230_a",
+    "adt_medium_20231207_1": [
       "abc230_b",
-      "abc230_c",
-      "abc230_d",
+      "abc233_c",
+      "abc270_b",
+      "abc287_c",
+      "abc301_d"
+    ],
+    "adt_all_20240117_2": [
       "abc230_e",
-      "abc230_f",
+      "abc294_d"
+    ],
+    "abc230": [
       "abc230_g",
       "abc230_h"
     ],
-    "abc231": [
+    "adt_easy_20231206_1": [
       "abc231_a",
-      "abc231_b",
+      "abc243_b",
+      "abc281_c",
+      "abc292_b",
+      "abc295_a"
+    ],
+    "adt_medium_20231228_2": [
       "abc231_c",
-      "abc231_d",
-      "abc231_e",
+      "abc238_c",
+      "abc271_b",
+      "abc272_b",
+      "abc292_d"
+    ],
+    "adt_hard_20240228_2": [
+      "abc231_d"
+    ],
+    "adt_all_20240207_1": [
+      "abc231_e"
+    ],
+    "adt_all_20231214_2": [
       "abc231_f",
+      "abc290_e"
+    ],
+    "abc231": [
       "abc231_g",
       "abc231_h"
     ],
-    "abc232": [
-      "abc232_a",
-      "abc232_b",
-      "abc232_c",
+    "adt_medium_20240103_2": [
       "abc232_d",
-      "abc232_e",
-      "abc232_f",
+      "abc270_c"
+    ],
+    "adt_hard_20240206_1": [
+      "abc232_f"
+    ],
+    "abc232": [
       "abc232_g",
       "abc232_h"
     ],
-    "abc233": [
-      "abc233_a",
-      "abc233_b",
-      "abc233_c",
-      "abc233_d",
+    "adt_hard_20240409_2": [
+      "abc233_d"
+    ],
+    "adt_all_20231213_1": [
       "abc233_e",
-      "abc233_f",
+      "abc279_f"
+    ],
+    "abc233": [
       "abc233_g",
       "abc233_h"
     ],
-    "abc234": [
-      "abc234_a",
-      "abc234_b",
-      "abc234_c",
-      "abc234_d",
-      "abc234_e",
+    "adt_all_20240102_1": [
       "abc234_f",
+      "abc291_e"
+    ],
+    "abc234": [
       "abc234_g",
       "abc234_h"
     ],
-    "abc235": [
+    "adt_all_20231221_1": [
       "abc235_a",
-      "abc235_b",
-      "abc235_c",
-      "abc235_d",
+      "abc249_f",
+      "abc252_c",
+      "abc253_e",
+      "abc266_b",
+      "abc280_b",
+      "abc286_d",
+      "abc291_a",
+      "abc293_c"
+    ],
+    "adt_easy_20240208_1": [
+      "abc235_b"
+    ],
+    "adt_all_20240214_1": [
       "abc235_e",
+      "abc245_d",
+      "abc275_f"
+    ],
+    "adt_all_20240409_1": [
       "abc235_f",
+      "abc246_d"
+    ],
+    "abc235": [
       "abc235_g",
       "abc235_h"
     ],
-    "abc236": [
-      "abc236_a",
-      "abc236_b",
-      "abc236_c",
-      "abc236_d",
+    "adt_all_20231130_2": [
       "abc236_e",
+      "abc256_f"
+    ],
+    "adt_hard_20240222_3": [
       "abc236_f",
+      "abc305_e"
+    ],
+    "abc236": [
       "abc236_g",
       "abc236_h"
     ],
-    "abc237": [
-      "abc237_a",
-      "abc237_b",
-      "abc237_c",
+    "adt_all_20240124_1": [
       "abc237_d",
       "abc237_e",
-      "abc237_f",
+      "abc250_a",
+      "abc329_a",
+      "abc329_c",
+      "abc331_f",
+      "abc333_b",
+      "abc333_c"
+    ],
+    "adt_all_20241010_1": [
+      "abc237_f"
+    ],
+    "abc237": [
       "abc237_g",
       "abc237_h"
     ],
-    "abc238": [
+    "adt_easy_20240131_1": [
       "abc238_a",
+      "abc279_b"
+    ],
+    "adt_easy_20240206_2": [
       "abc238_b",
-      "abc238_c",
+      "abc251_a"
+    ],
+    "adt_medium_20231128_2": [
       "abc238_d",
+      "abc254_c",
+      "abc257_b",
+      "abc292_c",
+      "abc306_b"
+    ],
+    "adt_all_20231221_2": [
       "abc238_e",
-      "abc238_f",
+      "abc246_a"
+    ],
+    "abc238": [
       "abc238_g",
       "abc238_h"
     ],
-    "abc239": [
-      "abc239_a",
+    "adt_easy_20231122_1": [
       "abc239_b",
-      "abc239_c",
-      "abc239_d",
-      "abc239_e",
-      "abc239_f",
+      "abc244_a",
+      "abc276_c",
+      "abc292_a",
+      "abc312_b"
+    ],
+    "adt_hard_20240424_3": [
+      "abc239_e"
+    ],
+    "adt_all_20240618_1": [
+      "abc239_f"
+    ],
+    "abc239": [
       "abc239_g",
       "abc239_h"
     ],
-    "abc240": [
+    "adt_all_20231130_1": [
       "abc240_a",
-      "abc240_b",
+      "abc245_f",
+      "abc280_a",
+      "abc297_e"
+    ],
+    "adt_easy_20231129_1": [
       "abc240_c",
+      "abc253_a",
+      "abc257_a",
+      "abc273_b",
+      "abc301_b"
+    ],
+    "adt_hard_20240201_2": [
       "abc240_d",
-      "abc240_e",
-      "abc240_f",
+      "abc283_e",
+      "abc314_f",
+      "abc334_c"
+    ],
+    "adt_all_20240502_1": [
+      "abc240_e"
+    ],
+    "abc240": [
       "abc240_g",
       "abc240_h"
     ],
-    "abc241": [
-      "abc241_a",
+    "adt_easy_20240130_1": [
       "abc241_b",
-      "abc241_c",
+      "abc306_a"
+    ],
+    "adt_hard_20240215_2": [
       "abc241_d",
+      "abc262_c",
+      "abc307_f",
+      "abc333_e"
+    ],
+    "adt_hard_20240213_3": [
       "abc241_e",
-      "abc241_f",
+      "abc281_f"
+    ],
+    "adt_hard_20240815_2": [
+      "abc241_f"
+    ],
+    "abc241": [
       "abc241_g",
       "abc241_h"
     ],
-    "abc242": [
-      "abc242_a",
-      "abc242_b",
-      "abc242_c",
+    "adt_easy_20240125_1": [
+      "abc242_c"
+    ],
+    "adt_all_20240118_2": [
       "abc242_d",
-      "abc242_e",
+      "abc265_e",
+      "abc278_f"
+    ],
+    "adt_hard_20240808_3": [
+      "abc242_e"
+    ],
+    "adt_hard_20240130_3": [
       "abc242_f",
+      "abc331_e"
+    ],
+    "abc242": [
       "abc242_g",
       "abc242_h"
     ],
-    "abc243": [
-      "abc243_a",
-      "abc243_b",
-      "abc243_c",
-      "abc243_d",
-      "abc243_e",
+    "adt_hard_20240314_2": [
+      "abc243_d"
+    ],
+    "adt_all_20240327_1": [
+      "abc243_e"
+    ],
+    "adt_hard_20240328_2": [
       "abc243_f",
+      "abc337_d"
+    ],
+    "abc243": [
       "abc243_g",
       "abc243_h"
     ],
-    "abc244": [
-      "abc244_a",
+    "adt_medium_20240110_1": [
       "abc244_b",
-      "abc244_c",
+      "abc247_c",
+      "abc267_b",
+      "abc320_d",
+      "abc324_c"
+    ],
+    "adt_hard_20240207_2": [
       "abc244_d",
+      "abc295_e"
+    ],
+    "adt_all_20231219_2": [
       "abc244_e",
-      "abc244_f",
+      "abc250_f",
+      "abc260_a",
+      "abc294_a"
+    ],
+    "abc244": [
       "abc244_g",
       "abc244_h"
     ],
-    "abc245": [
+    "adt_easy_20240110_2": [
       "abc245_a",
-      "abc245_b",
-      "abc245_c",
-      "abc245_d",
-      "abc245_e",
-      "abc245_f",
+      "abc276_b",
+      "abc293_a",
+      "abc319_b"
+    ],
+    "adt_easy_20240116_3": [
+      "abc245_b"
+    ],
+    "abc245": [
       "abc245_g",
       "abc245_h"
     ],
-    "abc246": [
-      "abc246_a",
-      "abc246_b",
+    "adt_medium_20240102_1": [
       "abc246_c",
-      "abc246_d",
-      "abc246_e",
-      "abc246_f",
+      "abc288_d"
+    ],
+    "adt_all_20240123_2": [
+      "abc246_e"
+    ],
+    "adt_hard_20240611_3": [
+      "abc246_f"
+    ],
+    "abc246": [
       "abc246_g",
       "abc246_h"
     ],
-    "abc247": [
-      "abc247_a",
+    "adt_easy_20240117_3": [
       "abc247_b",
-      "abc247_c",
-      "abc247_d",
+      "abc296_a"
+    ],
+    "adt_hard_20240123_1": [
       "abc247_e",
+      "abc327_f"
+    ],
+    "adt_hard_20240125_2": [
       "abc247_f",
+      "abc275_e"
+    ],
+    "abc247": [
       "abc247_g",
       "abc247_h"
     ],
-    "abc248": [
-      "abc248_a",
-      "abc248_b",
-      "abc248_c",
+    "adt_hard_20240131_2": [
       "abc248_d",
-      "abc248_e",
-      "abc248_f",
+      "abc264_f",
+      "abc268_e"
+    ],
+    "abc248": [
       "abc248_g",
       "abc248_h"
     ],
-    "abc249": [
-      "abc249_a",
-      "abc249_b",
-      "abc249_c",
+    "adt_all_20240305_1": [
       "abc249_d",
+      "abc292_e"
+    ],
+    "adt_hard_20240522_3": [
       "abc249_e",
-      "abc249_f",
+      "abc305_f"
+    ],
+    "abc249": [
       "abc249_g",
       "abc249_h"
     ],
-    "abc250": [
-      "abc250_a",
+    "adt_easy_20240116_2": [
       "abc250_b",
-      "abc250_c",
-      "abc250_d",
-      "abc250_e",
-      "abc250_f",
+      "abc331_a"
+    ],
+    "adt_hard_20240606_2": [
+      "abc250_e"
+    ],
+    "abc250": [
       "abc250_g",
       "abc250_h"
     ],
-    "abc251": [
-      "abc251_a",
-      "abc251_b",
-      "abc251_c",
+    "adt_medium_20231130_2": [
       "abc251_d",
+      "abc253_c"
+    ],
+    "adt_all_20240111_2": [
       "abc251_e",
-      "abc251_f",
+      "abc255_a",
+      "abc262_a",
+      "abc290_f"
+    ],
+    "abc251": [
       "abc251_g",
       "abc251_h"
     ],
-    "abc252": [
-      "abc252_a",
-      "abc252_b",
-      "abc252_c",
-      "abc252_d",
+    "adt_medium_20240404_3": [
+      "abc252_d"
+    ],
+    "adt_all_20240111_1": [
       "abc252_e",
+      "abc265_f",
+      "abc274_c",
+      "abc291_c",
+      "abc293_b",
+      "abc293_d",
+      "abc315_a"
+    ],
+    "adt_all_20240222_1": [
       "abc252_f",
+      "abc311_c"
+    ],
+    "abc252": [
       "abc252_g",
       "abc252_h"
     ],
+    "adt_all_20240731_1": [
+      "abc253_d"
+    ],
     "abc253": [
-      "abc253_a",
-      "abc253_b",
-      "abc253_c",
-      "abc253_d",
-      "abc253_e",
-      "abc253_f",
       "abc253_g",
       "abc253_h"
     ],
-    "abc254": [
-      "abc254_a",
+    "adt_medium_20231226_1": [
       "abc254_b",
-      "abc254_c",
+      "abc272_c",
+      "abc295_c",
+      "abc311_d",
+      "abc325_b"
+    ],
+    "adt_medium_20231214_2": [
       "abc254_d",
-      "abc254_e",
+      "abc312_c"
+    ],
+    "adt_hard_20240123_3": [
       "abc254_f",
+      "abc266_c"
+    ],
+    "abc254": [
       "abc254_g",
       "abc254_h"
     ],
-    "abc255": [
-      "abc255_a",
+    "adt_medium_20240215_3": [
       "abc255_b",
-      "abc255_c",
-      "abc255_d",
+      "abc313_d"
+    ],
+    "adt_hard_20240425_2": [
+      "abc255_d"
+    ],
+    "adt_all_20240220_1": [
       "abc255_e",
-      "abc255_f",
+      "abc262_f",
+      "abc287_d"
+    ],
+    "adt_hard_20240305_2": [
+      "abc255_f"
+    ],
+    "abc255": [
       "abc255_g",
       "abc255_h"
     ],
-    "abc256": [
-      "abc256_a",
-      "abc256_b",
+    "adt_medium_20240305_3": [
       "abc256_c",
+      "abc318_d"
+    ],
+    "adt_medium_20240403_3": [
       "abc256_d",
-      "abc256_e",
-      "abc256_f",
+      "abc340_b"
+    ],
+    "abc256": [
       "abc256_g",
       "abc256_h"
     ],
-    "abc257": [
-      "abc257_a",
-      "abc257_b",
-      "abc257_c",
-      "abc257_d",
-      "abc257_e",
+    "adt_hard_20240227_3": [
+      "abc257_e"
+    ],
+    "adt_all_20240201_1": [
       "abc257_f",
+      "abc259_e",
+      "abc324_d"
+    ],
+    "abc257": [
       "abc257_g",
       "abc257_h"
     ],
-    "abc258": [
+    "adt_all_20231205_2": [
       "abc258_a",
-      "abc258_b",
-      "abc258_c",
+      "abc289_f",
+      "abc294_e",
+      "abc304_a"
+    ],
+    "adt_all_20240208_1": [
       "abc258_d",
-      "abc258_e",
-      "abc258_f",
+      "abc277_e"
+    ],
+    "abc258": [
       "abc258_g",
       "abc258_h"
     ],
+    "adt_all_20240229_1": [
+      "abc259_f"
+    ],
     "abc259": [
-      "abc259_a",
-      "abc259_b",
-      "abc259_c",
-      "abc259_d",
-      "abc259_e",
-      "abc259_f",
       "abc259_g",
       "abc259_h"
     ],
-    "abc260": [
-      "abc260_a",
+    "adt_medium_20240125_3": [
       "abc260_b",
-      "abc260_c",
+      "abc266_d",
+      "abc275_b"
+    ],
+    "adt_medium_20231129_1": [
       "abc260_d",
-      "abc260_e",
+      "abc277_c"
+    ],
+    "adt_all_20231122_1": [
       "abc260_f",
+      "abc325_e"
+    ],
+    "abc260": [
       "abc260_g",
       "abc260_h"
     ],
-    "abc261": [
+    "adt_easy_20240206_1": [
       "abc261_a",
-      "abc261_b",
+      "abc275_a"
+    ],
+    "adt_medium_20231219_2": [
       "abc261_c",
-      "abc261_d",
-      "abc261_e",
-      "abc261_f",
+      "abc263_b",
+      "abc269_b",
+      "abc273_d",
+      "abc288_c"
+    ],
+    "adt_all_20240627_1": [
+      "abc261_d"
+    ],
+    "adt_hard_20241205_3": [
+      "abc261_f"
+    ],
+    "abc261": [
       "abc261_g",
       "abc261_h"
     ],
-    "abc262": [
-      "abc262_a",
-      "abc262_b",
-      "abc262_c",
+    "adt_medium_20231214_1": [
       "abc262_d",
-      "abc262_e",
-      "abc262_f",
+      "abc278_c",
+      "abc304_b",
+      "abc317_c",
+      "abc322_b"
+    ],
+    "abc262": [
       "abc262_g",
       "abc262_h"
     ],
-    "abc263": [
-      "abc263_a",
-      "abc263_b",
+    "adt_medium_20240214_3": [
       "abc263_c",
-      "abc263_d",
-      "abc263_e",
-      "abc263_f",
+      "abc305_d"
+    ],
+    "abc263": [
       "abc263_g",
       "abc263_h"
     ],
-    "abc264": [
+    "adt_easy_20240213_1": [
       "abc264_a",
+      "abc335_c"
+    ],
+    "adt_easy_20240201_2": [
       "abc264_b",
+      "abc323_a"
+    ],
+    "adt_medium_20231206_1": [
       "abc264_c",
-      "abc264_d",
-      "abc264_e",
-      "abc264_f",
+      "abc302_d"
+    ],
+    "adt_medium_20240221_3": [
+      "abc264_d"
+    ],
+    "adt_hard_20240207_3": [
+      "abc264_e"
+    ],
+    "abc264": [
       "abc264_g",
       "abc264_h"
     ],
-    "abc265": [
-      "abc265_a",
-      "abc265_b",
+    "adt_hard_20240116_3": [
       "abc265_c",
-      "abc265_d",
-      "abc265_e",
-      "abc265_f",
+      "abc276_d"
+    ],
+    "adt_medium_20240227_3": [
+      "abc265_d"
+    ],
+    "abc265": [
       "abc265_g",
       "abc265_h"
     ],
-    "abc266": [
-      "abc266_a",
-      "abc266_b",
-      "abc266_c",
-      "abc266_d",
+    "adt_hard_20240116_1": [
       "abc266_e",
-      "abc266_f",
+      "abc324_f"
+    ],
+    "abc266": [
       "abc266_g",
       "abc266_h"
     ],
+    "adt_hard_20240725_2": [
+      "abc267_d"
+    ],
     "abc267": [
-      "abc267_a",
-      "abc267_b",
-      "abc267_c",
-      "abc267_d",
-      "abc267_e",
-      "abc267_f",
       "abc267_g",
       "abc267_h"
     ],
-    "abc268": [
-      "abc268_a",
-      "abc268_b",
+    "adt_medium_20231207_2": [
       "abc268_c",
-      "abc268_d",
-      "abc268_e",
+      "abc290_d"
+    ],
+    "adt_all_20240320_1": [
+      "abc268_d"
+    ],
+    "adt_all_20231206_1": [
       "abc268_f",
+      "abc293_e"
+    ],
+    "abc268": [
       "abc268_g",
       "abc268_h"
     ],
-    "abc269": [
-      "abc269_a",
-      "abc269_b",
-      "abc269_c",
-      "abc269_d",
+    "adt_hard_20240320_2": [
+      "abc269_d"
+    ],
+    "adt_hard_20240710_2": [
       "abc269_e",
+      "abc277_f"
+    ],
+    "adt_hard_20240327_3": [
       "abc269_f",
+      "abc271_e"
+    ],
+    "abc269": [
       "abc269_g",
       "abc269_h"
     ],
+    "adt_medium_20240321_3": [
+      "abc270_d"
+    ],
+    "adt_all_20240319_1": [
+      "abc270_f"
+    ],
     "abc270": [
-      "abc270_a",
-      "abc270_b",
-      "abc270_c",
-      "abc270_d",
-      "abc270_e",
-      "abc270_f",
       "abc270_g",
       "abc270_h"
     ],
-    "abc271": [
+    "adt_all_20231128_2": [
       "abc271_a",
-      "abc271_b",
-      "abc271_c",
-      "abc271_d",
-      "abc271_e",
       "abc271_f",
+      "abc296_e",
+      "abc298_a"
+    ],
+    "adt_medium_20240620_3": [
+      "abc271_d"
+    ],
+    "abc271": [
       "abc271_g",
       "abc271_h"
     ],
+    "adt_all_20240515_1": [
+      "abc272_f"
+    ],
     "abc272": [
-      "abc272_a",
-      "abc272_b",
-      "abc272_c",
-      "abc272_d",
-      "abc272_e",
-      "abc272_f",
       "abc272_g",
       "abc272_h"
     ],
+    "adt_hard_20240228_3": [
+      "abc273_f"
+    ],
     "abc273": [
-      "abc273_a",
-      "abc273_b",
-      "abc273_c",
-      "abc273_d",
-      "abc273_e",
-      "abc273_f",
       "abc273_g",
       "abc273_h"
     ],
-    "abc274": [
-      "abc274_a",
-      "abc274_b",
-      "abc274_c",
+    "adt_easy_20240215_1": [
+      "abc274_a"
+    ],
+    "adt_medium_20231213_1": [
       "abc274_d",
-      "abc274_e",
-      "abc274_f",
+      "abc320_c"
+    ],
+    "adt_hard_20240704_3": [
+      "abc274_e"
+    ],
+    "abc274": [
       "abc274_g",
       "abc274_h"
     ],
     "abc275": [
-      "abc275_a",
-      "abc275_b",
-      "abc275_c",
-      "abc275_d",
-      "abc275_e",
-      "abc275_f",
       "abc275_g",
       "abc275_h"
     ],
-    "abc276": [
-      "abc276_a",
-      "abc276_b",
-      "abc276_c",
-      "abc276_d",
-      "abc276_e",
+    "adt_all_20240710_1": [
+      "abc276_e"
+    ],
+    "adt_hard_20240214_2": [
       "abc276_f",
+      "abc325_c"
+    ],
+    "abc276": [
       "abc276_g",
       "abc276_h"
     ],
-    "abc277": [
-      "abc277_a",
-      "abc277_b",
-      "abc277_c",
+    "adt_easy_20240130_2": [
+      "abc277_a"
+    ],
+    "adt_easy_20240131_2": [
+      "abc277_b"
+    ],
+    "adt_medium_20231122_1": [
       "abc277_d",
-      "abc277_e",
-      "abc277_f",
+      "abc302_c"
+    ],
+    "abc277": [
       "abc277_g",
       "abc277_h"
     ],
-    "abc278": [
-      "abc278_a",
-      "abc278_b",
-      "abc278_c",
-      "abc278_d",
+    "adt_all_20231129_1": [
       "abc278_e",
-      "abc278_f",
+      "abc298_f"
+    ],
+    "abc278": [
       "abc278_g",
       "abc278_h"
     ],
+    "adt_all_20240723_1": [
+      "abc279_e"
+    ],
     "abc279": [
-      "abc279_a",
-      "abc279_b",
-      "abc279_c",
-      "abc279_d",
-      "abc279_e",
-      "abc279_f",
       "abc279_g",
       "abc279_h"
     ],
-    "abc280": [
-      "abc280_a",
-      "abc280_b",
-      "abc280_c",
-      "abc280_d",
-      "abc280_e",
+    "adt_hard_20240430_3": [
+      "abc280_e"
+    ],
+    "adt_all_20240625_1": [
       "abc280_f",
+      "abc354_e"
+    ],
+    "abc280": [
       "abc280_g",
       "abc280_h"
     ],
+    "adt_medium_20240319_3": [
+      "abc281_d"
+    ],
+    "adt_hard_20240305_3": [
+      "abc281_e"
+    ],
     "abc281": [
-      "abc281_a",
-      "abc281_b",
-      "abc281_c",
-      "abc281_d",
-      "abc281_e",
-      "abc281_f",
       "abc281_g",
       "abc281_h"
     ],
-    "abc282": [
-      "abc282_a",
-      "abc282_b",
-      "abc282_c",
-      "abc282_d",
+    "adt_medium_20240320_3": [
+      "abc282_d"
+    ],
+    "adt_hard_20240313_3": [
       "abc282_e",
-      "abc282_f",
+      "abc337_f"
+    ],
+    "abc282": [
       "abc282_g",
       "abc282_h"
     ],
+    "adt_medium_20240423_3": [
+      "abc283_d"
+    ],
     "abc283": [
-      "abc283_a",
-      "abc283_b",
-      "abc283_c",
-      "abc283_d",
-      "abc283_e",
-      "abc283_f",
       "abc283_g",
       "abc283_h"
     ],
+    "adt_easy_20240123_3": [
+      "abc284_a"
+    ],
     "abc284": [
-      "abc284_a",
-      "abc284_b",
-      "abc284_c",
-      "abc284_d",
-      "abc284_e",
-      "abc284_f",
       "abc284_g",
       "abc284_h"
     ],
-    "abc285": [
-      "abc285_a",
-      "abc285_b",
-      "abc285_c",
+    "adt_hard_20240130_2": [
       "abc285_d",
-      "abc285_e",
-      "abc285_f",
+      "abc296_f",
+      "abc313_c"
+    ],
+    "abc285": [
       "abc285_g",
       "abc285_h"
     ],
-    "abc286": [
-      "abc286_a",
-      "abc286_b",
-      "abc286_c",
-      "abc286_d",
+    "adt_easy_20240229_2": [
+      "abc286_a"
+    ],
+    "adt_hard_20240501_2": [
       "abc286_e",
-      "abc286_f",
+      "abc333_f"
+    ],
+    "adt_all_20240717_1": [
+      "abc286_f"
+    ],
+    "abc286": [
       "abc286_g",
       "abc286_h"
     ],
-    "abc287": [
-      "abc287_a",
-      "abc287_b",
-      "abc287_c",
-      "abc287_d",
-      "abc287_e",
+    "adt_hard_20240423_2": [
+      "abc287_e"
+    ],
+    "adt_all_20240326_1": [
       "abc287_f",
+      "abc324_e"
+    ],
+    "abc287": [
       "abc287_g",
       "abc287_h"
     ],
-    "abc288": [
-      "abc288_a",
-      "abc288_b",
-      "abc288_c",
-      "abc288_d",
+    "adt_hard_20240515_2": [
       "abc288_e",
-      "abc288_f",
+      "abc325_d"
+    ],
+    "abc288": [
       "abc288_g",
       "abc288_h"
     ],
-    "abc289": [
-      "abc289_a",
+    "adt_easy_20240228_2": [
       "abc289_b",
+      "abc307_a"
+    ],
+    "adt_all_20240131_1": [
       "abc289_c",
+      "abc304_f",
+      "abc329_d"
+    ],
+    "adt_hard_20240220_2": [
       "abc289_d",
-      "abc289_e",
-      "abc289_f",
+      "abc311_f",
+      "abc328_e"
+    ],
+    "adt_all_20240711_1": [
+      "abc289_e"
+    ],
+    "abc289": [
       "abc289_g",
       "abc289_h"
     ],
     "abc290": [
-      "abc290_a",
-      "abc290_b",
-      "abc290_c",
-      "abc290_d",
-      "abc290_e",
-      "abc290_f",
       "abc290_g",
       "abc290_h"
     ],
+    "adt_medium_20240206_3": [
+      "abc291_d"
+    ],
+    "adt_hard_20240215_3": [
+      "abc291_f"
+    ],
     "abc291": [
-      "abc291_a",
-      "abc291_b",
-      "abc291_c",
-      "abc291_d",
-      "abc291_e",
-      "abc291_f",
       "abc291_g",
       "abc291_h"
     ],
     "abc292": [
-      "abc292_a",
-      "abc292_b",
-      "abc292_c",
-      "abc292_d",
-      "abc292_e",
-      "abc292_f",
       "abc292_g",
       "abc292_h"
     ],
+    "adt_all_20240221_1": [
+      "abc293_f"
+    ],
     "abc293": [
-      "abc293_a",
-      "abc293_b",
-      "abc293_c",
-      "abc293_d",
-      "abc293_e",
-      "abc293_f",
       "abc293_g",
       "abc293_h"
     ],
+    "adt_hard_20240118_1": [
+      "abc294_f"
+    ],
     "abc294": [
-      "abc294_a",
-      "abc294_b",
-      "abc294_c",
-      "abc294_d",
-      "abc294_e",
-      "abc294_f",
       "abc294_g",
       "abc294_h"
     ],
+    "adt_hard_20240320_3": [
+      "abc295_f"
+    ],
     "abc295": [
-      "abc295_a",
-      "abc295_b",
-      "abc295_c",
-      "abc295_d",
-      "abc295_e",
-      "abc295_f",
       "abc295_g",
       "abc295_h"
     ],
+    "adt_medium_20240206_1": [
+      "abc296_d"
+    ],
     "abc296": [
-      "abc296_a",
-      "abc296_b",
-      "abc296_c",
-      "abc296_d",
-      "abc296_e",
-      "abc296_f",
       "abc296_g",
       "abc296_h"
     ],
-    "abc297": [
-      "abc297_a",
-      "abc297_b",
-      "abc297_c",
+    "adt_easy_20240116_1": [
+      "abc297_a"
+    ],
+    "adt_medium_20240116_1": [
       "abc297_d",
-      "abc297_e",
+      "abc328_b"
+    ],
+    "adt_hard_20240125_3": [
       "abc297_f",
+      "abc330_e"
+    ],
+    "abc297": [
       "abc297_g",
       "abc297_h"
     ],
-    "abc298": [
-      "abc298_a",
-      "abc298_b",
-      "abc298_c",
+    "adt_all_20240404_1": [
       "abc298_d",
+      "abc342_e"
+    ],
+    "adt_hard_20240424_2": [
       "abc298_e",
-      "abc298_f",
+      "abc344_f"
+    ],
+    "abc298": [
       "abc298_g",
       "abc298_h"
     ],
-    "abc299": [
-      "abc299_a",
-      "abc299_b",
+    "adt_medium_20240207_3": [
       "abc299_c",
-      "abc299_d",
-      "abc299_e",
+      "abc315_d"
+    ],
+    "adt_hard_20240214_3": [
+      "abc299_e"
+    ],
+    "adt_hard_20240206_3": [
       "abc299_f",
+      "abc300_e"
+    ],
+    "abc299": [
       "abc299_g",
       "abc299_h"
     ],
-    "abc300": [
-      "abc300_a",
-      "abc300_b",
-      "abc300_c",
-      "abc300_d",
-      "abc300_e",
+    "adt_all_20240619_1": [
       "abc300_f",
+      "abc353_d"
+    ],
+    "abc300": [
       "abc300_g",
       "abc300_h"
     ],
+    "adt_all_20240924_1": [
+      "abc301_e"
+    ],
     "abc301": [
-      "abc301_a",
-      "abc301_b",
-      "abc301_c",
-      "abc301_d",
-      "abc301_e",
-      "abc301_f",
       "abc301_g",
       "abc301_h"
     ],
+    "adt_hard_20240411_3": [
+      "abc302_e"
+    ],
     "abc302": [
-      "abc302_a",
-      "abc302_b",
-      "abc302_c",
-      "abc302_d",
-      "abc302_e",
-      "abc302_f",
       "abc302_g",
       "abc302_h"
     ],
-    "abc303": [
+    "adt_easy_20240221_1": [
       "abc303_a",
-      "abc303_b",
-      "abc303_c",
-      "abc303_d",
-      "abc303_e",
-      "abc303_f",
+      "abc335_b"
+    ],
+    "adt_hard_20240208_3": [
+      "abc303_f"
+    ],
+    "abc303": [
       "abc303_g",
       "abc303_h"
     ],
-    "abc304": [
-      "abc304_a",
-      "abc304_b",
-      "abc304_c",
-      "abc304_d",
+    "adt_hard_20240404_3": [
       "abc304_e",
-      "abc304_f",
+      "abc326_f"
+    ],
+    "abc304": [
       "abc304_g",
       "abc304_h"
     ],
     "abc305": [
-      "abc305_a",
-      "abc305_b",
-      "abc305_c",
-      "abc305_d",
-      "abc305_e",
-      "abc305_f",
       "abc305_g",
       "abc305_h"
     ],
+    "adt_all_20240228_1": [
+      "abc306_f"
+    ],
     "abc306": [
-      "abc306_a",
-      "abc306_b",
-      "abc306_c",
-      "abc306_d",
-      "abc306_e",
-      "abc306_f",
       "abc306_g",
       "abc306_h"
     ],
     "abc307": [
-      "abc307_a",
-      "abc307_b",
-      "abc307_c",
-      "abc307_d",
-      "abc307_e",
-      "abc307_f",
       "abc307_g",
       "abc307_h"
     ],
-    "abc308": [
-      "abc308_a",
-      "abc308_b",
-      "abc308_c",
+    "adt_medium_20240201_3": [
       "abc308_d",
-      "abc308_e",
-      "abc308_f",
+      "abc330_b"
+    ],
+    "adt_hard_20240221_2": [
+      "abc308_e"
+    ],
+    "abc308": [
       "abc308_g",
       "abc308_h"
     ],
+    "adt_medium_20240220_3": [
+      "abc309_d"
+    ],
     "abc309": [
-      "abc309_a",
-      "abc309_b",
-      "abc309_c",
-      "abc309_d",
-      "abc309_e",
-      "abc309_f",
       "abc309_g",
       "abc309_h"
     ],
-    "abc310": [
-      "abc310_a",
-      "abc310_b",
+    "adt_easy_20240220_2": [
+      "abc310_b"
+    ],
+    "adt_hard_20240206_2": [
       "abc310_c",
-      "abc310_d",
-      "abc310_e",
-      "abc310_f",
+      "abc329_e"
+    ],
+    "adt_all_20240430_1": [
+      "abc310_d"
+    ],
+    "adt_hard_20240208_2": [
+      "abc310_f"
+    ],
+    "abc310": [
       "abc310_g",
       "abc310_h"
     ],
-    "abc311": [
-      "abc311_a",
-      "abc311_b",
-      "abc311_c",
-      "abc311_d",
+    "adt_all_20240425_1": [
       "abc311_e",
-      "abc311_f",
+      "abc345_d"
+    ],
+    "abc311": [
       "abc311_g",
       "abc311_h"
     ],
-    "abc312": [
-      "abc312_a",
-      "abc312_b",
-      "abc312_c",
-      "abc312_d",
+    "adt_medium_20240222_3": [
+      "abc312_d"
+    ],
+    "adt_all_20240227_1": [
       "abc312_e",
-      "abc312_f",
+      "abc336_c"
+    ],
+    "abc312": [
       "abc312_g",
       "abc312_h"
     ],
+    "adt_all_20240403_1": [
+      "abc313_e"
+    ],
     "abc313": [
-      "abc313_a",
-      "abc313_b",
-      "abc313_c",
-      "abc313_d",
-      "abc313_e",
-      "abc313_f",
       "abc313_g",
       "abc313_h"
     ],
     "abc314": [
-      "abc314_a",
-      "abc314_b",
-      "abc314_c",
-      "abc314_d",
-      "abc314_e",
-      "abc314_f",
       "abc314_g",
       "abc314_h"
     ],
+    "adt_hard_20240806_2": [
+      "abc315_f"
+    ],
     "abc315": [
-      "abc315_a",
-      "abc315_b",
-      "abc315_c",
-      "abc315_d",
-      "abc315_e",
-      "abc315_f",
       "abc315_g",
       "abc315_h"
     ],
-    "abc317": [
-      "abc317_a",
-      "abc317_b",
-      "abc317_c",
-      "abc317_d",
+    "adt_all_20231227_2": [
       "abc317_e",
-      "abc317_f",
+      "abc323_f"
+    ],
+    "adt_hard_20240220_3": [
+      "abc317_f"
+    ],
+    "abc317": [
       "abc317_g",
       "abc317_h"
     ],
-    "abc318": [
-      "abc318_a",
-      "abc318_b",
-      "abc318_c",
-      "abc318_d",
+    "adt_all_20240613_1": [
       "abc318_e",
-      "abc318_f",
+      "abc327_d"
+    ],
+    "adt_hard_20240328_3": [
+      "abc318_f"
+    ],
+    "abc318": [
       "abc318_g",
       "abc318_h"
     ],
+    "adt_easy_20240117_1": [
+      "abc319_a"
+    ],
+    "adt_hard_20240514_2": [
+      "abc319_e"
+    ],
     "abc319": [
-      "abc319_a",
-      "abc319_b",
-      "abc319_c",
-      "abc319_d",
-      "abc319_e",
-      "abc319_f",
       "abc319_g"
     ],
-    "abc320": [
-      "abc320_a",
-      "abc320_b",
-      "abc320_c",
-      "abc320_d",
-      "abc320_e",
+    "adt_all_20240709_1": [
+      "abc320_e"
+    ],
+    "adt_all_20240110_2": [
       "abc320_f",
+      "abc321_e"
+    ],
+    "abc320": [
       "abc320_g"
     ],
-    "abc321": [
-      "abc321_a",
-      "abc321_b",
-      "abc321_c",
+    "adt_easy_20240312_2": [
+      "abc321_a"
+    ],
+    "adt_easy_20240314_1": [
+      "abc321_c"
+    ],
+    "adt_hard_20240523_2": [
       "abc321_d",
-      "abc321_e",
-      "abc321_f",
+      "abc344_e",
+      "abc345_c"
+    ],
+    "abc321": [
       "abc321_g"
     ],
-    "abc322": [
-      "abc322_a",
-      "abc322_b",
-      "abc322_c",
-      "abc322_d",
+    "adt_easy_20240201_3": [
+      "abc322_a"
+    ],
+    "adt_medium_20240110_2": [
+      "abc322_d"
+    ],
+    "adt_hard_20240117_3": [
       "abc322_e",
-      "abc322_f",
+      "abc329_f"
+    ],
+    "abc322": [
       "abc322_g"
     ],
+    "adt_all_20240313_1": [
+      "abc323_d"
+    ],
+    "adt_all_20240612_1": [
+      "abc323_e"
+    ],
     "abc323": [
-      "abc323_a",
-      "abc323_b",
-      "abc323_c",
-      "abc323_d",
-      "abc323_e",
-      "abc323_f",
       "abc323_g"
     ],
-    "abc324": [
+    "adt_easy_20240118_2": [
       "abc324_a",
-      "abc324_b",
-      "abc324_c",
-      "abc324_d",
-      "abc324_e",
-      "abc324_f",
+      "abc328_c",
+      "abc329_b",
+      "abc330_a"
+    ],
+    "abc324": [
       "abc324_g"
     ],
+    "adt_easy_20240312_3": [
+      "abc325_a"
+    ],
     "abc325": [
-      "abc325_a",
-      "abc325_b",
-      "abc325_c",
-      "abc325_d",
-      "abc325_e",
-      "abc325_f",
       "abc325_g"
     ],
-    "abc326": [
+    "adt_easy_20240123_1": [
       "abc326_a",
-      "abc326_b",
-      "abc326_c",
-      "abc326_d",
-      "abc326_e",
-      "abc326_f",
+      "abc328_a"
+    ],
+    "adt_easy_20240215_2": [
+      "abc326_b"
+    ],
+    "adt_all_20240522_1": [
+      "abc326_d"
+    ],
+    "adt_hard_20240528_3": [
+      "abc326_e"
+    ],
+    "abc326": [
       "abc326_g"
     ],
-    "abc327": [
+    "adt_easy_20240125_2": [
       "abc327_a",
-      "abc327_b",
-      "abc327_c",
-      "abc327_d",
-      "abc327_e",
-      "abc327_f",
+      "abc332_b"
+    ],
+    "adt_easy_20240117_2": [
+      "abc327_b"
+    ],
+    "abc327": [
       "abc327_g"
     ],
+    "adt_medium_20240515_3": [
+      "abc328_d"
+    ],
+    "adt_hard_20240528_2": [
+      "abc328_f"
+    ],
     "abc328": [
-      "abc328_a",
-      "abc328_b",
-      "abc328_c",
-      "abc328_d",
-      "abc328_e",
-      "abc328_f",
       "abc328_g"
     ],
     "abc329": [
-      "abc329_a",
-      "abc329_b",
-      "abc329_c",
-      "abc329_d",
-      "abc329_e",
-      "abc329_f",
       "abc329_g"
     ],
+    "adt_medium_20240123_1": [
+      "abc330_d"
+    ],
+    "adt_hard_20240306_2": [
+      "abc330_f"
+    ],
     "abc330": [
-      "abc330_a",
-      "abc330_b",
-      "abc330_c",
-      "abc330_d",
-      "abc330_e",
-      "abc330_f",
       "abc330_g"
     ],
-    "abc331": [
-      "abc331_a",
-      "abc331_b",
-      "abc331_c",
+    "adt_easy_20240124_2": [
+      "abc331_b"
+    ],
+    "adt_hard_20240821_2": [
       "abc331_d",
-      "abc331_e",
-      "abc331_f",
+      "abc360_c"
+    ],
+    "abc331": [
       "abc331_g"
     ],
-    "abc332": [
-      "abc332_a",
-      "abc332_b",
-      "abc332_c",
-      "abc332_d",
+    "adt_easy_20240125_3": [
+      "abc332_a"
+    ],
+    "adt_easy_20240123_2": [
+      "abc332_c"
+    ],
+    "adt_medium_20240409_3": [
+      "abc332_d"
+    ],
+    "adt_hard_20240502_2": [
       "abc332_e",
-      "abc332_f",
+      "abc343_f"
+    ],
+    "adt_hard_20240529_3": [
+      "abc332_f"
+    ],
+    "abc332": [
       "abc332_g"
     ],
+    "adt_easy_20240124_3": [
+      "abc333_a"
+    ],
+    "adt_medium_20240314_3": [
+      "abc333_d"
+    ],
     "abc333": [
-      "abc333_a",
-      "abc333_b",
-      "abc333_c",
-      "abc333_d",
-      "abc333_e",
-      "abc333_f",
       "abc333_g"
     ],
-    "abc334": [
+    "adt_easy_20240229_1": [
       "abc334_a",
-      "abc334_b",
-      "abc334_c",
-      "abc334_d",
+      "abc337_c"
+    ],
+    "adt_easy_20240213_2": [
+      "abc334_b"
+    ],
+    "adt_medium_20240306_3": [
+      "abc334_d"
+    ],
+    "adt_hard_20240222_2": [
       "abc334_e",
-      "abc334_f",
+      "abc335_f"
+    ],
+    "adt_all_20240507_1": [
+      "abc334_f"
+    ],
+    "abc334": [
       "abc334_g"
     ],
-    "abc335": [
+    "adt_easy_20240327_1": [
       "abc335_a",
-      "abc335_b",
-      "abc335_c",
-      "abc335_d",
-      "abc335_e",
-      "abc335_f",
+      "abc340_a"
+    ],
+    "adt_hard_20240604_2": [
+      "abc335_d"
+    ],
+    "adt_hard_20240402_2": [
+      "abc335_e"
+    ],
+    "abc335": [
       "abc335_g"
     ],
+    "adt_easy_20240222_1": [
+      "abc336_a"
+    ],
+    "adt_medium_20240326_3": [
+      "abc336_d"
+    ],
+    "adt_hard_20240321_2": [
+      "abc336_e"
+    ],
+    "adt_hard_20240404_2": [
+      "abc336_f"
+    ],
     "abc336": [
-      "abc336_a",
-      "abc336_b",
-      "abc336_c",
-      "abc336_d",
-      "abc336_e",
-      "abc336_f",
       "abc336_g"
     ],
+    "adt_easy_20240306_1": [
+      "abc337_a"
+    ],
+    "adt_easy_20240313_2": [
+      "abc337_b"
+    ],
+    "adt_hard_20240605_2": [
+      "abc337_e"
+    ],
     "abc337": [
-      "abc337_a",
-      "abc337_b",
-      "abc337_c",
-      "abc337_d",
-      "abc337_e",
-      "abc337_f",
       "abc337_g"
     ],
+    "adt_easy_20240307_2": [
+      "abc338_a"
+    ],
+    "adt_easy_20240328_2": [
+      "abc338_b"
+    ],
+    "adt_hard_20240312_2": [
+      "abc338_c"
+    ],
+    "adt_all_20240307_1": [
+      "abc338_d"
+    ],
+    "adt_hard_20240307_3": [
+      "abc338_f"
+    ],
     "abc338": [
-      "abc338_a",
-      "abc338_b",
-      "abc338_c",
-      "abc338_d",
-      "abc338_e",
-      "abc338_f",
       "abc338_g"
     ],
+    "adt_easy_20240327_2": [
+      "abc339_a"
+    ],
+    "adt_easy_20240425_1": [
+      "abc339_b"
+    ],
+    "adt_easy_20240321_1": [
+      "abc339_c"
+    ],
+    "adt_all_20240501_1": [
+      "abc339_d"
+    ],
+    "adt_hard_20240321_3": [
+      "abc339_e"
+    ],
+    "adt_all_20240416_1": [
+      "abc339_f"
+    ],
     "abc339": [
-      "abc339_a",
-      "abc339_b",
-      "abc339_c",
-      "abc339_d",
-      "abc339_e",
-      "abc339_f",
       "abc339_g"
     ],
-    "abc340": [
-      "abc340_a",
-      "abc340_b",
-      "abc340_c",
+    "adt_easy_20240326_1": [
+      "abc340_c"
+    ],
+    "adt_hard_20250409_3": [
       "abc340_d",
-      "abc340_e",
-      "abc340_f",
+      "abc393_e"
+    ],
+    "adt_hard_20240627_3": [
+      "abc340_e"
+    ],
+    "adt_all_20240423_1": [
+      "abc340_f"
+    ],
+    "abc340": [
       "abc340_g"
     ],
-    "abc341": [
+    "adt_easy_20240418_1": [
       "abc341_a",
-      "abc341_b",
-      "abc341_c",
-      "abc341_d",
-      "abc341_e",
-      "abc341_f",
+      "abc342_b"
+    ],
+    "adt_easy_20240418_3": [
+      "abc341_b"
+    ],
+    "adt_easy_20240416_1": [
+      "abc341_c"
+    ],
+    "adt_medium_20240702_3": [
+      "abc341_d"
+    ],
+    "adt_hard_20240416_3": [
+      "abc341_f"
+    ],
+    "abc341": [
       "abc341_g"
     ],
-    "abc342": [
-      "abc342_a",
-      "abc342_b",
-      "abc342_c",
+    "adt_easy_20240430_3": [
+      "abc342_a"
+    ],
+    "adt_easy_20240411_1": [
+      "abc342_c"
+    ],
+    "adt_medium_20240710_3": [
       "abc342_d",
-      "abc342_e",
-      "abc342_f",
+      "abc355_c"
+    ],
+    "adt_all_20240514_1": [
+      "abc342_f"
+    ],
+    "abc342": [
       "abc342_g"
     ],
+    "adt_easy_20240418_2": [
+      "abc343_a"
+    ],
+    "adt_medium_20240523_3": [
+      "abc343_b"
+    ],
+    "adt_medium_20240416_3": [
+      "abc343_c"
+    ],
+    "adt_all_20240508_1": [
+      "abc343_d"
+    ],
+    "adt_all_20240808_1": [
+      "abc343_e"
+    ],
     "abc343": [
-      "abc343_a",
-      "abc343_b",
-      "abc343_c",
-      "abc343_d",
-      "abc343_e",
-      "abc343_f",
       "abc343_g"
     ],
+    "adt_easy_20240515_2": [
+      "abc344_a"
+    ],
+    "adt_easy_20240509_2": [
+      "abc344_b"
+    ],
+    "adt_easy_20240514_1": [
+      "abc344_c"
+    ],
+    "adt_all_20241211_1": [
+      "abc344_d"
+    ],
     "abc344": [
-      "abc344_a",
-      "abc344_b",
-      "abc344_c",
-      "abc344_d",
-      "abc344_e",
-      "abc344_f",
       "abc344_g"
     ],
+    "adt_easy_20240508_3": [
+      "abc345_a"
+    ],
+    "adt_easy_20240501_2": [
+      "abc345_b"
+    ],
+    "adt_hard_20240814_3": [
+      "abc345_e"
+    ],
+    "adt_all_20241022_1": [
+      "abc345_f"
+    ],
     "abc345": [
-      "abc345_a",
-      "abc345_b",
-      "abc345_c",
-      "abc345_d",
-      "abc345_e",
-      "abc345_f",
       "abc345_g"
     ],
-    "abc346": [
-      "abc346_a",
-      "abc346_b",
-      "abc346_c",
+    "adt_easy_20240509_1": [
+      "abc346_a"
+    ],
+    "adt_easy_20240502_1": [
+      "abc346_b"
+    ],
+    "adt_easy_20240814_1": [
+      "abc346_c"
+    ],
+    "adt_all_20240822_1": [
       "abc346_d",
-      "abc346_e",
-      "abc346_f",
+      "abc359_e"
+    ],
+    "adt_hard_20240612_3": [
+      "abc346_e"
+    ],
+    "adt_hard_20241022_2": [
+      "abc346_f"
+    ],
+    "abc346": [
       "abc346_g"
     ],
+    "adt_easy_20240605_1": [
+      "abc347_a"
+    ],
+    "adt_easy_20240516_1": [
+      "abc347_b"
+    ],
+    "adt_medium_20240605_3": [
+      "abc347_c"
+    ],
+    "adt_hard_20240619_2": [
+      "abc347_d"
+    ],
+    "adt_hard_20240509_2": [
+      "abc347_e"
+    ],
+    "adt_all_20240702_1": [
+      "abc347_f"
+    ],
     "abc347": [
-      "abc347_a",
-      "abc347_b",
-      "abc347_c",
-      "abc347_d",
-      "abc347_e",
-      "abc347_f",
       "abc347_g"
     ],
+    "adt_easy_20240619_1": [
+      "abc348_a"
+    ],
+    "adt_easy_20240606_1": [
+      "abc348_b"
+    ],
+    "adt_medium_20240516_3": [
+      "abc348_d"
+    ],
+    "adt_hard_20240709_2": [
+      "abc348_e"
+    ],
+    "adt_all_20240703_1": [
+      "abc348_f"
+    ],
     "abc348": [
-      "abc348_a",
-      "abc348_b",
-      "abc348_c",
-      "abc348_d",
-      "abc348_e",
-      "abc348_f",
       "abc348_g"
     ],
-    "abc349": [
-      "abc349_a",
-      "abc349_b",
-      "abc349_c",
-      "abc349_d",
+    "adt_easy_20240627_2": [
+      "abc349_a"
+    ],
+    "adt_medium_20240522_3": [
+      "abc349_b"
+    ],
+    "adt_medium_20240528_3": [
+      "abc349_c"
+    ],
+    "adt_all_20241217_1": [
+      "abc349_d"
+    ],
+    "adt_all_20240919_1": [
       "abc349_e",
-      "abc349_f",
+      "abc359_c"
+    ],
+    "abc349": [
       "abc349_g"
     ],
-    "abc350": [
-      "abc350_a",
-      "abc350_b",
-      "abc350_c",
+    "adt_easy_20240528_2": [
+      "abc350_a"
+    ],
+    "adt_easy_20240528_1": [
+      "abc350_b"
+    ],
+    "adt_medium_20240709_3": [
+      "abc350_c"
+    ],
+    "adt_hard_20240820_2": [
       "abc350_d",
-      "abc350_e",
-      "abc350_f",
+      "abc353_f"
+    ],
+    "adt_hard_20240822_3": [
+      "abc350_e"
+    ],
+    "adt_hard_20240723_2": [
+      "abc350_f"
+    ],
+    "abc350": [
       "abc350_g"
     ],
-    "abc351": [
-      "abc351_a",
-      "abc351_b",
-      "abc351_c",
-      "abc351_d",
+    "adt_easy_20240613_2": [
+      "abc351_a"
+    ],
+    "adt_medium_20240723_3": [
+      "abc351_b"
+    ],
+    "adt_medium_20240604_3": [
+      "abc351_c"
+    ],
+    "adt_medium_20240618_3": [
+      "abc351_d"
+    ],
+    "adt_hard_20240703_3": [
       "abc351_e",
+      "abc354_f"
+    ],
+    "adt_all_20241008_1": [
       "abc351_f",
+      "abc369_c"
+    ],
+    "abc351": [
       "abc351_g"
     ],
+    "adt_easy_20240618_2": [
+      "abc352_a"
+    ],
+    "adt_easy_20240827_2": [
+      "abc352_b"
+    ],
+    "adt_medium_20240808_3": [
+      "abc352_c"
+    ],
+    "adt_hard_20240627_2": [
+      "abc352_d"
+    ],
+    "adt_hard_20240613_3": [
+      "abc352_e"
+    ],
+    "adt_hard_20240704_1": [
+      "abc352_f"
+    ],
     "abc352": [
-      "abc352_a",
-      "abc352_b",
-      "abc352_c",
-      "abc352_d",
-      "abc352_e",
-      "abc352_f",
       "abc352_g"
     ],
+    "adt_easy_20240702_3": [
+      "abc353_a"
+    ],
+    "adt_easy_20240709_2": [
+      "abc353_b"
+    ],
+    "adt_hard_20240730_2": [
+      "abc353_c"
+    ],
+    "adt_hard_20240709_3": [
+      "abc353_e"
+    ],
     "abc353": [
-      "abc353_a",
-      "abc353_b",
-      "abc353_c",
-      "abc353_d",
-      "abc353_e",
-      "abc353_f",
       "abc353_g"
     ],
-    "abc354": [
-      "abc354_a",
-      "abc354_b",
+    "adt_easy_20240704_2": [
+      "abc354_a"
+    ],
+    "adt_easy_20240724_2": [
+      "abc354_b"
+    ],
+    "adt_medium_20240828_3": [
       "abc354_c",
+      "abc362_b"
+    ],
+    "adt_hard_20240822_2": [
       "abc354_d",
-      "abc354_e",
-      "abc354_f",
+      "abc362_f"
+    ],
+    "abc354": [
       "abc354_g"
     ],
+    "adt_easy_20240702_2": [
+      "abc355_a"
+    ],
+    "adt_easy_20240702_1": [
+      "abc355_b"
+    ],
+    "adt_medium_20240704_1": [
+      "abc355_d"
+    ],
+    "adt_hard_20240910_3": [
+      "abc355_e"
+    ],
+    "adt_hard_20240808_2": [
+      "abc355_f"
+    ],
     "abc355": [
-      "abc355_a",
-      "abc355_b",
-      "abc355_c",
-      "abc355_d",
-      "abc355_e",
-      "abc355_f",
       "abc355_g"
     ],
+    "adt_easy_20240926_2": [
+      "abc356_a"
+    ],
+    "adt_easy_20240730_2": [
+      "abc356_b"
+    ],
+    "adt_medium_20240717_3": [
+      "abc356_c"
+    ],
+    "adt_medium_20240801_3": [
+      "abc356_d"
+    ],
+    "adt_all_20240718_1": [
+      "abc356_e"
+    ],
+    "adt_hard_20241017_3": [
+      "abc356_f"
+    ],
     "abc356": [
-      "abc356_a",
-      "abc356_b",
-      "abc356_c",
-      "abc356_d",
-      "abc356_e",
-      "abc356_f",
       "abc356_g"
     ],
+    "adt_easy_20240717_1": [
+      "abc357_a"
+    ],
+    "adt_easy_20240716_1": [
+      "abc357_b"
+    ],
+    "adt_all_20240926_1": [
+      "abc357_d"
+    ],
+    "adt_hard_20240828_2": [
+      "abc357_e"
+    ],
+    "adt_hard_20241231_2": [
+      "abc357_f"
+    ],
     "abc357": [
-      "abc357_a",
-      "abc357_b",
-      "abc357_c",
-      "abc357_d",
-      "abc357_e",
-      "abc357_f",
       "abc357_g"
     ],
-    "abc358": [
-      "abc358_a",
-      "abc358_b",
+    "adt_easy_20240808_3": [
+      "abc358_a"
+    ],
+    "adt_easy_20240801_2": [
+      "abc358_b"
+    ],
+    "adt_medium_20240815_3": [
       "abc358_c",
-      "abc358_d",
-      "abc358_e",
+      "abc361_b"
+    ],
+    "adt_hard_20240910_2": [
+      "abc358_d"
+    ],
+    "adt_all_20250204_3": [
+      "abc358_e"
+    ],
+    "adt_all_20250121_3": [
       "abc358_f",
+      "abc372_e"
+    ],
+    "abc358": [
       "abc358_g"
     ],
+    "adt_easy_20240821_1": [
+      "abc359_a"
+    ],
+    "adt_easy_20240828_2": [
+      "abc359_b"
+    ],
+    "adt_all_20250109_1": [
+      "abc359_d"
+    ],
+    "adt_hard_20241031_3": [
+      "abc359_f"
+    ],
     "abc359": [
-      "abc359_a",
-      "abc359_b",
-      "abc359_c",
-      "abc359_d",
-      "abc359_e",
-      "abc359_f",
       "abc359_g"
     ],
+    "adt_easy_20240807_2": [
+      "abc360_a"
+    ],
+    "adt_easy_20241008_2": [
+      "abc360_b"
+    ],
+    "adt_all_20240820_1": [
+      "abc360_d"
+    ],
+    "adt_hard_20240904_2": [
+      "abc360_e"
+    ],
+    "adt_all_20241121_1": [
+      "abc360_f"
+    ],
     "abc360": [
-      "abc360_a",
-      "abc360_b",
-      "abc360_c",
-      "abc360_d",
-      "abc360_e",
-      "abc360_f",
       "abc360_g"
     ],
+    "adt_easy_20240918_1": [
+      "abc361_a"
+    ],
+    "adt_medium_20240903_3": [
+      "abc361_c"
+    ],
+    "adt_medium_20240904_3": [
+      "abc361_d"
+    ],
+    "adt_hard_20241217_3": [
+      "abc361_e"
+    ],
+    "adt_hard_20241107_3": [
+      "abc361_f"
+    ],
     "abc361": [
-      "abc361_a",
-      "abc361_b",
-      "abc361_c",
-      "abc361_d",
-      "abc361_e",
-      "abc361_f",
       "abc361_g"
     ],
-    "abc362": [
-      "abc362_a",
-      "abc362_b",
+    "adt_easy_20250109_2": [
+      "abc362_a"
+    ],
+    "adt_easy_20241009_1": [
       "abc362_c",
-      "abc362_d",
-      "abc362_e",
-      "abc362_f",
+      "abc369_b"
+    ],
+    "adt_hard_20240827_2": [
+      "abc362_d"
+    ],
+    "adt_hard_20241002_3": [
+      "abc362_e"
+    ],
+    "abc362": [
       "abc362_g"
     ],
+    "adt_easy_20240919_2": [
+      "abc363_a"
+    ],
+    "adt_easy_20240903_1": [
+      "abc363_b"
+    ],
+    "adt_medium_20241003_3": [
+      "abc363_c"
+    ],
+    "adt_medium_20241231_3": [
+      "abc363_d"
+    ],
+    "adt_all_20241106_1": [
+      "abc363_e"
+    ],
+    "adt_all_20241127_1": [
+      "abc363_f"
+    ],
     "abc363": [
-      "abc363_a",
-      "abc363_b",
-      "abc363_c",
-      "abc363_d",
-      "abc363_e",
-      "abc363_f",
       "abc363_g"
     ],
-    "abc364": [
-      "abc364_a",
+    "adt_easy_20241031_3": [
+      "abc364_a"
+    ],
+    "adt_easy_20241001_1": [
       "abc364_b",
-      "abc364_c",
-      "abc364_d",
-      "abc364_e",
-      "abc364_f",
+      "abc367_a"
+    ],
+    "adt_easy_20241212_1": [
+      "abc364_c"
+    ],
+    "adt_all_20240904_1": [
+      "abc364_d"
+    ],
+    "adt_all_20240917_1": [
+      "abc364_e"
+    ],
+    "adt_all_20240912_1": [
+      "abc364_f"
+    ],
+    "abc364": [
       "abc364_g"
     ],
-    "abc365": [
+    "adt_easy_20241001_2": [
       "abc365_a",
+      "abc368_b"
+    ],
+    "adt_easy_20241231_1": [
       "abc365_b",
-      "abc365_c",
-      "abc365_d",
-      "abc365_e",
-      "abc365_f",
+      "abc378_a"
+    ],
+    "adt_easy_20241226_1": [
+      "abc365_c"
+    ],
+    "adt_medium_20241126_3": [
+      "abc365_d"
+    ],
+    "adt_all_20250306_3": [
+      "abc365_e"
+    ],
+    "adt_hard_20250205_2": [
+      "abc365_f"
+    ],
+    "abc365": [
       "abc365_g"
     ],
-    "abc366": [
-      "abc366_a",
+    "adt_easy_20241002_2": [
+      "abc366_a"
+    ],
+    "adt_medium_20241023_3": [
       "abc366_b",
-      "abc366_c",
-      "abc366_d",
-      "abc366_e",
-      "abc366_f",
+      "abc368_c"
+    ],
+    "adt_medium_20241107_3": [
+      "abc366_c"
+    ],
+    "adt_medium_20241002_3": [
+      "abc366_d"
+    ],
+    "adt_hard_20241015_3": [
+      "abc366_e"
+    ],
+    "adt_all_20250624_1": [
+      "abc366_f"
+    ],
+    "abc366": [
       "abc366_g"
     ],
-    "abc367": [
-      "abc367_a",
-      "abc367_b",
-      "abc367_c",
-      "abc367_d",
-      "abc367_e",
+    "adt_medium_20241009_3": [
+      "abc367_b"
+    ],
+    "adt_all_20241009_1": [
+      "abc367_c"
+    ],
+    "adt_all_20241128_1": [
+      "abc367_d"
+    ],
+    "adt_all_20250220_3": [
+      "abc367_e"
+    ],
+    "adt_hard_20250724_2": [
       "abc367_f",
+      "abc401_c"
+    ],
+    "abc367": [
       "abc367_g"
     ],
+    "adt_easy_20250128_2": [
+      "abc368_a"
+    ],
+    "adt_hard_20250311_2": [
+      "abc368_d"
+    ],
+    "adt_hard_20250116_1": [
+      "abc368_e"
+    ],
+    "adt_hard_20241016_3": [
+      "abc368_f"
+    ],
     "abc368": [
-      "abc368_a",
-      "abc368_b",
-      "abc368_c",
-      "abc368_d",
-      "abc368_e",
-      "abc368_f",
       "abc368_g"
     ],
+    "adt_easy_20250122_3": [
+      "abc369_a"
+    ],
+    "adt_hard_20250218_1": [
+      "abc369_d"
+    ],
+    "adt_hard_20241009_3": [
+      "abc369_e"
+    ],
+    "adt_all_20250107_1": [
+      "abc369_f"
+    ],
     "abc369": [
-      "abc369_a",
-      "abc369_b",
-      "abc369_c",
-      "abc369_d",
-      "abc369_e",
-      "abc369_f",
       "abc369_g"
     ],
-    "abc370": [
-      "abc370_a",
-      "abc370_b",
-      "abc370_c",
+    "adt_easy_20241024_3": [
+      "abc370_a"
+    ],
+    "adt_easy_20241114_1": [
+      "abc370_b"
+    ],
+    "adt_hard_20241024_2": [
+      "abc370_c"
+    ],
+    "adt_hard_20241226_2": [
       "abc370_d",
-      "abc370_e",
-      "abc370_f",
+      "abc376_e"
+    ],
+    "adt_all_20241105_1": [
+      "abc370_e"
+    ],
+    "adt_hard_20241212_2": [
+      "abc370_f"
+    ],
+    "abc370": [
       "abc370_g"
     ],
+    "adt_easy_20241029_3": [
+      "abc371_a"
+    ],
+    "adt_easy_20241023_2": [
+      "abc371_b"
+    ],
+    "adt_easy_20241024_1": [
+      "abc371_c"
+    ],
+    "adt_hard_20241030_2": [
+      "abc371_d"
+    ],
+    "adt_hard_20241211_2": [
+      "abc371_e"
+    ],
+    "adt_all_20250304_3": [
+      "abc371_f"
+    ],
     "abc371": [
-      "abc371_a",
-      "abc371_b",
-      "abc371_c",
-      "abc371_d",
-      "abc371_e",
-      "abc371_f",
       "abc371_g"
     ],
-    "abc372": [
-      "abc372_a",
-      "abc372_b",
-      "abc372_c",
-      "abc372_d",
-      "abc372_e",
+    "adt_easy_20241128_2": [
+      "abc372_a"
+    ],
+    "adt_easy_20241105_2": [
+      "abc372_b"
+    ],
+    "adt_medium_20241204_3": [
+      "abc372_c"
+    ],
+    "adt_all_20250226_3": [
+      "abc372_d"
+    ],
+    "adt_all_20250423_2": [
       "abc372_f",
+      "abc384_d"
+    ],
+    "abc372": [
       "abc372_g"
     ],
+    "adt_easy_20250121_1": [
+      "abc373_a"
+    ],
+    "adt_easy_20241120_2": [
+      "abc373_b"
+    ],
+    "adt_medium_20241112_3": [
+      "abc373_c"
+    ],
+    "adt_medium_20241114_3": [
+      "abc373_d"
+    ],
+    "adt_hard_20241204_1": [
+      "abc373_e"
+    ],
+    "adt_all_20250115_2": [
+      "abc373_f"
+    ],
     "abc373": [
-      "abc373_a",
-      "abc373_b",
-      "abc373_c",
-      "abc373_d",
-      "abc373_e",
-      "abc373_f",
       "abc373_g"
     ],
+    "adt_easy_20241119_2": [
+      "abc374_a"
+    ],
+    "adt_easy_20241204_2": [
+      "abc374_b"
+    ],
+    "adt_medium_20241204_1": [
+      "abc374_d"
+    ],
+    "adt_hard_20241210_3": [
+      "abc374_e"
+    ],
+    "adt_all_20250326_3": [
+      "abc374_f"
+    ],
     "abc374": [
-      "abc374_a",
-      "abc374_b",
-      "abc374_c",
-      "abc374_d",
-      "abc374_e",
-      "abc374_f",
       "abc374_g"
     ],
+    "adt_easy_20241121_3": [
+      "abc375_a"
+    ],
+    "adt_easy_20241211_2": [
+      "abc375_b"
+    ],
+    "adt_easy_20241120_1": [
+      "abc375_c"
+    ],
+    "adt_medium_20250114_2": [
+      "abc375_d"
+    ],
+    "adt_hard_20250130_1": [
+      "abc375_e"
+    ],
+    "adt_all_20260220_2": [
+      "abc375_f"
+    ],
     "abc375": [
-      "abc375_a",
-      "abc375_b",
-      "abc375_c",
-      "abc375_d",
-      "abc375_e",
-      "abc375_f",
       "abc375_g"
     ],
+    "adt_easy_20241126_2": [
+      "abc376_a"
+    ],
+    "adt_easy_20241225_1": [
+      "abc376_b"
+    ],
+    "adt_hard_20250102_2": [
+      "abc376_c"
+    ],
+    "adt_medium_20241211_3": [
+      "abc376_d"
+    ],
+    "adt_hard_20250123_1": [
+      "abc376_f"
+    ],
     "abc376": [
-      "abc376_a",
-      "abc376_b",
-      "abc376_c",
-      "abc376_d",
-      "abc376_e",
-      "abc376_f",
       "abc376_g"
     ],
-    "abc377": [
-      "abc377_a",
-      "abc377_b",
+    "adt_easy_20250318_2": [
+      "abc377_a"
+    ],
+    "adt_easy_20250402_3": [
+      "abc377_b"
+    ],
+    "adt_easy_20250626_1": [
       "abc377_c",
-      "abc377_d",
-      "abc377_e",
-      "abc377_f",
+      "abc403_b"
+    ],
+    "adt_medium_20250611_1": [
+      "abc377_d"
+    ],
+    "adt_hard_20251118_2": [
+      "abc377_e"
+    ],
+    "adt_hard_20250121_1": [
+      "abc377_f"
+    ],
+    "abc377": [
       "abc377_g"
     ],
-    "abc378": [
-      "abc378_a",
-      "abc378_b",
-      "abc378_c",
+    "adt_easy_20250213_1": [
+      "abc378_b"
+    ],
+    "adt_medium_20250304_2": [
+      "abc378_c"
+    ],
+    "adt_all_20250325_2": [
       "abc378_d",
-      "abc378_e",
-      "abc378_f",
+      "abc386_f"
+    ],
+    "adt_hard_20250101_2": [
+      "abc378_e"
+    ],
+    "adt_all_20250417_1": [
+      "abc378_f"
+    ],
+    "abc378": [
       "abc378_g"
     ],
-    "abc379": [
-      "abc379_a",
-      "abc379_b",
-      "abc379_c",
-      "abc379_d",
+    "adt_easy_20250102_3": [
+      "abc379_a"
+    ],
+    "adt_easy_20250102_1": [
+      "abc379_b"
+    ],
+    "adt_medium_20241217_3": [
+      "abc379_c"
+    ],
+    "adt_medium_20250320_1": [
+      "abc379_d"
+    ],
+    "adt_hard_20250108_2": [
       "abc379_e",
-      "abc379_f",
+      "abc382_d"
+    ],
+    "adt_all_20250618_1": [
+      "abc379_f"
+    ],
+    "abc379": [
       "abc379_g"
     ],
-    "abc380": [
+    "adt_easy_20241226_2": [
       "abc380_a",
-      "abc380_b",
-      "abc380_c",
-      "abc380_d",
-      "abc380_e",
-      "abc380_f",
+      "abc381_b"
+    ],
+    "adt_easy_20250327_1": [
+      "abc380_b"
+    ],
+    "adt_all_20241225_1": [
+      "abc380_c"
+    ],
+    "adt_hard_20250114_1": [
+      "abc380_d"
+    ],
+    "adt_hard_20250701_3": [
+      "abc380_e"
+    ],
+    "adt_hard_20250619_3": [
+      "abc380_f"
+    ],
+    "abc380": [
       "abc380_g"
     ],
+    "adt_easy_20241224_3": [
+      "abc381_a"
+    ],
+    "adt_medium_20241225_3": [
+      "abc381_c"
+    ],
+    "adt_medium_20251009_1": [
+      "abc381_d"
+    ],
+    "adt_hard_20250101_3": [
+      "abc381_e"
+    ],
+    "adt_all_20250521_2": [
+      "abc381_f"
+    ],
     "abc381": [
-      "abc381_a",
-      "abc381_b",
-      "abc381_c",
-      "abc381_d",
-      "abc381_e",
-      "abc381_f",
       "abc381_g"
     ],
+    "adt_easy_20250220_1": [
+      "abc382_a"
+    ],
+    "adt_easy_20250206_3": [
+      "abc382_b"
+    ],
+    "adt_hard_20250212_1": [
+      "abc382_c"
+    ],
+    "adt_hard_20250429_3": [
+      "abc382_e"
+    ],
+    "adt_all_20250212_3": [
+      "abc382_f"
+    ],
     "abc382": [
-      "abc382_a",
-      "abc382_b",
-      "abc382_c",
-      "abc382_d",
-      "abc382_e",
-      "abc382_f",
       "abc382_g"
     ],
+    "adt_easy_20250408_2": [
+      "abc383_a"
+    ],
+    "adt_medium_20250123_1": [
+      "abc383_b"
+    ],
+    "adt_hard_20250205_1": [
+      "abc383_c"
+    ],
+    "adt_medium_20250618_1": [
+      "abc383_d"
+    ],
+    "adt_all_20250115_3": [
+      "abc383_e"
+    ],
+    "adt_hard_20250204_1": [
+      "abc383_f"
+    ],
     "abc383": [
-      "abc383_a",
-      "abc383_b",
-      "abc383_c",
-      "abc383_d",
-      "abc383_e",
-      "abc383_f",
       "abc383_g"
     ],
+    "adt_easy_20250612_3": [
+      "abc384_a"
+    ],
+    "adt_medium_20250121_2": [
+      "abc384_b"
+    ],
+    "adt_medium_20250313_1": [
+      "abc384_c"
+    ],
+    "adt_all_20250403_1": [
+      "abc384_e"
+    ],
+    "adt_all_20250123_3": [
+      "abc384_f"
+    ],
     "abc384": [
-      "abc384_a",
-      "abc384_b",
-      "abc384_c",
-      "abc384_d",
-      "abc384_e",
-      "abc384_f",
       "abc384_g"
     ],
-    "abc385": [
-      "abc385_a",
-      "abc385_b",
-      "abc385_c",
-      "abc385_d",
-      "abc385_e",
+    "adt_easy_20250204_1": [
+      "abc385_a"
+    ],
+    "adt_medium_20250410_3": [
+      "abc385_b"
+    ],
+    "adt_all_20250617_2": [
+      "abc385_c"
+    ],
+    "adt_all_20260311_2": [
+      "abc385_d"
+    ],
+    "adt_hard_20250227_1": [
+      "abc385_e"
+    ],
+    "adt_hard_20250311_3": [
       "abc385_f",
+      "abc386_d"
+    ],
+    "abc385": [
       "abc385_g"
     ],
+    "adt_easy_20250218_2": [
+      "abc386_a"
+    ],
+    "adt_easy_20250312_2": [
+      "abc386_b"
+    ],
+    "adt_hard_20250415_3": [
+      "abc386_c"
+    ],
+    "adt_hard_20250320_1": [
+      "abc386_e"
+    ],
     "abc386": [
-      "abc386_a",
-      "abc386_b",
-      "abc386_c",
-      "abc386_d",
-      "abc386_e",
-      "abc386_f",
       "abc386_g"
     ],
-    "abc387": [
-      "abc387_a",
-      "abc387_b",
-      "abc387_c",
-      "abc387_d",
+    "adt_easy_20250211_2": [
+      "abc387_a"
+    ],
+    "adt_easy_20250213_3": [
+      "abc387_b"
+    ],
+    "adt_hard_20251231_2": [
+      "abc387_c"
+    ],
+    "adt_hard_20250318_3": [
+      "abc387_d"
+    ],
+    "adt_hard_20250812_2": [
       "abc387_e",
-      "abc387_f",
+      "abc407_f"
+    ],
+    "adt_hard_20250304_1": [
+      "abc387_f"
+    ],
+    "abc387": [
       "abc387_g"
     ],
+    "adt_easy_20250318_3": [
+      "abc388_a"
+    ],
+    "adt_medium_20250417_1": [
+      "abc388_b"
+    ],
+    "adt_hard_20250402_3": [
+      "abc388_c"
+    ],
+    "adt_all_20250327_1": [
+      "abc388_d"
+    ],
+    "adt_hard_20250220_1": [
+      "abc388_e"
+    ],
+    "adt_hard_20250910_3": [
+      "abc388_f"
+    ],
     "abc388": [
-      "abc388_a",
-      "abc388_b",
-      "abc388_c",
-      "abc388_d",
-      "abc388_e",
-      "abc388_f",
       "abc388_g"
     ],
-    "abc389": [
-      "abc389_a",
-      "abc389_b",
+    "adt_easy_20250325_3": [
+      "abc389_a"
+    ],
+    "adt_medium_20250708_3": [
+      "abc389_b"
+    ],
+    "adt_hard_20250626_2": [
       "abc389_c",
+      "abc397_c"
+    ],
+    "adt_all_20260522_1": [
       "abc389_d",
-      "abc389_e",
-      "abc389_f",
+      "abc441_c"
+    ],
+    "adt_hard_20250225_2": [
+      "abc389_e"
+    ],
+    "adt_all_20250423_1": [
+      "abc389_f"
+    ],
+    "abc389": [
       "abc389_g"
     ],
+    "adt_easy_20250319_3": [
+      "abc390_a"
+    ],
+    "adt_medium_20250409_1": [
+      "abc390_b"
+    ],
+    "adt_all_20250305_3": [
+      "abc390_c"
+    ],
+    "adt_all_20250409_2": [
+      "abc390_d"
+    ],
     "abc390": [
-      "abc390_a",
-      "abc390_b",
-      "abc390_c",
-      "abc390_d",
       "abc390_e",
-      "abc390_f",
       "abc390_g"
     ],
+    "adt_all_20250320_2": [
+      "abc390_f"
+    ],
+    "adt_easy_20250416_1": [
+      "abc391_a"
+    ],
+    "adt_easy_20250311_3": [
+      "abc391_b"
+    ],
+    "adt_hard_20250417_3": [
+      "abc391_c"
+    ],
+    "adt_hard_20250814_2": [
+      "abc391_d"
+    ],
+    "adt_hard_20250507_3": [
+      "abc391_e"
+    ],
+    "adt_hard_20250410_3": [
+      "abc391_f"
+    ],
     "abc391": [
-      "abc391_a",
-      "abc391_b",
-      "abc391_c",
-      "abc391_d",
-      "abc391_e",
-      "abc391_f",
       "abc391_g"
     ],
+    "adt_easy_20260204_2": [
+      "abc392_a"
+    ],
+    "adt_medium_20250521_3": [
+      "abc392_b"
+    ],
+    "adt_easy_20250423_2": [
+      "abc392_c"
+    ],
+    "adt_medium_20250806_3": [
+      "abc392_d"
+    ],
+    "adt_hard_20251105_2": [
+      "abc392_e"
+    ],
+    "adt_all_20250520_1": [
+      "abc392_f"
+    ],
     "abc392": [
-      "abc392_a",
-      "abc392_b",
-      "abc392_c",
-      "abc392_d",
-      "abc392_e",
-      "abc392_f",
       "abc392_g"
     ],
+    "adt_easy_20250326_2": [
+      "abc393_a"
+    ],
+    "adt_medium_20250422_1": [
+      "abc393_b"
+    ],
+    "adt_medium_20250507_1": [
+      "abc393_c"
+    ],
+    "adt_hard_20250325_3": [
+      "abc393_d"
+    ],
+    "adt_hard_20250605_3": [
+      "abc393_f"
+    ],
     "abc393": [
-      "abc393_a",
-      "abc393_b",
-      "abc393_c",
-      "abc393_d",
-      "abc393_e",
-      "abc393_f",
       "abc393_g"
     ],
+    "adt_easy_20250423_1": [
+      "abc394_a"
+    ],
+    "adt_medium_20250415_3": [
+      "abc394_b"
+    ],
+    "adt_medium_20250402_2": [
+      "abc394_c"
+    ],
+    "adt_all_20250918_1": [
+      "abc394_d"
+    ],
+    "adt_hard_20250917_3": [
+      "abc394_e"
+    ],
+    "adt_all_20250403_2": [
+      "abc394_f"
+    ],
     "abc394": [
-      "abc394_a",
-      "abc394_b",
-      "abc394_c",
-      "abc394_d",
-      "abc394_e",
-      "abc394_f",
       "abc394_g"
     ],
-    "abc395": [
-      "abc395_a",
-      "abc395_b",
-      "abc395_c",
-      "abc395_d",
+    "adt_easy_20250430_3": [
+      "abc395_a"
+    ],
+    "adt_medium_20250408_1": [
+      "abc395_b"
+    ],
+    "adt_easy_20250409_2": [
+      "abc395_c"
+    ],
+    "adt_medium_20250501_1": [
+      "abc395_d"
+    ],
+    "adt_all_20250807_1": [
       "abc395_e",
+      "abc408_f"
+    ],
+    "adt_all_20250716_1": [
       "abc395_f",
+      "abc401_e"
+    ],
+    "abc395": [
       "abc395_g"
     ],
+    "adt_easy_20250617_2": [
+      "abc396_a"
+    ],
+    "adt_medium_20250429_1": [
+      "abc396_b"
+    ],
+    "adt_hard_20250528_3": [
+      "abc396_c"
+    ],
+    "adt_all_20260218_2": [
+      "abc396_d"
+    ],
+    "adt_hard_20250716_2": [
+      "abc396_e"
+    ],
+    "adt_hard_20251021_2": [
+      "abc396_f"
+    ],
     "abc396": [
-      "abc396_a",
-      "abc396_b",
-      "abc396_c",
-      "abc396_d",
-      "abc396_e",
-      "abc396_f",
       "abc396_g"
     ],
+    "adt_easy_20250501_2": [
+      "abc397_a"
+    ],
+    "adt_medium_20250515_1": [
+      "abc397_b"
+    ],
+    "adt_hard_20250604_3": [
+      "abc397_d"
+    ],
+    "adt_all_20250424_1": [
+      "abc397_e"
+    ],
+    "adt_hard_20250515_3": [
+      "abc397_f"
+    ],
     "abc397": [
-      "abc397_a",
-      "abc397_b",
-      "abc397_c",
-      "abc397_d",
-      "abc397_e",
-      "abc397_f",
       "abc397_g"
     ],
+    "adt_easy_20250604_2": [
+      "abc398_a"
+    ],
+    "adt_medium_20250605_3": [
+      "abc398_b"
+    ],
+    "adt_hard_20250619_2": [
+      "abc398_c"
+    ],
+    "adt_medium_20250702_3": [
+      "abc398_d"
+    ],
+    "adt_all_20250520_2": [
+      "abc398_e"
+    ],
+    "adt_hard_20250508_3": [
+      "abc398_f"
+    ],
     "abc398": [
-      "abc398_a",
-      "abc398_b",
-      "abc398_c",
-      "abc398_d",
-      "abc398_e",
-      "abc398_f",
       "abc398_g"
     ],
+    "adt_easy_20250708_3": [
+      "abc399_a"
+    ],
+    "adt_easy_20250918_3": [
+      "abc399_b"
+    ],
+    "adt_hard_20250514_3": [
+      "abc399_c"
+    ],
+    "adt_medium_20250910_3": [
+      "abc399_d"
+    ],
+    "adt_all_20251203_3": [
+      "abc399_e"
+    ],
+    "adt_all_20250611_2": [
+      "abc399_f"
+    ],
     "abc399": [
-      "abc399_a",
-      "abc399_b",
-      "abc399_c",
-      "abc399_d",
-      "abc399_e",
-      "abc399_f",
       "abc399_g"
     ],
-    "abc400": [
-      "abc400_a",
+    "adt_easy_20250610_1": [
+      "abc400_a"
+    ],
+    "adt_medium_20250625_3": [
       "abc400_b",
-      "abc400_c",
+      "abc404_d"
+    ],
+    "adt_medium_20250604_1": [
+      "abc400_c"
+    ],
+    "adt_all_20250910_1": [
       "abc400_d",
-      "abc400_e",
-      "abc400_f",
+      "abc413_c"
+    ],
+    "adt_hard_20250529_3": [
+      "abc400_e"
+    ],
+    "adt_hard_20250731_3": [
+      "abc400_f"
+    ],
+    "abc400": [
       "abc400_g"
     ],
-    "abc401": [
-      "abc401_a",
+    "adt_easy_20250814_1": [
+      "abc401_a"
+    ],
+    "adt_easy_20250805_2": [
       "abc401_b",
-      "abc401_c",
-      "abc401_d",
-      "abc401_e",
-      "abc401_f",
+      "abc412_a"
+    ],
+    "adt_all_20250701_1": [
+      "abc401_d"
+    ],
+    "adt_all_20250603_1": [
+      "abc401_f"
+    ],
+    "abc401": [
       "abc401_g"
     ],
-    "abc402": [
+    "adt_easy_20251127_3": [
       "abc402_a",
-      "abc402_b",
-      "abc402_c",
-      "abc402_d",
-      "abc402_e",
-      "abc402_f",
+      "abc421_c"
+    ],
+    "adt_easy_20250903_1": [
+      "abc402_b"
+    ],
+    "adt_all_20250619_1": [
+      "abc402_c"
+    ],
+    "adt_hard_20250611_3": [
+      "abc402_d"
+    ],
+    "adt_all_20260515_1": [
+      "abc402_e"
+    ],
+    "adt_hard_20250909_2": [
+      "abc402_f"
+    ],
+    "abc402": [
       "abc402_g"
     ],
+    "adt_easy_20250605_1": [
+      "abc403_a"
+    ],
+    "adt_hard_20250617_3": [
+      "abc403_c"
+    ],
     "abc403": [
-      "abc403_a",
-      "abc403_b",
-      "abc403_c",
       "abc403_d",
-      "abc403_e",
-      "abc403_f",
       "abc403_g"
     ],
-    "abc404": [
-      "abc404_a",
-      "abc404_b",
-      "abc404_c",
-      "abc404_d",
+    "adt_all_20260213_2": [
+      "abc403_e",
+      "abc438_c"
+    ],
+    "adt_all_20250729_1": [
+      "abc403_f",
+      "abc405_c"
+    ],
+    "adt_easy_20250624_3": [
+      "abc404_a"
+    ],
+    "adt_easy_20250723_1": [
+      "abc404_b"
+    ],
+    "adt_medium_20250612_1": [
+      "abc404_c"
+    ],
+    "adt_all_20251210_3": [
       "abc404_e",
-      "abc404_f",
+      "abc429_c"
+    ],
+    "adt_all_20251223_1": [
+      "abc404_f"
+    ],
+    "abc404": [
       "abc404_g"
     ],
+    "adt_easy_20250923_2": [
+      "abc405_a"
+    ],
+    "adt_easy_20250708_1": [
+      "abc405_b"
+    ],
+    "adt_all_20250911_1": [
+      "abc405_d"
+    ],
     "abc405": [
-      "abc405_a",
-      "abc405_b",
-      "abc405_c",
-      "abc405_d",
       "abc405_e",
-      "abc405_f",
       "abc405_g"
     ],
+    "adt_hard_20250918_2": [
+      "abc405_f"
+    ],
+    "adt_easy_20250709_2": [
+      "abc406_a"
+    ],
+    "adt_easy_20250626_2": [
+      "abc406_b"
+    ],
+    "adt_hard_20250827_2": [
+      "abc406_c"
+    ],
+    "adt_all_20260428_1": [
+      "abc406_d"
+    ],
+    "adt_all_20251104_3": [
+      "abc406_e"
+    ],
+    "adt_hard_20251127_1": [
+      "abc406_f"
+    ],
     "abc406": [
-      "abc406_a",
-      "abc406_b",
-      "abc406_c",
-      "abc406_d",
-      "abc406_e",
-      "abc406_f",
       "abc406_g"
     ],
-    "abc407": [
-      "abc407_a",
-      "abc407_b",
-      "abc407_c",
+    "adt_easy_20250702_3": [
+      "abc407_a"
+    ],
+    "adt_easy_20250703_1": [
+      "abc407_b"
+    ],
+    "adt_medium_20250710_3": [
+      "abc407_c"
+    ],
+    "adt_hard_20250903_2": [
       "abc407_d",
-      "abc407_e",
-      "abc407_f",
+      "abc412_f"
+    ],
+    "adt_hard_20250820_2": [
+      "abc407_e"
+    ],
+    "abc407": [
       "abc407_g"
     ],
-    "abc408": [
-      "abc408_a",
+    "adt_easy_20250819_2": [
+      "abc408_a"
+    ],
+    "adt_medium_20250812_3": [
       "abc408_b",
-      "abc408_c",
-      "abc408_d",
-      "abc408_e",
-      "abc408_f",
+      "abc413_d"
+    ],
+    "adt_medium_20250813_3": [
+      "abc408_c"
+    ],
+    "adt_hard_20250722_2": [
+      "abc408_d"
+    ],
+    "adt_hard_20250828_3": [
+      "abc408_e"
+    ],
+    "abc408": [
       "abc408_g"
     ],
-    "abc409": [
-      "abc409_a",
-      "abc409_b",
-      "abc409_c",
+    "adt_easy_20251113_2": [
+      "abc409_a"
+    ],
+    "adt_medium_20250723_3": [
+      "abc409_b"
+    ],
+    "adt_medium_20251001_1": [
+      "abc409_c"
+    ],
+    "adt_all_20250819_1": [
       "abc409_d",
-      "abc409_e",
-      "abc409_f",
+      "abc414_c"
+    ],
+    "adt_hard_20250730_3": [
+      "abc409_e"
+    ],
+    "adt_hard_20251106_2": [
+      "abc409_f"
+    ],
+    "abc409": [
       "abc409_g"
     ],
-    "abc410": [
-      "abc410_a",
+    "adt_easy_20250904_1": [
+      "abc410_a"
+    ],
+    "adt_easy_20250730_1": [
       "abc410_b",
+      "abc411_c"
+    ],
+    "adt_medium_20250819_3": [
       "abc410_c",
-      "abc410_d",
+      "abc412_d"
+    ],
+    "adt_medium_20250923_2": [
+      "abc410_d"
+    ],
+    "adt_all_20260226_2": [
       "abc410_e",
+      "abc431_c"
+    ],
+    "adt_hard_20251106_1": [
       "abc410_f",
+      "abc415_e"
+    ],
+    "abc410": [
       "abc410_g"
     ],
-    "abc411": [
-      "abc411_a",
-      "abc411_b",
-      "abc411_c",
-      "abc411_d",
+    "adt_easy_20250806_2": [
+      "abc411_a"
+    ],
+    "adt_easy_20250819_1": [
+      "abc411_b"
+    ],
+    "adt_medium_20250730_3": [
+      "abc411_d"
+    ],
+    "adt_hard_20251125_1": [
       "abc411_e",
-      "abc411_f",
+      "abc418_c"
+    ],
+    "adt_hard_20250916_2": [
+      "abc411_f"
+    ],
+    "abc411": [
       "abc411_g"
     ],
+    "adt_easy_20250820_2": [
+      "abc412_b"
+    ],
+    "adt_hard_20250821_2": [
+      "abc412_c"
+    ],
+    "adt_hard_20250807_3": [
+      "abc412_e"
+    ],
     "abc412": [
-      "abc412_a",
-      "abc412_b",
-      "abc412_c",
-      "abc412_d",
-      "abc412_e",
-      "abc412_f",
       "abc412_g"
     ],
+    "adt_easy_20250819_3": [
+      "abc413_a"
+    ],
+    "adt_medium_20250909_3": [
+      "abc413_b"
+    ],
+    "adt_hard_20251009_3": [
+      "abc413_e"
+    ],
+    "adt_all_20260415_1": [
+      "abc413_f"
+    ],
     "abc413": [
-      "abc413_a",
-      "abc413_b",
-      "abc413_c",
-      "abc413_d",
-      "abc413_e",
-      "abc413_f",
       "abc413_g"
     ],
-    "abc414": [
+    "adt_easy_20250917_2": [
       "abc414_a",
+      "abc417_b"
+    ],
+    "adt_easy_20250911_2": [
       "abc414_b",
-      "abc414_c",
+      "abc415_a"
+    ],
+    "adt_all_20251106_3": [
       "abc414_d",
-      "abc414_e",
+      "abc420_e"
+    ],
+    "adt_all_20251008_1": [
+      "abc414_e"
+    ],
+    "abc414": [
       "abc414_f",
       "abc414_g"
     ],
-    "abc415": [
-      "abc415_a",
-      "abc415_b",
-      "abc415_c",
+    "adt_easy_20251204_3": [
+      "abc415_b"
+    ],
+    "adt_hard_20250930_2": [
+      "abc415_c"
+    ],
+    "adt_all_20260428_2": [
       "abc415_d",
-      "abc415_e",
-      "abc415_f",
+      "abc449_c"
+    ],
+    "adt_all_20251014_1": [
+      "abc415_f"
+    ],
+    "abc415": [
       "abc415_g"
     ],
+    "adt_easy_20260403_1": [
+      "abc416_a"
+    ],
+    "adt_easy_20250918_2": [
+      "abc416_b"
+    ],
+    "adt_hard_20251002_3": [
+      "abc416_c"
+    ],
     "abc416": [
-      "abc416_a",
-      "abc416_b",
-      "abc416_c",
       "abc416_d",
-      "abc416_e",
       "abc416_f",
       "abc416_g"
     ],
+    "adt_hard_20251126_1": [
+      "abc416_e"
+    ],
+    "adt_easy_20260107_2": [
+      "abc417_a"
+    ],
+    "adt_medium_20260106_3": [
+      "abc417_c"
+    ],
+    "adt_medium_20250925_3": [
+      "abc417_d"
+    ],
+    "adt_hard_20250924_2": [
+      "abc417_e"
+    ],
+    "adt_all_20260323_2": [
+      "abc417_f"
+    ],
     "abc417": [
-      "abc417_a",
-      "abc417_b",
-      "abc417_c",
-      "abc417_d",
-      "abc417_e",
-      "abc417_f",
       "abc417_g"
     ],
-    "abc418": [
-      "abc418_a",
-      "abc418_b",
-      "abc418_c",
-      "abc418_d",
+    "adt_easy_20251029_1": [
+      "abc418_a"
+    ],
+    "adt_easy_20250925_2": [
+      "abc418_b"
+    ],
+    "adt_medium_20251014_1": [
+      "abc418_d"
+    ],
+    "adt_all_20251118_3": [
       "abc418_e",
+      "abc427_d"
+    ],
+    "adt_all_20260518_1": [
       "abc418_f",
+      "abc450_e"
+    ],
+    "abc418": [
       "abc418_g"
     ],
-    "abc419": [
-      "abc419_a",
-      "abc419_b",
-      "abc419_c",
-      "abc419_d",
-      "abc419_e",
+    "adt_easy_20251023_1": [
+      "abc419_a"
+    ],
+    "adt_easy_20251023_3": [
+      "abc419_b"
+    ],
+    "adt_all_20250925_1": [
+      "abc419_c"
+    ],
+    "adt_hard_20251204_1": [
+      "abc419_d"
+    ],
+    "adt_hard_20251230_2": [
+      "abc419_e"
+    ],
+    "adt_all_20260306_2": [
       "abc419_f",
+      "abc420_c"
+    ],
+    "abc419": [
       "abc419_g"
     ],
+    "adt_easy_20251104_1": [
+      "abc420_a"
+    ],
+    "adt_easy_20251007_2": [
+      "abc420_b"
+    ],
+    "adt_all_20251125_3": [
+      "abc420_d"
+    ],
+    "adt_all_20260320_2": [
+      "abc420_f"
+    ],
     "abc420": [
-      "abc420_a",
-      "abc420_b",
-      "abc420_c",
-      "abc420_d",
-      "abc420_e",
-      "abc420_f",
       "abc420_g"
     ],
-    "abc421": [
+    "adt_easy_20251104_2": [
       "abc421_a",
-      "abc421_b",
-      "abc421_c",
-      "abc421_d",
-      "abc421_e",
-      "abc421_f",
+      "abc425_a"
+    ],
+    "adt_medium_20251007_3": [
+      "abc421_b"
+    ],
+    "adt_hard_20251008_3": [
+      "abc421_d"
+    ],
+    "adt_hard_20260120_2": [
+      "abc421_e"
+    ],
+    "adt_all_20260309_1": [
+      "abc421_f"
+    ],
+    "abc421": [
       "abc421_g"
     ],
+    "adt_easy_20251030_1": [
+      "abc422_a"
+    ],
+    "adt_medium_20251015_2": [
+      "abc422_b"
+    ],
+    "adt_all_20251021_3": [
+      "abc422_c"
+    ],
+    "adt_all_20260409_2": [
+      "abc422_d"
+    ],
+    "adt_all_20260323_1": [
+      "abc422_e"
+    ],
+    "adt_all_20260522_2": [
+      "abc422_f"
+    ],
     "jsc2025advance-final": [
-      "abc422_a",
-      "abc422_b",
-      "abc422_c",
-      "abc422_d",
-      "abc422_e",
-      "abc422_f",
       "abc422_g"
     ],
+    "adt_easy_20260121_2": [
+      "abc423_a"
+    ],
+    "adt_medium_20251119_2": [
+      "abc423_b"
+    ],
+    "adt_all_20260108_1": [
+      "abc423_c"
+    ],
+    "adt_all_20260203_1": [
+      "abc423_d"
+    ],
     "abc423": [
-      "abc423_a",
-      "abc423_b",
-      "abc423_c",
-      "abc423_d",
       "abc423_e",
-      "abc423_f",
       "abc423_g"
     ],
-    "abc424": [
-      "abc424_a",
-      "abc424_b",
-      "abc424_c",
+    "adt_all_20260605_1": [
+      "abc423_f",
+      "abc436_d"
+    ],
+    "adt_easy_20251211_1": [
+      "abc424_a"
+    ],
+    "adt_easy_20251126_1": [
+      "abc424_b"
+    ],
+    "adt_easy_20251030_3": [
+      "abc424_c"
+    ],
+    "adt_all_20260224_1": [
       "abc424_d",
-      "abc424_e",
-      "abc424_f",
+      "abc440_b"
+    ],
+    "adt_all_20260218_1": [
+      "abc424_e"
+    ],
+    "adt_all_20260304_2": [
+      "abc424_f"
+    ],
+    "abc424": [
       "abc424_g"
     ],
-    "abc425": [
-      "abc425_a",
-      "abc425_b",
+    "adt_easy_20260319_2": [
+      "abc425_b"
+    ],
+    "adt_all_20260514_1": [
       "abc425_c",
-      "abc425_d",
-      "abc425_e",
+      "abc433_f",
+      "abc445_b"
+    ],
+    "adt_medium_20251202_2": [
+      "abc425_d"
+    ],
+    "adt_all_20260220_1": [
+      "abc425_e"
+    ],
+    "abc425": [
       "abc425_f",
       "abc425_g"
     ],
+    "adt_easy_20251112_1": [
+      "abc426_a"
+    ],
+    "adt_easy_20260127_1": [
+      "abc426_b"
+    ],
+    "adt_hard_20260122_2": [
+      "abc426_c"
+    ],
+    "adt_all_20251211_3": [
+      "abc426_d"
+    ],
+    "adt_hard_20251210_1": [
+      "abc426_e"
+    ],
+    "adt_hard_20260114_2": [
+      "abc426_f"
+    ],
     "abc426": [
-      "abc426_a",
-      "abc426_b",
-      "abc426_c",
-      "abc426_d",
-      "abc426_e",
-      "abc426_f",
       "abc426_g"
     ],
+    "adt_all_20260423_1": [
+      "abc427_a"
+    ],
+    "adt_easy_20260101_2": [
+      "abc427_b"
+    ],
+    "adt_easy_20251120_3": [
+      "abc427_c"
+    ],
     "abc427": [
-      "abc427_a",
-      "abc427_b",
-      "abc427_c",
-      "abc427_d",
       "abc427_e",
       "abc427_f",
       "abc427_g"
     ],
-    "abc428": [
-      "abc428_a",
-      "abc428_b",
+    "adt_easy_20251217_1": [
+      "abc428_a"
+    ],
+    "adt_medium_20260107_3": [
+      "abc428_b"
+    ],
+    "adt_all_20260313_1": [
       "abc428_c",
+      "abc439_f"
+    ],
+    "abc428": [
       "abc428_d",
-      "abc428_e",
-      "abc428_f",
       "abc428_g"
     ],
-    "abc429": [
-      "abc429_a",
-      "abc429_b",
-      "abc429_c",
-      "abc429_d",
+    "adt_all_20260603_2": [
+      "abc428_e"
+    ],
+    "adt_all_20260311_1": [
+      "abc428_f"
+    ],
+    "adt_easy_20251211_2": [
+      "abc429_a"
+    ],
+    "adt_medium_20251210_2": [
+      "abc429_b"
+    ],
+    "adt_all_20260128_1": [
+      "abc429_d"
+    ],
+    "adt_all_20251224_1": [
       "abc429_e",
-      "abc429_f",
+      "abc430_f"
+    ],
+    "adt_all_20260527_1": [
+      "abc429_f"
+    ],
+    "abc429": [
       "abc429_g"
     ],
-    "abc430": [
+    "adt_easy_20251231_2": [
       "abc430_a",
-      "abc430_b",
-      "abc430_c",
-      "abc430_d",
-      "abc430_e",
-      "abc430_f",
+      "abc433_b"
+    ],
+    "adt_easy_20251231_1": [
+      "abc430_b"
+    ],
+    "adt_hard_20260129_2": [
+      "abc430_c"
+    ],
+    "adt_hard_20260107_2": [
+      "abc430_d"
+    ],
+    "adt_hard_20260108_3": [
+      "abc430_e"
+    ],
+    "abc430": [
       "abc430_g"
     ],
+    "adt_easy_20251218_2": [
+      "abc431_a"
+    ],
+    "adt_medium_20260120_3": [
+      "abc431_b"
+    ],
+    "adt_all_20260611_1": [
+      "abc431_d"
+    ],
+    "adt_hard_20251217_2": [
+      "abc431_e"
+    ],
+    "adt_all_20260316_2": [
+      "abc431_f"
+    ],
     "abc431": [
-      "abc431_a",
-      "abc431_b",
-      "abc431_c",
-      "abc431_d",
-      "abc431_e",
-      "abc431_f",
       "abc431_g"
     ],
-    "abc432": [
-      "abc432_a",
-      "abc432_b",
+    "adt_easy_20260107_3": [
+      "abc432_a"
+    ],
+    "adt_easy_20251224_1": [
+      "abc432_b"
+    ],
+    "adt_all_20260429_2": [
       "abc432_c",
+      "abc437_d"
+    ],
+    "abc432": [
       "abc432_d",
-      "abc432_e",
       "abc432_f",
       "abc432_g"
     ],
+    "adt_all_20260504_2": [
+      "abc432_e",
+      "abc450_c",
+      "abc452_a"
+    ],
+    "adt_all_20260212_2": [
+      "abc433_a"
+    ],
+    "adt_all_20260106_1": [
+      "abc433_c"
+    ],
+    "adt_medium_20260115_3": [
+      "abc433_d"
+    ],
+    "adt_hard_20260129_3": [
+      "abc433_e"
+    ],
     "abc433": [
-      "abc433_a",
-      "abc433_b",
-      "abc433_c",
-      "abc433_d",
-      "abc433_e",
-      "abc433_f",
       "abc433_g"
     ],
-    "abc434": [
-      "abc434_a",
-      "abc434_b",
-      "abc434_c",
+    "adt_easy_20260427_1": [
+      "abc434_a"
+    ],
+    "adt_easy_20260128_2": [
+      "abc434_b"
+    ],
+    "adt_all_20260210_1": [
+      "abc434_c"
+    ],
+    "adt_all_20260406_2": [
       "abc434_d",
+      "abc444_f"
+    ],
+    "abc434": [
       "abc434_e",
-      "abc434_f",
       "abc434_g"
     ],
-    "abc435": [
-      "abc435_a",
-      "abc435_b",
+    "adt_all_20260310_2": [
+      "abc434_f"
+    ],
+    "adt_easy_20260113_3": [
+      "abc435_a"
+    ],
+    "adt_easy_20260211_2": [
+      "abc435_b"
+    ],
+    "adt_easy_20260121_1": [
       "abc435_c",
-      "abc435_d",
-      "abc435_e",
-      "abc435_f",
+      "abc436_a"
+    ],
+    "adt_all_20260424_1": [
+      "abc435_d"
+    ],
+    "adt_all_20260601_1": [
+      "abc435_e"
+    ],
+    "adt_all_20260227_1": [
+      "abc435_f"
+    ],
+    "abc435": [
       "abc435_g"
     ],
+    "adt_easy_20260311_1": [
+      "abc436_b"
+    ],
     "abc436": [
-      "abc436_a",
-      "abc436_b",
       "abc436_c",
-      "abc436_d",
-      "abc436_e",
-      "abc436_f",
       "abc436_g"
     ],
-    "abc437": [
-      "abc437_a",
+    "adt_all_20260604_2": [
+      "abc436_e",
+      "abc456_c"
+    ],
+    "adt_hard_20260122_3": [
+      "abc436_f"
+    ],
+    "adt_easy_20260209_1": [
+      "abc437_a"
+    ],
+    "adt_easy_20260306_1": [
       "abc437_b",
-      "abc437_c",
-      "abc437_d",
+      "abc442_c"
+    ],
+    "adt_all_20260331_1": [
+      "abc437_c"
+    ],
+    "abc437": [
       "abc437_e",
-      "abc437_f",
       "abc437_g"
     ],
+    "adt_all_20260319_2": [
+      "abc437_f"
+    ],
+    "adt_easy_20260225_1": [
+      "abc438_a"
+    ],
+    "adt_medium_20260205_3": [
+      "abc438_b"
+    ],
     "abc438": [
-      "abc438_a",
-      "abc438_b",
-      "abc438_c",
       "abc438_d",
-      "abc438_e",
       "abc438_f",
       "abc438_g"
     ],
+    "adt_hard_20260205_2": [
+      "abc438_e"
+    ],
+    "adt_easy_20260210_2": [
+      "abc439_a"
+    ],
+    "adt_easy_20260212_1": [
+      "abc439_b"
+    ],
+    "adt_all_20260304_1": [
+      "abc439_c"
+    ],
+    "adt_all_20260430_2": [
+      "abc439_d"
+    ],
     "abc439": [
-      "abc439_a",
-      "abc439_b",
-      "abc439_c",
-      "abc439_d",
       "abc439_e",
-      "abc439_f",
       "abc439_g"
     ],
+    "adt_easy_20260323_2": [
+      "abc440_a"
+    ],
     "abc440": [
-      "abc440_a",
-      "abc440_b",
       "abc440_c",
       "abc440_d",
       "abc440_e",
-      "abc440_f",
       "abc440_g"
+    ],
+    "adt_all_20260317_2": [
+      "abc440_f"
     ],
     "abc441": [
       "abc441_a",
-      "abc441_b",
-      "abc441_c",
-      "abc441_d",
-      "abc441_e",
       "abc441_f",
       "abc441_g"
     ],
+    "adt_easy_20260227_2": [
+      "abc441_b"
+    ],
+    "adt_all_20260417_2": [
+      "abc441_d"
+    ],
+    "adt_all_20260408_2": [
+      "abc441_e",
+      "abc447_c"
+    ],
     "abc442": [
       "abc442_a",
-      "abc442_b",
-      "abc442_c",
-      "abc442_d",
-      "abc442_e",
       "abc442_f",
       "abc442_g"
     ],
-    "abc443": [
+    "adt_easy_20260414_2": [
+      "abc442_b"
+    ],
+    "adt_all_20260226_1": [
+      "abc442_d"
+    ],
+    "adt_all_20260604_1": [
+      "abc442_e"
+    ],
+    "adt_easy_20260421_1": [
       "abc443_a",
+      "abc446_c"
+    ],
+    "adt_easy_20260528_1": [
       "abc443_b",
+      "abc452_c"
+    ],
+    "abc443": [
       "abc443_c",
       "abc443_d",
       "abc443_e",
       "abc443_f",
       "abc443_g"
     ],
+    "adt_easy_20260508_1": [
+      "abc444_a"
+    ],
+    "adt_all_20260416_2": [
+      "abc444_b"
+    ],
     "abc444": [
-      "abc444_a",
-      "abc444_b",
       "abc444_c",
       "abc444_d",
-      "abc444_e",
-      "abc444_f",
       "abc444_g"
     ],
+    "adt_all_20260528_2": [
+      "abc444_e",
+      "abc449_b"
+    ],
+    "adt_easy_20260611_2": [
+      "abc445_a"
+    ],
+    "adt_all_20260330_1": [
+      "abc445_c"
+    ],
+    "adt_all_20260325_2": [
+      "abc445_d"
+    ],
     "abc445": [
-      "abc445_a",
-      "abc445_b",
-      "abc445_c",
-      "abc445_d",
       "abc445_e",
       "abc445_f",
       "abc445_g"
     ],
+    "adt_all_20260506_1": [
+      "abc446_a"
+    ],
+    "adt_easy_20260501_2": [
+      "abc446_b"
+    ],
+    "adt_all_20260602_2": [
+      "abc446_d"
+    ],
     "abc446": [
-      "abc446_a",
-      "abc446_b",
-      "abc446_c",
-      "abc446_d",
       "abc446_e",
-      "abc446_f",
       "abc446_g"
+    ],
+    "adt_all_20260515_2": [
+      "abc446_f",
+      "abc453_b"
     ],
     "abc447": [
       "abc447_a",
       "abc447_b",
-      "abc447_c",
       "abc447_d",
       "abc447_e",
       "abc447_f",
       "abc447_g"
     ],
-    "abc448": [
+    "adt_easy_20260514_2": [
       "abc448_a",
-      "abc448_b",
+      "abc451_a"
+    ],
+    "adt_easy_20260407_2": [
+      "abc448_b"
+    ],
+    "abc448": [
       "abc448_c",
-      "abc448_d",
       "abc448_e",
       "abc448_f",
       "abc448_g"
     ],
+    "adt_all_20260414_1": [
+      "abc448_d"
+    ],
+    "adt_easy_20260507_1": [
+      "abc449_a"
+    ],
     "abc449": [
-      "abc449_a",
-      "abc449_b",
-      "abc449_c",
       "abc449_d",
-      "abc449_e",
       "abc449_f",
       "abc449_g"
+    ],
+    "adt_all_20260529_1": [
+      "abc449_e"
     ],
     "abc450": [
       "abc450_a",
       "abc450_b",
-      "abc450_c",
       "abc450_d",
-      "abc450_e",
       "abc450_f",
       "abc450_g"
     ],
     "abc451": [
-      "abc451_a",
       "abc451_b",
       "abc451_c",
-      "abc451_d",
-      "abc451_e",
-      "abc451_f",
       "abc451_g"
     ],
+    "adt_all_20260429_1": [
+      "abc451_d"
+    ],
+    "adt_all_20260520_2": [
+      "abc451_e"
+    ],
+    "adt_all_20260528_1": [
+      "abc451_f"
+    ],
     "abc452": [
-      "abc452_a",
       "abc452_b",
-      "abc452_c",
       "abc452_d",
       "abc452_e",
       "abc452_f",
@@ -3707,35 +5425,41 @@
     ],
     "abc453": [
       "abc453_a",
-      "abc453_b",
-      "abc453_c",
       "abc453_d",
       "abc453_e",
       "abc453_f",
       "abc453_g"
     ],
+    "adt_easy_20260529_2": [
+      "abc453_c"
+    ],
     "abc454": [
       "abc454_a",
-      "abc454_b",
       "abc454_c",
       "abc454_d",
-      "abc454_e",
       "abc454_f",
       "abc454_g"
+    ],
+    "adt_easy_20260518_1": [
+      "abc454_b"
+    ],
+    "adt_all_20260527_2": [
+      "abc454_e"
     ],
     "abc455": [
       "abc455_a",
       "abc455_b",
       "abc455_c",
       "abc455_d",
-      "abc455_e",
       "abc455_f",
       "abc455_g"
+    ],
+    "adt_all_20260612_1": [
+      "abc455_e"
     ],
     "abc456": [
       "abc456_a",
       "abc456_b",
-      "abc456_c",
       "abc456_d",
       "abc456_e",
       "abc456_f",
