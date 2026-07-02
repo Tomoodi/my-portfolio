@@ -1,97 +1,97 @@
 {
   "ac_list": [
-    "abc441_b",
-    "abc454_a",
-    "abc453_b",
-    "APG4b_cq",
-    "APG4b_cu",
-    "APG4b_ce",
-    "abc081_a",
-    "abc450_a",
-    "abc439_b",
-    "abc433_a",
-    "abc428_a",
-    "abc427_a",
-    "abc453_a",
-    "abc425_a",
-    "abc449_b",
-    "abc451_a",
-    "abc442_c",
-    "abc444_b",
-    "abc437_a",
-    "APG4b_cf",
-    "abc424_a",
-    "abc452_b",
-    "abc421_a",
-    "abc420_a",
-    "abc461_a",
-    "abc083_b",
-    "abc441_a",
     "abc459_a",
-    "abc459_b",
-    "APG4b_cr",
-    "abc435_c",
-    "practice_1",
-    "APG4b_cl",
-    "APG4b_cv",
-    "abc446_a",
-    "abc420_c",
-    "abc455_a",
     "abc456_a",
-    "abc452_a",
-    "abc450_b",
-    "abc447_a",
-    "abc443_b",
-    "abc457_b",
-    "abc431_a",
-    "abc429_a",
-    "APG4b_ch",
-    "abc439_a",
-    "APG4b_ci",
-    "abc423_a",
-    "abc448_a",
-    "APG4b_cn",
-    "abc081_b",
-    "abc442_b",
-    "abc463_b",
-    "abc444_a",
-    "abc432_a",
-    "abc438_a",
-    "APG4b_cj",
-    "abc443_a",
-    "abc449_a",
-    "APG4b_co",
-    "abc448_b",
-    "abc426_a",
-    "abc460_a",
-    "abc445_a",
-    "APG4b_cm",
-    "abc446_b",
-    "APG4b_ck",
     "abc442_a",
-    "abc463_a",
-    "abc436_a",
-    "abc461_b",
-    "abc443_c",
-    "abc445_b",
-    "abc464_a",
-    "abc087_b",
-    "APG4b_a",
-    "abc430_a",
-    "APG4b_cp",
-    "APG4b_cg",
-    "abc435_a",
-    "abc434_a",
-    "abc440_b",
-    "abc440_a",
-    "abc086_a",
-    "abc457_a",
-    "APG4b_ct",
     "abc458_a",
-    "abc458_b",
+    "abc435_c",
+    "abc460_a",
+    "abc451_b",
+    "abc454_a",
+    "abc449_b",
+    "APG4b_cg",
+    "abc455_a",
+    "abc433_a",
+    "abc444_a",
+    "abc428_a",
+    "APG4b_cm",
     "APG4b_cs",
+    "APG4b_cf",
+    "abc453_b",
+    "abc421_a",
+    "APG4b_cu",
+    "APG4b_ct",
+    "practice_1",
+    "APG4b_cj",
+    "abc464_a",
+    "abc430_a",
+    "abc439_a",
+    "abc443_a",
+    "abc426_a",
+    "abc429_a",
+    "abc438_a",
+    "APG4b_cq",
+    "abc424_a",
+    "abc440_b",
+    "abc448_b",
+    "abc431_a",
+    "abc448_a",
+    "abc425_a",
+    "abc453_a",
+    "abc447_a",
+    "abc081_b",
+    "abc446_a",
+    "APG4b_a",
+    "abc451_a",
+    "abc443_c",
+    "APG4b_ch",
+    "abc445_a",
+    "abc420_a",
+    "APG4b_ce",
+    "abc450_a",
+    "abc459_b",
+    "APG4b_cn",
+    "abc437_a",
+    "abc083_b",
+    "abc461_b",
+    "APG4b_cv",
+    "abc457_a",
+    "abc444_b",
+    "abc450_b",
+    "abc423_a",
+    "abc458_b",
+    "abc463_b",
+    "abc452_a",
+    "APG4b_co",
+    "abc452_b",
+    "abc427_a",
+    "abc420_c",
+    "abc436_a",
+    "abc432_a",
+    "abc445_b",
+    "abc442_c",
+    "APG4b_ck",
+    "abc081_a",
+    "abc440_a",
+    "abc457_b",
+    "APG4b_cl",
+    "abc086_a",
+    "abc087_b",
+    "abc449_a",
+    "abc434_a",
+    "abc441_a",
+    "abc441_b",
+    "abc435_a",
+    "abc442_b",
+    "abc446_b",
+    "APG4b_cr",
+    "abc461_a",
     "abc447_b",
-    "abc451_b"
+    "abc439_b",
+    "APG4b_cp",
+    "APG4b_ci",
+    "abc443_b",
+    "abc463_a"
   ],
   "contests": {
     "abc001": [
@@ -1813,11 +1813,12 @@
       "abc284_d",
       "abc286_b"
     ],
-    "adt_easy_20231220_1": [
+    "adt_easy_20260702_1": [
       "abc221_c",
-      "abc278_b",
-      "abc308_a",
-      "abc312_a"
+      "abc264_a",
+      "abc271_a",
+      "abc405_b",
+      "abc445_b"
     ],
     "adt_medium_20240104_2": [
       "abc221_d",
@@ -1981,8 +1982,11 @@
       "abc230_f",
       "abc309_a"
     ],
-    "adt_hard_20240117_1": [
-      "abc226_f"
+    "adt_all_20260702_1": [
+      "abc226_f",
+      "abc314_c",
+      "abc419_e",
+      "abc426_d"
     ],
     "abc226": [
       "abc226_g",
@@ -2005,8 +2009,7 @@
       "abc227_c",
       "abc232_b",
       "abc290_b",
-      "abc295_d",
-      "abc314_c"
+      "abc295_d"
     ],
     "adt_hard_20240326_2": [
       "abc227_d",
@@ -2673,10 +2676,6 @@
       "abc263_g",
       "abc263_h"
     ],
-    "adt_easy_20240213_1": [
-      "abc264_a",
-      "abc335_c"
-    ],
     "adt_easy_20240201_2": [
       "abc264_b",
       "abc323_a"
@@ -2777,14 +2776,13 @@
       "abc270_g",
       "abc270_h"
     ],
+    "adt_medium_20240620_3": [
+      "abc271_d"
+    ],
     "adt_all_20231128_2": [
-      "abc271_a",
       "abc271_f",
       "abc296_e",
       "abc298_a"
-    ],
-    "adt_medium_20240620_3": [
-      "abc271_d"
     ],
     "abc271": [
       "abc271_g",
@@ -2860,6 +2858,11 @@
     "abc277": [
       "abc277_g",
       "abc277_h"
+    ],
+    "adt_easy_20231220_1": [
+      "abc278_b",
+      "abc308_a",
+      "abc312_a"
     ],
     "adt_all_20231129_1": [
       "abc278_e",
@@ -3432,6 +3435,9 @@
     ],
     "adt_easy_20240327_1": [
       "abc335_a"
+    ],
+    "adt_easy_20240213_1": [
+      "abc335_c"
     ],
     "adt_hard_20240402_2": [
       "abc335_e"
@@ -4630,9 +4636,6 @@
     "adt_easy_20250923_2": [
       "abc405_a"
     ],
-    "adt_easy_20250708_1": [
-      "abc405_b"
-    ],
     "adt_all_20250911_1": [
       "abc405_d"
     ],
@@ -4856,9 +4859,6 @@
     "adt_hard_20251204_1": [
       "abc419_d"
     ],
-    "adt_hard_20251230_2": [
-      "abc419_e"
-    ],
     "adt_all_20260306_2": [
       "abc419_f"
     ],
@@ -4951,8 +4951,7 @@
     ],
     "adt_all_20260514_1": [
       "abc425_c",
-      "abc433_f",
-      "abc445_b"
+      "abc433_f"
     ],
     "adt_medium_20251202_2": [
       "abc425_d"
@@ -4966,9 +4965,6 @@
     ],
     "adt_easy_20251112_1": [
       "abc426_a"
-    ],
-    "adt_all_20251211_3": [
-      "abc426_d"
     ],
     "adt_hard_20251210_1": [
       "abc426_e"
