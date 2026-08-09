@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeLikeCount();
     initializeSectionCloseButtons();
     initializeGirlWindow();
-    initializeHamburgerMenu();
 });
 
 // ログインボタンを押した時の処理
@@ -56,33 +55,6 @@ function initializeSectionCloseButtons() {
     });
 }
 
-function initializeHamburgerMenu() {
-    const menuButton = document.getElementById('hamburgerBtn');
-    const menu = document.getElementById('hamburgerMenu');
-    if (!menuButton || !menu) return;
-
-    const closeMenu = () => {
-        menu.classList.remove('is-open');
-        menuButton.classList.remove('is-open');
-        menuButton.setAttribute('aria-expanded', 'false');
-    };
-
-    menuButton.addEventListener('click', () => {
-        const isOpen = menu.classList.toggle('is-open');
-        menuButton.classList.toggle('is-open', isOpen);
-        menuButton.setAttribute('aria-expanded', String(isOpen));
-    });
-
-    menu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', closeMenu);
-    });
-
-    document.addEventListener('click', (event) => {
-        if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-            closeMenu();
-        }
-    });
-}
 
 /*女の子*/
 let girlWindowTimerId = null;

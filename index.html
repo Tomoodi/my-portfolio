@@ -12,28 +12,6 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <nav class="monitor-nav" id="siteMenu" aria-label="サイトメニュー">
-        <button
-            type="button"
-            class="hamburger-btn"
-            id="hamburgerBtn"
-            aria-expanded="false"
-            aria-controls="hamburgerMenu"
-            aria-label="メニューを開く"
-        >
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="hamburger-menu" id="hamburgerMenu">
-            <ul>
-                <li><a href="#about">自己紹介</a></li>
-                <li><a href="#skills">スキル</a></li>
-                <li><a href="#works">作ったもの</a></li>
-                <li><a href="#AtCoder">AtCoder</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <div class="monitor-frame">
     <div class="monitor-screen" id="monitorScreen">
@@ -58,22 +36,45 @@
                     <span class="btn-text">LIKE!</span>
                 </div>
             </div>
+
             <h1 class="floating-title">
                 <span>T</span><span>o</span><span>m</span><span>o</span><span>y</span><span>o</span><span>'</span><span>s</span><span> </span>
                 <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
             </h1>
-            <section-girl id="girl">
-                <div class="window-header-girl"> girl <span class="close-btn close-btn-girl">×</span></div>
-                    <div class="window-content">
-                        <img src="smile.png" class="breathing-girl" alt="girl image">
-                    </div>
-            </section-girl>
+        </div>
+
+        <!-- ログイン後に表示（monitor-screen基準で絶対配置） -->
+        <section-girl id="girl">
+            <div class="window-header-girl"> girl <span class="close-btn close-btn-girl">×</span></div>
+                <div class="window-content">
+                    <img src="smile.png" class="breathing-girl" alt="girl image">
+                </div>
+        </section-girl>
+
+    
+        <div id="desktopIcons">
+            <div class="game-icon">
+                <img src="game.png">
+                <p>games</p>
+            </div>
+            <div class="desktop-icon">
+                <img src="profile.png">
+                <p>profile</p>
+                <img src="skills.png">
+                <p>skills</p>
+                <img src="works.png">
+                <p>works</p>
+                <img src="AtCoder.png">
+                <p>AtCoder</p>
+                <img src="contact.png">
+                <p>contact</p>
+            </div>
         </div>
     </div>
 </div>
 
     <section id="about">
-        <div class="window-header"> plofile <span class="close-btn">×</span></div>
+        <div class="window-header"> profile <span class="close-btn">×</span></div>
             <div class="window-content">
                 <h2>自己紹介</h2>
                 <p>川村朋世 / Tomoyo Kawamura</p>
