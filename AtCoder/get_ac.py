@@ -1,5 +1,6 @@
 import requests
 import json
+import re
 import time
 
 USER_ID = "ondindin" 
@@ -29,11 +30,14 @@ def update_data():
         res_prob.raise_for_status()
         all_probs = res_prob.json()
         
+        # contest_id は AtCoder 側の類題演習(adt_all_...)等に上書きされて
+        # 信用できないことがあるため、問題ID自体からコンテストIDを判定する
         abc_data = {}
         for p in all_probs:
             p_id = p['id']
-            if p_id.startswith('abc'):
-                contest_id = p['contest_id']
+            m = re.match(r'^(abc\d+)_[a-z0-9]+$', p_id)
+            if m:
+                contest_id = m.group(1)
                 if contest_id not in abc_data:
                     abc_data[contest_id] = []
                 abc_data[contest_id].append(p_id)
