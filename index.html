@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -53,21 +53,25 @@
 
     
         <div id="desktopIcons">
-            <div class="game-icon">
-                <img src="game.png">
-                <p>games</p>
-            </div>
-            <div class="desktop-icon">
+            <div class="desktop-icon" data-target="about">
                 <img src="profile.png">
                 <p>profile</p>
+            </div>
+            <div class="desktop-icon" data-target="skills">
                 <img src="skills.png">
                 <p>skills</p>
+            </div>
+            <div class="desktop-icon" data-target="works">
                 <img src="works.png">
                 <p>works</p>
+            </div>
+            <div class="desktop-icon" data-target="AtCoder">
                 <img src="AtCoder.png">
                 <p>AtCoder</p>
-                <img src="contact.png">
-                <p>contact</p>
+            </div>
+            <div class="desktop-icon" data-target="games">
+                <img src="game.png">
+                <p>games</p>
             </div>
         </div>
     </div>
@@ -122,12 +126,39 @@
             </div>
     </section>
 
-    <section id="contact">
+    <section id="games">
+        <div class="window-header"> games <span class="close-btn">×</span></div>
         <div class="window-content">
-            <h2>contact</h2>
-            <p>GitHub: <a href="https://github.com/tomoodi" target="_blank">自分のURL</a></p>
+            <div class="game-tabs">
+                <button class="game-tab is-active" type="button" data-game="memory">神経衰弱</button>
+                <button class="game-tab" type="button" data-game="shooting">シューティング</button>
+            </div>
+
+            <div class="game-panel is-active" data-game-panel="memory">
+                <h2>神経衰弱ゲーム</h2>
+                <p>カードをめくって同じ表情のペアを揃えよう！</p>
+                <div class="memory-game" id="memoryGame"></div>
+                <p>めくった回数: <span id="memoryMoves">0</span> / ペア: <span id="memoryPairs">0</span> / 6</p>
+                <button id="memoryResetBtn" class="memory-reset-btn" type="button">もう一度あそぶ</button>
+            </div>
+
+            <div class="game-panel" data-game-panel="shooting">
+                <h2>SPACE SHOOTER</h2>
+                <p>画面をクリックしてから Space でスタート！ 十字キー（WASD）で移動、X でボム。</p>
+                <div class="shooting-wrap">
+                    <iframe id="shootingFrame" class="shooting-frame" title="Space Shooter"
+                            data-src="shooting/index.html"></iframe>
+                </div>
+                <button id="shootingResetBtn" class="memory-reset-btn" type="button">ゲームをリセット</button>
+            </div>
         </div>
     </section>
+
+    <footer id="siteFooter">
+        <h2>contact</h2>
+        <p>GitHub: <a href="https://github.com/tomoodi" target="_blank" rel="noopener">自分のURL</a></p>
+        <p class="footer-copy">&copy; 2026 Tomoyo Kawamura</p>
+    </footer>
 
 </body>
 </html>
