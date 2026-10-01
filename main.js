@@ -375,7 +375,7 @@ function loadShootingGame() {
     if (!frame) return;
 
     // 読み込み完了（リセット時の再読み込みも含む）のたびにiframeへフォーカスを移す。
-    // フォーカスが親ページ側に残ったままだとWASDキーがゲームに届かず、
+    // フォーカスが親ページ側に残ったままだと矢印キーがゲームに届かず、
     // 「キー入力が急に効かなくなる」原因になるため。
     if (!frame.dataset.focusBound) {
         frame.addEventListener('load', () => frame.contentWindow && frame.contentWindow.focus());

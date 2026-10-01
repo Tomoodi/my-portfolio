@@ -219,7 +219,9 @@ const cutIn = {
 // keys オブジェクトに押されているキーを記録
 // =========================================
 const keys = {};
-const GAME_KEYS = ['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','KeyW','KeyA','KeyS','KeyD','Space','KeyX','KeyZ'];
+// WASDはノートPCキーボードで同時押しがゴースト（反応しなくなる）する端末があったため廃止。
+// 矢印キーのみに統一する。
+const GAME_KEYS = ['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space','KeyX','KeyZ'];
 
 document.addEventListener('keydown', e => {
   if (GAME_KEYS.includes(e.code)) e.preventDefault();  // ブラウザスクロール防止
@@ -245,7 +247,7 @@ document.addEventListener('keyup', e => { keys[e.code] = false; });
 
 // タブを切り替えた時や、ウィンドウ（iframe）のフォーカスが外れた時にキーをリセット
 // ポートフォリオにiframeで埋め込んでいるため、画面外クリックで"押しっぱなし"状態の
-// キーが残り、WASDが反応しなくなる不具合が起きていた。両方のタイミングでリセットする。
+// キーが残り、操作が反応しなくなる不具合が起きていた。両方のタイミングでリセットする。
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) Object.keys(keys).forEach(k => keys[k] = false);
 });
@@ -289,12 +291,12 @@ const player = {
 
   update() {
     // 左右移動
-    if (keys['ArrowLeft']  || keys['KeyA']) this.x -= this.speed;
-    if (keys['ArrowRight'] || keys['KeyD']) this.x += this.speed;
+    if (keys['ArrowLeft'])  this.x -= this.speed;
+    if (keys['ArrowRight']) this.x += this.speed;
 
     // 上下移動（画面下半分のみ）
-    if (keys['ArrowUp']   || keys['KeyW']) this.y -= this.speed;
-    if (keys['ArrowDown'] || keys['KeyS']) this.y += this.speed;
+    if (keys['ArrowUp'])   this.y -= this.speed;
+    if (keys['ArrowDown']) this.y += this.speed;
 
     // 移動範囲をクランプ
     this.x = Math.max(this.w / 2,     Math.min(W - this.w / 2,  this.x));
