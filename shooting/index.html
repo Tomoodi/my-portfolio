@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Shooter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <canvas id="gameCanvas" width="480" height="640"></canvas>
+    <div id="ui">
+      <span id="scoreDisplay">SCORE: 0</span>
+      <span id="levelDisplay">LV: 1</span>
+      <span id="bestDisplay">BEST: 0</span>
+      <span id="livesDisplay">♥ ♥ ♥</span>
+    </div>
+    <div id="powerupDisplay"></div>
+    <div id="overlay" class="hidden">
+      <h1 id="overlayTitle">SPACE SHOOTER</h1>
+      <p id="overlayMessage">Spaceキーまたはクリックでスタート</p>
+      <p id="overlayExplan">十字キーで操作</p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -12,28 +12,6 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <nav class="monitor-nav" id="siteMenu" aria-label="サイトメニュー">
-        <button
-            type="button"
-            class="hamburger-btn"
-            id="hamburgerBtn"
-            aria-expanded="false"
-            aria-controls="hamburgerMenu"
-            aria-label="メニューを開く"
-        >
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="hamburger-menu" id="hamburgerMenu">
-            <ul>
-                <li><a href="#about">自己紹介</a></li>
-                <li><a href="#skills">スキル</a></li>
-                <li><a href="#works">作ったもの</a></li>
-                <li><a href="#AtCoder">AtCoder</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <div class="monitor-frame">
     <div class="monitor-screen" id="monitorScreen">
@@ -58,22 +36,49 @@
                     <span class="btn-text">LIKE!</span>
                 </div>
             </div>
+
             <h1 class="floating-title">
                 <span>T</span><span>o</span><span>m</span><span>o</span><span>y</span><span>o</span><span>'</span><span>s</span><span> </span>
                 <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
             </h1>
-            <section-girl id="girl">
-                <div class="window-header-girl"> girl <span class="close-btn close-btn-girl">×</span></div>
-                    <div class="window-content">
-                        <img src="smile.png" class="breathing-girl" alt="girl image">
-                    </div>
-            </section-girl>
+        </div>
+
+        <!-- ログイン後に表示（monitor-screen基準で絶対配置） -->
+        <section-girl id="girl">
+            <div class="window-header-girl"> girl <span class="close-btn close-btn-girl">×</span></div>
+                <div class="window-content">
+                    <img src="smile.png" class="breathing-girl" alt="girl image">
+                </div>
+        </section-girl>
+
+    
+        <div id="desktopIcons">
+            <div class="desktop-icon" data-target="about">
+                <img src="profile.png">
+                <p>profile</p>
+            </div>
+            <div class="desktop-icon" data-target="skills">
+                <img src="skills.png">
+                <p>skills</p>
+            </div>
+            <div class="desktop-icon" data-target="works">
+                <img src="works.png">
+                <p>works</p>
+            </div>
+            <div class="desktop-icon" data-target="AtCoder">
+                <img src="AtCoder.png">
+                <p>AtCoder</p>
+            </div>
+            <div class="desktop-icon" data-target="games">
+                <img src="game.png">
+                <p>games</p>
+            </div>
         </div>
     </div>
 </div>
 
     <section id="about">
-        <div class="window-header"> plofile <span class="close-btn">×</span></div>
+        <div class="window-header"> profile <span class="close-btn">×</span></div>
             <div class="window-content">
                 <h2>自己紹介</h2>
                 <p>川村朋世 / Tomoyo Kawamura</p>
@@ -121,12 +126,39 @@
             </div>
     </section>
 
-    <section id="contact">
+    <section id="games">
+        <div class="window-header"> games <span class="close-btn">×</span></div>
         <div class="window-content">
-            <h2>contact</h2>
-            <p>GitHub: <a href="https://github.com/tomoodi" target="_blank">自分のURL</a></p>
+            <div class="game-tabs">
+                <button class="game-tab is-active" type="button" data-game="memory">神経衰弱</button>
+                <button class="game-tab" type="button" data-game="shooting">シューティング</button>
+            </div>
+
+            <div class="game-panel is-active" data-game-panel="memory">
+                <h2>神経衰弱ゲーム</h2>
+                <p>カードをめくって同じ表情のペアを揃えよう！</p>
+                <div class="memory-game" id="memoryGame"></div>
+                <p>めくった回数: <span id="memoryMoves">0</span> / ペア: <span id="memoryPairs">0</span> / 6</p>
+                <button id="memoryResetBtn" class="memory-reset-btn" type="button">もう一度あそぶ</button>
+            </div>
+
+            <div class="game-panel" data-game-panel="shooting">
+                <h2>SPACE SHOOTER</h2>
+                <p>画面をクリックしてから Space でスタート！ 十字キー（WASD）で移動、X でボム。</p>
+                <div class="shooting-wrap">
+                    <iframe id="shootingFrame" class="shooting-frame" title="Space Shooter"
+                            data-src="shooting/index.html"></iframe>
+                </div>
+                <button id="shootingResetBtn" class="memory-reset-btn" type="button">ゲームをリセット</button>
+            </div>
         </div>
     </section>
+
+    <footer id="siteFooter">
+        <h2>contact</h2>
+        <p>GitHub: <a href="https://github.com/tomoodi" target="_blank" rel="noopener">自分のURL</a></p>
+        <p class="footer-copy">&copy; 2026 Tomoyo Kawamura</p>
+    </footer>
 
 </body>
 </html>

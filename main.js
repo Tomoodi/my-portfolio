@@ -1,4 +1,4 @@
-﻿// 画面が読み込まれた時の処理
+// 画面が読み込まれた時の処理
 document.addEventListener('DOMContentLoaded', () => {
     console.warn("The system is crying. Please update love.exe");
 
@@ -18,8 +18,24 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeLikeCount();
     initializeSectionCloseButtons();
     initializeGirlWindow();
-    initializeHamburgerMenu();
+    initializeDesktopIcons();
+    initializeMemoryGame();
+    initializeGameTabs();
 });
+
+/* デスクトップアイコン */
+function initializeDesktopIcons() {
+    document.querySelectorAll('.desktop-icon').forEach(icon => {
+        icon.addEventListener('click', () => {
+            const targetId = icon.dataset.target;
+            const targetSection = document.getElementById(targetId);
+            if (!targetSection) return;
+
+            targetSection.style.display = 'block';
+            targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+    });
+}
 
 // ログインボタンを押した時の処理
 function login() {
@@ -56,33 +72,6 @@ function initializeSectionCloseButtons() {
     });
 }
 
-function initializeHamburgerMenu() {
-    const menuButton = document.getElementById('hamburgerBtn');
-    const menu = document.getElementById('hamburgerMenu');
-    if (!menuButton || !menu) return;
-
-    const closeMenu = () => {
-        menu.classList.remove('is-open');
-        menuButton.classList.remove('is-open');
-        menuButton.setAttribute('aria-expanded', 'false');
-    };
-
-    menuButton.addEventListener('click', () => {
-        const isOpen = menu.classList.toggle('is-open');
-        menuButton.classList.toggle('is-open', isOpen);
-        menuButton.setAttribute('aria-expanded', String(isOpen));
-    });
-
-    menu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', closeMenu);
-    });
-
-    document.addEventListener('click', (event) => {
-        if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-            closeMenu();
-        }
-    });
-}
 
 /*女の子*/
 let girlWindowTimerId = null;
@@ -250,6 +239,150 @@ function changegirlImagesc() {
 
     // 3. 画像のソースを書き換える
     girlImgcElement.src = newSrc;
+}
+
+/* 神経衰弱ゲーム */
+const memoryImages = ['smile.png', 'sad.png', 'love.png', 'kiss.png', 'angry.png', 'surprise.png'];
+let memoryFirstCard = null;
+let memorySecondCard = null;
+let memoryLock = false;
+let memoryMoves = 0;
+let memoryPairs = 0;
+
+function shuffleMemoryDeck(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function initializeMemoryGame() {
+    const board = document.getElementById('memoryGame');
+    if (!board) return;
+
+    const deck = shuffleMemoryDeck([...memoryImages, ...memoryImages]);
+    board.innerHTML = '';
+    memoryFirstCard = null;
+    memorySecondCard = null;
+    memoryLock = false;
+    memoryMoves = 0;
+    memoryPairs = 0;
+    updateMemoryStatus();
+
+    deck.forEach(src => {
+        const card = document.createElement('div');
+        card.className = 'memory-card';
+        card.dataset.image = src;
+        card.innerHTML = `
+            <div class="memory-card-inner">
+                <div class="memory-card-back">?</div>
+                <div class="memory-card-front"><img src="${src}" alt="card"></div>
+            </div>
+        `;
+        card.addEventListener('click', () => flipMemoryCard(card));
+        board.appendChild(card);
+    });
+
+    const resetBtn = document.getElementById('memoryResetBtn');
+    if (resetBtn && !resetBtn.dataset.bound) {
+        resetBtn.addEventListener('click', initializeMemoryGame);
+        resetBtn.dataset.bound = 'true';
+    }
+}
+
+function flipMemoryCard(card) {
+    if (memoryLock || card.classList.contains('flipped') || card.classList.contains('matched')) return;
+
+    card.classList.add('flipped');
+
+    if (!memoryFirstCard) {
+        memoryFirstCard = card;
+        return;
+    }
+
+    memorySecondCard = card;
+    memoryLock = true;
+    memoryMoves++;
+    updateMemoryStatus();
+
+    if (memoryFirstCard.dataset.image === memorySecondCard.dataset.image) {
+        memoryFirstCard.classList.add('matched');
+        memorySecondCard.classList.add('matched');
+        memoryPairs++;
+        updateMemoryStatus();
+        resetMemoryTurn();
+
+        if (memoryPairs === memoryImages.length) {
+            setTimeout(() => alert('クリア！おめでとう！'), 300);
+        }
+    } else {
+        setTimeout(() => {
+            memoryFirstCard.classList.remove('flipped');
+            memorySecondCard.classList.remove('flipped');
+            resetMemoryTurn();
+        }, 800);
+    }
+}
+
+function resetMemoryTurn() {
+    memoryFirstCard = null;
+    memorySecondCard = null;
+    memoryLock = false;
+}
+
+function updateMemoryStatus() {
+    const movesDisplay = document.getElementById('memoryMoves');
+    const pairsDisplay = document.getElementById('memoryPairs');
+    if (movesDisplay) movesDisplay.innerText = memoryMoves;
+    if (pairsDisplay) pairsDisplay.innerText = memoryPairs;
+}
+
+/* ゲームのタブ切り替え（神経衰弱 / シューティング） */
+function initializeGameTabs() {
+    const tabs = document.querySelectorAll('.game-tab');
+    const panels = document.querySelectorAll('.game-panel');
+    if (!tabs.length) return;
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const name = tab.dataset.game;
+
+            tabs.forEach(t => t.classList.toggle('is-active', t === tab));
+            panels.forEach(panel => {
+                panel.classList.toggle('is-active', panel.dataset.gamePanel === name);
+            });
+
+            // シューティングは開かれた時に初めて読み込む（裏で動かし続けないため）
+            if (name === 'shooting') loadShootingGame();
+        });
+    });
+
+    const resetBtn = document.getElementById('shootingResetBtn');
+    if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+            const frame = document.getElementById('shootingFrame');
+            if (!frame || !frame.src) return;
+            // iframe を読み直してタイトル画面に戻す
+            frame.src = frame.src;
+        });
+    }
+}
+
+function loadShootingGame() {
+    const frame = document.getElementById('shootingFrame');
+    if (!frame) return;
+
+    // 読み込み完了（リセット時の再読み込みも含む）のたびにiframeへフォーカスを移す。
+    // フォーカスが親ページ側に残ったままだとWASDキーがゲームに届かず、
+    // 「キー入力が急に効かなくなる」原因になるため。
+    if (!frame.dataset.focusBound) {
+        frame.addEventListener('load', () => frame.contentWindow && frame.contentWindow.focus());
+        frame.dataset.focusBound = 'true';
+    }
+
+    if (!frame.src) frame.src = frame.dataset.src;
 }
 
 
