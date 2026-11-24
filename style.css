@@ -26,10 +26,11 @@ body {
 
 /*タイトルモニター */
 .monitor-frame {
+    box-sizing: border-box;
     width: 95%;
     max-width: 1000px;
     margin: 40px auto;
-    background-color: #d3d3d3; 
+    background-color: #d3d3d3;
     border: 6px solid #ffd1d1;
     box-shadow: 10px 10px 0px #666, inset -4px -4px 0px #fff;
     padding: 20px;
@@ -469,6 +470,54 @@ section {
         padding: 110px 16px 40px;
     }
 
+    .floating-title {
+        font-size: clamp(1.3rem, 7.5vw, 2.3rem);
+        max-width: 92%;
+    }
+
+    .like-game-area {
+        top: 6px;
+        left: 6px;
+        padding: 4px;
+    }
+
+    .like-game-area p {
+        font-size: 0.55rem;
+    }
+
+    .heart-img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .btn-text {
+        font-size: 0.55rem;
+    }
+
+    #desktopIcons {
+        top: 6px;
+        right: 6px;
+        grid-template-columns: repeat(5, 30px);
+        gap: 3px;
+    }
+
+    #desktopIcons .desktop-icon {
+        padding: 2px;
+    }
+
+    #desktopIcons .desktop-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #desktopIcons .desktop-icon p {
+        font-size: 0.5rem;
+    }
+
+    section-girl {
+        width: auto;
+        max-width: calc(100% - 20px);
+    }
 }
 
 /* 神経衰弱ゲーム */
