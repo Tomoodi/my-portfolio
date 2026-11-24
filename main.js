@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeDesktopIcons();
     initializeMemoryGame();
     initializeGameTabs();
+    initializeWorkTabs();
 });
 
 /* デスクトップアイコン */
@@ -368,6 +369,72 @@ function initializeGameTabs() {
             frame.src = frame.src;
         });
     }
+}
+
+/* worksのタブ切り替え */
+/* worksのタブ：最初は「一覧」だけ。一覧の項目を押すと、その作品がタブとして開く。
+   タブは×で閉じられる（一覧タブは閉じられない常設タブ）。 */
+function initializeWorkTabs() {
+    const tabsContainer = document.querySelector('.work-tabs');
+    const panels = document.querySelectorAll('.work-panel');
+    const listItems = document.querySelectorAll('.work-list-item');
+    if (!tabsContainer || !panels.length) return;
+
+    function activate(workKey) {
+        tabsContainer.querySelectorAll('.work-tab').forEach(t => {
+            t.classList.toggle('is-active', t.dataset.work === workKey);
+        });
+        panels.forEach(panel => {
+            panel.classList.toggle('is-active', panel.dataset.workPanel === workKey);
+        });
+    }
+
+    function openWorkTab(workKey, label) {
+        let tab = tabsContainer.querySelector(`.work-tab[data-work="${workKey}"]`);
+        if (!tab) {
+            tab = document.createElement('button');
+            tab.type = 'button';
+            tab.className = 'work-tab';
+            tab.dataset.work = workKey;
+
+            const labelSpan = document.createElement('span');
+            labelSpan.className = 'work-tab-label';
+            labelSpan.textContent = label;
+            tab.appendChild(labelSpan);
+
+            const closeBtn = document.createElement('span');
+            closeBtn.className = 'work-tab-close';
+            closeBtn.textContent = '×';
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                closeWorkTab(workKey);
+            });
+            tab.appendChild(closeBtn);
+
+            tab.addEventListener('click', () => activate(workKey));
+            tabsContainer.appendChild(tab);
+        }
+        activate(workKey);
+    }
+
+    function closeWorkTab(workKey) {
+        const tab = tabsContainer.querySelector(`.work-tab[data-work="${workKey}"]`);
+        if (!tab) return;
+        const wasActive = tab.classList.contains('is-active');
+        tab.remove();
+        if (wasActive) activate('list');
+    }
+
+    const listTab = tabsContainer.querySelector('.work-tab[data-work="list"]');
+    if (listTab) {
+        listTab.addEventListener('click', () => activate('list'));
+    }
+
+    listItems.forEach(item => {
+        item.addEventListener('click', () => {
+            openWorkTab(item.dataset.work, item.dataset.label);
+        });
+    });
 }
 
 function loadShootingGame() {

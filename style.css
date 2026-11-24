@@ -391,14 +391,24 @@ section-girl {
 
 /* ウィンドウのタイトルバー */
 .window-header {
-    background: linear-gradient(to right, #ffb8ff); 
+    background: linear-gradient(to right, #ffb8ff);
     color: white;
     padding: 5px 10px;
     font-size: 0.9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     border-bottom: 3px solid #000;
+}
+
+.window-header .close-btn {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.window-title {
+    flex-shrink: 0;
 }
 
 /* 中身のコンテンツエリア */
@@ -620,29 +630,80 @@ section {
 
 
 
-/* ゲームのタブ */
-.game-tabs {
+/* ゲーム・worksのタブ（タイトルバーの文字の隣に並べる） */
+.game-tabs,
+.work-tabs {
     display: flex;
-    gap: 6px;
-    margin-bottom: 18px;
-    border-bottom: 3px solid #000;
+    gap: 4px;
+    overflow-x: auto;
+    min-width: 0;
 }
 
-.game-tab {
+.game-tab,
+.work-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 0.9rem;
-    padding: 6px 16px;
-    background-color: #e0e0e0;
-    color: #666;
-    border: 3px solid #000;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.game-tab.is-active,
+.work-tab.is-active {
+    background-color: #fff;
+    color: #333;
+}
+
+.work-tab-close {
+    font-size: 0.85rem;
+    line-height: 1;
+    opacity: 0.7;
+    padding: 0 1px;
+}
+
+.work-tab-close:hover {
+    opacity: 1;
+}
+
+/* worksの一覧（押すとタブとして開く） */
+.work-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.work-list li {
+    border-bottom: 1px solid #ddd;
+}
+
+.work-list li:last-child {
     border-bottom: none;
+}
+
+.work-list-item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 6px;
+    background: none;
+    border: none;
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 0.95rem;
+    color: #333;
     cursor: pointer;
 }
 
-.game-tab.is-active {
-    background-color: #ffb8ff;
-    color: #fff;
-    text-shadow: 1px 1px 0 #00000055;
+.work-list-item:hover {
+    background-color: #f5f5f5;
 }
 
 .game-panel {
@@ -651,6 +712,18 @@ section {
 
 .game-panel.is-active {
     display: block;
+}
+
+.work-panel {
+    display: none;
+}
+
+.work-panel.is-active {
+    display: block;
+}
+
+.work-panel h3 {
+    margin-top: 0;
 }
 
 /* シューティングゲーム（iframeで埋め込み） */
