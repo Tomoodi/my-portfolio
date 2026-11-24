@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>  Tomoyo's Portfolio  </title>
     <link rel="icon" type="image/png" href="favicon.png?v=1">
     <link rel="shortcut icon" href="favicon.png?v=1">
@@ -12,6 +13,7 @@
     <script src="main.js" defer></script>
 </head>
 <body>
+    <div class="page-body">
 
     <div class="monitor-frame">
     <div class="monitor-screen" id="monitorScreen">
@@ -82,7 +84,6 @@
             <div class="window-content">
                 <h2>自己紹介</h2>
                 <p>川村朋世 / Tomoyo Kawamura</p>
-                <p>生年月日：2007年2月20日</p>
                 <p>東京電機大学 工学部 情報通信工学科に在籍し、ハードウェアからソフトウェアまで、コンピュータの仕組みを多角的に学んでいます。自分の手で「新しい価値」や「誰かの心を動かす体験」を作り出すことに情熱を燃やしており、現在は特にWebフロントエンドの実装力向上と、C++を用いた論理的なシステム開発に注力しています。</p>
             </div>
     </section>
@@ -92,26 +93,131 @@
             <div class="window-content">
                 <h2>スキル</h2>
                 <h3><span class="back">c++</span></h3>
-                <p>大学の講義・演習を通じて基礎を習得。現在はAtCoderで継続的に練習中。</p>
+                <p>大学の講義・演習で基礎を習得。AtCoder（ABC）に出場し、基本的なアルゴリズムの問題に取り組みました。</p>
                 <h3><span class="back">HTML / CSS</span></h3>
-                <p>このポートフォリオ制作で学習中。</p>
-                <h3><span class="back">JavaScript</span></h3>
-                <p>独学で学習中。Webアプリ開発に向けて実践的なスキルを習得中。</p>
+                <p>このポートフォリオサイトをデザインから自作。ハッカソン作品5件で画面制作やデザインを担当しました。</p>
+                <h3><span class="back">JavaScript / TypeScript</span></h3>
+                <p>Next.js・Expoを用いたハッカソン開発で使用。「Mealance」ではTypeScriptでフロントエンドを担当。「BINGO QUEST」ではGroq APIと連携したカード自動生成機能を実装しました。</p>
+                <h3><span class="back">Flutter</span></h3>
+                <p>「融け切る前に」でUIデザインとアニメーションを担当。初めてのデータベース連携にも挑戦しました。</p>
                 <h3><span class="back">GitHub</span></h3>
-                <p>ハッカソンへの参加を通じて実際のチーム開発で使用経験あり。</p>
+                <p>ハッカソンのチーム開発で使用。Issueを使ったタスク管理や、プルリクエストでの共同開発を経験しました。</p>
+                <h3><span class="back">Vercel</span></h3>
+                <p>このポートフォリオサイトの公開に使用。</p>
+                <h3><span class="back">Unity</span></h3>
+                <p>サークルのゲーム制作で、企画（プランナー）やタイトル画面のUI・演出を担当しました。</p>
+                <h3><span class="back">デザイン</span></h3>
+                <p>ハッカソン作品で、キャラクターや画面のデザイン、配色、世界観づくりを担当。「ぬい憑き（心スポ降霊）」では和風かわいいホラーのデザイン・配色と言葉の世界観づくり、BGM選びを担当しました。</p>
             </div>
     </section>
 
     <section id="works">
-        <div class="window-header"> works <span class="close-btn">×</span></div>
+        <div class="window-header">
+            <span class="window-title">works</span>
+            <div class="work-tabs">
+                <button class="work-tab is-active" type="button" data-work="list">一覧</button>
+            </div>
+            <span class="close-btn">×</span>
+        </div>
             <div class="window-content">
                 <h2>作ったもの</h2>
-                <h3><span class="back">ホームページ</span></h3>
-                <p>HTMLの練習で作りました</p>
-                <p><a href="http://www.epoch-net.ne.jp/~odi/" target="_blank">作成したホームページを見る</a></p>
-                <h3><span class="back">ゲーム</span></h3>
-                <p>サークルの企画にて作成。プランナーをやりました。</p>
-                <p><a href="https://unityroom.com/games/candymorecandy" target="_blank">unityroomでゲームを遊ぶ</a></p>
+
+                <div class="work-panels">
+                <div class="work-panel is-active" data-work-panel="list">
+                    <ul class="work-list">
+                        <li><button type="button" class="work-list-item" data-work="homepage" data-label="ホームページ">ホームページ（このポートフォリオ）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="game" data-label="キャンディmoreキャンディー">キャンディmoreキャンディー（ゲーム）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="nuitsuki" data-label="ぬい憑き">ぬい憑き（Progateハッカソン）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="mealance" data-label="Mealance">Mealance ～コンビニでも健康に生きる～（Progateハッカソン）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="bingo" data-label="BINGO QUEST">BINGO QUEST（Progateハッカソン）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="azukari" data-label="あずかりくん">あずかりくん（Progateハッカソン）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="tokekiru" data-label="融け切る前に">融け切る前に（Progateハッカソン）</button></li>
+                        <li><button type="button" class="work-list-item" data-work="dendaimatch" data-label="電大マッチ">電大マッチ</button></li>
+                        <li><button type="button" class="work-list-item" data-work="kakeibo" data-label="家計簿アプリ">家計簿アプリ</button></li>
+                        <li><button type="button" class="work-list-item" data-work="minnacalendar" data-label="みんなカレンダー">みんなカレンダー</button></li>
+                        <li><button type="button" class="work-list-item" data-work="translator" data-label="リアルタイム翻訳ツール">リアルタイム翻訳ツール</button></li>
+                    </ul>
+                </div>
+
+                <div class="work-panel" data-work-panel="homepage">
+                    <h3>ホームページ（このポートフォリオ）</h3>
+                    <p>このポートフォリオサイト自体が「作ったホームページ」です。HTML / CSS / JavaScriptで一から構築し、レトロPC風のUIやミニゲームを組み込みました。</p>
+                    <p class="work-tech">技術：HTML / CSS / JavaScript</p>
+                    <p><a href="https://tomoodi.github.io/my-portfolio/" target="_blank">このポートフォリオを見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="game">
+                    <h3>キャンディmoreキャンディー（ゲーム）</h3>
+                    <p>サークルの企画にて作成。プランナーをやりました。</p>
+                    <p class="work-tech">技術：Unity</p>
+                    <p><a href="https://unityroom.com/games/candymorecandy" target="_blank">unityroomでゲームを遊ぶ</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="nuitsuki">
+                    <h3>ぬい憑き（Progateハッカソン）</h3>
+                    <p>放置されたぬいの「申し訳なさ」を「怨念」に言い換え、データで選んだ場所へ連れて行って鎮めるアプリ。Progateハッカソン（2026年11月7〜8日・川崎）、4人チーム。担当：和風かわいいホラーのデザイン・配色、言葉の世界観づくり、BGM選び。</p>
+                    <p>「ホラーだけど可愛い」という相反する雰囲気を、配色と言葉選びの両面から両立させることを意識しました。短い開発期間の中でチームの企画意図をすり合わせながら世界観の言葉を統一していく進め方を学びました。</p>
+                    <p class="work-tech">技術：フロントエンド HTML / CSS / JavaScript、バックエンド Python（FastAPI）+ SQLite</p>
+                    <p><a href="https://topaz.dev/projects/gy8rfzj8fwuky8fx" target="_blank">Topazで詳細を見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="mealance">
+                    <h3>Mealance ～コンビニでも健康に生きる～（Progateハッカソン）</h3>
+                    <p>コンビニ食品の記録から栄養バランスを見える化するアプリ。2026年3月、4人チーム。担当：フロントエンド（健康スコアの表示、カレンダーの記録画面）。</p>
+                    <p>健康スコアを一目で把握できるような見せ方と、日々の記録を振り返りやすいカレンダー画面の使いやすさを意識して実装しました。</p>
+                    <p class="work-tech">技術：Expo（React Native）+ TypeScript、Turborepo / pnpmによるモノレポ構成</p>
+                    <p><a href="https://topaz.dev/projects/06f7a6be51468c5028aa" target="_blank">Topazで詳細を見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="bingo">
+                    <h3>BINGO QUEST（Progateハッカソン）</h3>
+                    <p>授業の出来事をビンゴで予想し、当たるとクラス全員の画面でボスのHPが減るゲーム。2026年5月、4人チーム。担当：アイデア出し、リポジトリ立ち上げ、Groq APIでのカード自動生成。</p>
+                    <p>企画の発案とチームのリポジトリ立ち上げを担当し、Groq APIを使ってビンゴのお題カードを自動生成する仕組みづくりに取り組みました。</p>
+                    <p class="work-tech">技術：Next.js（TypeScript）、Supabase、Groq API</p>
+                    <p><a href="https://topaz.dev/projects/8ae1991f4ddf24782735" target="_blank">Topazで詳細を見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="azukari">
+                    <h3>あずかりくん（Progateハッカソン）</h3>
+                    <p>ホテルに預けた荷物がキャラクターになって旅をし、感想やお土産を届けるアプリ。2026年6月、3人チーム。担当：キャラクターと画面のデザイン。</p>
+                    <p>「荷物が旅をする」というコンセプトのワクワク感が伝わるキャラクターデザインと、直感的に操作できる画面づくりを担当しました。</p>
+                    <p class="work-tech">技術：フロントエンド Expo（React Native）+ TypeScript、バックエンド Node.js（Express）+ TypeScript、PostgreSQL、Gemini API</p>
+                    <p><a href="https://topaz.dev/projects/df56c0c4437a9b1b100a" target="_blank">Topazで詳細を見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="tokekiru">
+                    <h3>融け切る前に（Progateハッカソン）</h3>
+                    <p>タスクをかき氷に見立てたタイマー型タスク管理アプリ。2026年8月、4人チーム。担当：UIデザイン、アニメーション。</p>
+                    <p>かき氷が少しずつ溶けていくアニメーションで残り時間を直感的に伝える表現と、涼しげで見やすい配色のUIデザインを担当しました。</p>
+                    <p class="work-tech">技術：Flutter、Supabase</p>
+                    <p><a href="https://topaz.dev/projects/9e47b4dc86f767f04156" target="_blank">Topazで詳細を見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="dendaimatch">
+                    <h3>電大マッチ</h3>
+                    <p>電大生向けのマッチングアプリ。学部・学科選択機能などを実装。個人開発、2026年4〜5月制作、制作期間1〜2日。</p>
+                    <p class="work-tech">技術：React + Vite、Vercel</p>
+                    <p><a href="https://dendaimatch.vercel.app" target="_blank">電大マッチを見る</a></p>
+                </div>
+
+                <div class="work-panel" data-work-panel="kakeibo">
+                    <h3>家計簿アプリ</h3>
+                    <p>固定費管理、カテゴリ分析、年間グラフなどを実装した家計簿アプリ。個人開発、2026年5月制作、制作期間1〜2日。完全に自分用に作ったため非公開です。</p>
+                    <p class="work-tech">技術：Next.js</p>
+                </div>
+
+                <div class="work-panel" data-work-panel="minnacalendar">
+                    <h3>みんなカレンダー</h3>
+                    <p>画像アップロード、週/日ビュー、色分け機能などを実装した共有カレンダーアプリ。個人開発、2026年11月制作、制作期間1〜2日。身近な人に限定公開中です。</p>
+                    <p class="work-tech">技術：Next.js</p>
+                </div>
+
+                <div class="work-panel" data-work-panel="translator">
+                    <h3>リアルタイム翻訳ツール</h3>
+                    <p>音声認識（Whisper）とリアルタイム翻訳を組み合わせたツール。コマンドプロンプトで動かすPython製の個人用ツールです。個人開発、2026年4月頃制作、制作期間1〜2日。</p>
+                    <p class="work-tech">技術：Python、faster-whisper（音声認識）、deep-translator（Google翻訳・MyMemory翻訳）、sounddevice（マイク入力）</p>
+                </div>
+                </div>
             </div>
     </section>
 
@@ -120,20 +226,21 @@
             <div class="window-content">
                 <h2>AtCoder</h2>
                 <h3><span class="back"> AtCoder Problems</span></h3>
-                <a href="https://tomoodi.github.io/my-portfolio/AtCoder/">🎀 AtCoder進捗表はこちら 🎀</a>
-                <p></p>
                 <p><a href="https://atcoder.jp/users/ondindin" target="_blank">ともよのAtCoder</a></p>
             </div>
     </section>
 
     <section id="games">
-        <div class="window-header"> games <span class="close-btn">×</span></div>
-        <div class="window-content">
+        <div class="window-header">
+            <span class="window-title">games</span>
             <div class="game-tabs">
                 <button class="game-tab is-active" type="button" data-game="memory">神経衰弱</button>
                 <button class="game-tab" type="button" data-game="shooting">シューティング</button>
             </div>
-
+            <span class="close-btn">×</span>
+        </div>
+        <div class="window-content">
+            <div class="game-panels">
             <div class="game-panel is-active" data-game-panel="memory">
                 <h2>神経衰弱ゲーム</h2>
                 <p>カードをめくって同じ表情のペアを揃えよう！</p>
@@ -144,19 +251,22 @@
 
             <div class="game-panel" data-game-panel="shooting">
                 <h2>SPACE SHOOTER</h2>
-                <p>画面をクリックしてから Space でスタート！ 十字キー（WASD）で移動、X でボム。</p>
+                <p>画面をクリックしてから Space でスタート！ 十字キーで移動、X でボム。</p>
                 <div class="shooting-wrap">
                     <iframe id="shootingFrame" class="shooting-frame" title="Space Shooter"
                             data-src="shooting/index.html"></iframe>
                 </div>
                 <button id="shootingResetBtn" class="memory-reset-btn" type="button">ゲームをリセット</button>
             </div>
+            </div>
         </div>
     </section>
 
+    </div>
+
     <footer id="siteFooter">
         <h2>contact</h2>
-        <p>GitHub: <a href="https://github.com/tomoodi" target="_blank" rel="noopener">自分のURL</a></p>
+        <p>GitHub: <a href="https://github.com/tomoodi" target="_blank" rel="noopener">@Tomoodi</a></p>
         <p class="footer-copy">&copy; 2026 Tomoyo Kawamura</p>
     </footer>
 

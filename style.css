@@ -14,22 +14,28 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    cursor: url('usu.png'), auto;
-    
+    cursor: url('usu.png') 16 16, auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     a:hover,
     button:hover,
     .close-btn:hover,
-    .like-btn:hover {
-    cursor: url('ma.png'), pointer !important;
+    .like-btn:hover,
+    .desktop-icon:hover,
+    .memory-card:hover {
+    cursor: url('ma.png') 16 16, pointer !important;
     }
 }
 
 /*タイトルモニター */
 .monitor-frame {
+    box-sizing: border-box;
     width: 95%;
     max-width: 1000px;
     margin: 40px auto;
-    background-color: #d3d3d3; 
+    background-color: #d3d3d3;
     border: 6px solid #ffd1d1;
     box-shadow: 10px 10px 0px #666, inset -4px -4px 0px #fff;
     padding: 20px;
@@ -220,7 +226,7 @@ body {
 .like-clickable,
 .like-clickable:hover,
 .like-clickable * {
-    cursor: url('ma.png'), pointer !important;
+    cursor: url('ma.png') 16 16, pointer !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,14 +391,24 @@ section-girl {
 
 /* ウィンドウのタイトルバー */
 .window-header {
-    background: linear-gradient(to right, #ffb8ff); 
+    background: linear-gradient(to right, #ffb8ff);
     color: white;
     padding: 5px 10px;
     font-size: 0.9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     border-bottom: 3px solid #000;
+}
+
+.window-header .close-btn {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.window-title {
+    flex-shrink: 0;
 }
 
 /* 中身のコンテンツエリア */
@@ -438,12 +454,17 @@ section {
 
 /*コンタクト（フッター）*/
 /* 普通のフッター。ウィンドウ枠やラインは無し */
+.page-body {
+    flex: 1 0 auto;
+}
+
 #siteFooter {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 50px 20px 30px;
     margin-top: 60px;
+    flex-shrink: 0;
 }
 
 #siteFooter h2 {
@@ -469,6 +490,54 @@ section {
         padding: 110px 16px 40px;
     }
 
+    .floating-title {
+        font-size: clamp(1.3rem, 7.5vw, 2.3rem);
+        max-width: 92%;
+    }
+
+    .like-game-area {
+        top: 6px;
+        left: 6px;
+        padding: 4px;
+    }
+
+    .like-game-area p {
+        font-size: 0.55rem;
+    }
+
+    .heart-img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .btn-text {
+        font-size: 0.55rem;
+    }
+
+    #desktopIcons {
+        top: 6px;
+        right: 6px;
+        grid-template-columns: repeat(5, 30px);
+        gap: 3px;
+    }
+
+    #desktopIcons .desktop-icon {
+        padding: 2px;
+    }
+
+    #desktopIcons .desktop-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #desktopIcons .desktop-icon p {
+        font-size: 0.5rem;
+    }
+
+    section-girl {
+        width: auto;
+        max-width: calc(100% - 20px);
+    }
 }
 
 /* 神経衰弱ゲーム */
@@ -561,29 +630,80 @@ section {
 
 
 
-/* ゲームのタブ */
-.game-tabs {
+/* ゲーム・worksのタブ（タイトルバーの文字の隣に並べる） */
+.game-tabs,
+.work-tabs {
     display: flex;
-    gap: 6px;
-    margin-bottom: 18px;
-    border-bottom: 3px solid #000;
+    gap: 4px;
+    overflow-x: auto;
+    min-width: 0;
 }
 
-.game-tab {
+.game-tab,
+.work-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 0.9rem;
-    padding: 6px 16px;
-    background-color: #e0e0e0;
-    color: #666;
-    border: 3px solid #000;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.game-tab.is-active,
+.work-tab.is-active {
+    background-color: #fff;
+    color: #333;
+}
+
+.work-tab-close {
+    font-size: 0.85rem;
+    line-height: 1;
+    opacity: 0.7;
+    padding: 0 1px;
+}
+
+.work-tab-close:hover {
+    opacity: 1;
+}
+
+/* worksの一覧（押すとタブとして開く） */
+.work-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.work-list li {
+    border-bottom: 1px solid #ddd;
+}
+
+.work-list li:last-child {
     border-bottom: none;
+}
+
+.work-list-item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 6px;
+    background: none;
+    border: none;
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 0.95rem;
+    color: #333;
     cursor: pointer;
 }
 
-.game-tab.is-active {
-    background-color: #ffb8ff;
-    color: #fff;
-    text-shadow: 1px 1px 0 #00000055;
+.work-list-item:hover {
+    background-color: #f5f5f5;
 }
 
 .game-panel {
@@ -592,6 +712,23 @@ section {
 
 .game-panel.is-active {
     display: block;
+}
+
+.work-panel {
+    display: none;
+}
+
+.work-panel.is-active {
+    display: block;
+}
+
+.work-panel h3 {
+    margin-top: 0;
+}
+
+.work-tech {
+    color: #777;
+    font-size: 0.85rem;
 }
 
 /* シューティングゲーム（iframeで埋め込み） */
