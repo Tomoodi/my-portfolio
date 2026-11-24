@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    cursor: url('usu.png'), auto;
+    cursor: url('usu.png') 16 16, auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,8 +22,10 @@ body {
     a:hover,
     button:hover,
     .close-btn:hover,
-    .like-btn:hover {
-    cursor: url('ma.png'), pointer !important;
+    .like-btn:hover,
+    .desktop-icon:hover,
+    .memory-card:hover {
+    cursor: url('ma.png') 16 16, pointer !important;
     }
 }
 
@@ -224,7 +226,7 @@ body {
 .like-clickable,
 .like-clickable:hover,
 .like-clickable * {
-    cursor: url('ma.png'), pointer !important;
+    cursor: url('ma.png') 16 16, pointer !important;
     display: flex;
     flex-direction: column;
     align-items: center;
