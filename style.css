@@ -726,6 +726,11 @@ section {
     margin-top: 0;
 }
 
+.work-tech {
+    color: #777;
+    font-size: 0.85rem;
+}
+
 /* シューティングゲーム（iframeで埋め込み） */
 .shooting-wrap {
     display: flex;
