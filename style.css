@@ -15,7 +15,10 @@ body {
     padding: 0;
     line-height: 1.6;
     cursor: url('usu.png'), auto;
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     a:hover,
     button:hover,
     .close-btn:hover,
@@ -439,12 +442,17 @@ section {
 
 /*コンタクト（フッター）*/
 /* 普通のフッター。ウィンドウ枠やラインは無し */
+.page-body {
+    flex: 1 0 auto;
+}
+
 #siteFooter {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 50px 20px 30px;
     margin-top: 60px;
+    flex-shrink: 0;
 }
 
 #siteFooter h2 {
